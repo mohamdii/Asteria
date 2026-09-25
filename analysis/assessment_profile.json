@@ -1,0 +1,269 @@
+{
+  "as_of": "2025-12-31",
+  "seed": 20260831,
+  "manifest_checks": [
+    {
+      "file": "employee_lifecycle_events.csv",
+      "rows": 2407,
+      "bytes": 238685,
+      "verified": true
+    },
+    {
+      "file": "retention_objectives.csv",
+      "rows": 3,
+      "bytes": 660,
+      "verified": true
+    },
+    {
+      "file": "data_dictionary.csv",
+      "rows": 21,
+      "bytes": 2004,
+      "verified": true
+    }
+  ],
+  "raw_rows": 2407,
+  "distinct_employee_ids": 2400,
+  "exact_duplicate_excess": 7,
+  "unique_rows": 2400,
+  "note": "All distributions and issue counts below use exact-deduplicated records for inspection only. Raw files remain unchanged. Issue counts may overlap.",
+  "columns": [
+    "employee_id",
+    "country_code",
+    "business_unit",
+    "job_family",
+    "career_level",
+    "employment_type",
+    "hire_date",
+    "termination_date",
+    "termination_type",
+    "regretted_exit",
+    "source_system",
+    "record_updated_at"
+  ],
+  "missing_values": {
+    "employee_id": 0,
+    "country_code": 9,
+    "business_unit": 0,
+    "job_family": 0,
+    "career_level": 0,
+    "employment_type": 0,
+    "hire_date": 5,
+    "termination_date": 1621,
+    "termination_type": 1634,
+    "regretted_exit": 1635,
+    "source_system": 0,
+    "record_updated_at": 0
+  },
+  "countries": {
+    "BG": 420,
+    "IE": 369,
+    "IT": 436,
+    "RO": 387,
+    "GR": 392,
+    "PL": 379,
+    "EL": 4,
+    "(blank)": 9,
+    "ROM": 4
+  },
+  "business_units": {
+    "Supply Chain": 600,
+    "Digital": 608,
+    "Sales": 577,
+    "Finance": 615
+  },
+  "career_levels": {
+    "Individual Contributor": 1219,
+    "Manager": 801,
+    "Senior Leader": 370,
+    "Sr Mgmt": 10
+  },
+  "employment_types": {
+    "Permanent": 1960,
+    "Fixed Term": 440
+  },
+  "termination_types": {
+    "(blank)": 1634,
+    "Voluntary": 491,
+    "End of Contract": 122,
+    "Involuntary": 153
+  },
+  "regretted_exit": {
+    "(blank)": 1635,
+    "false": 525,
+    "true": 240
+  },
+  "hire_dates": {
+    "min": "2020-01-02",
+    "max": "2025-11-29"
+  },
+  "termination_dates": {
+    "min": "2020-04-30",
+    "max": "2025-12-29"
+  },
+  "hire_years": {
+    "2020": 414,
+    "2021": 418,
+    "2022": 397,
+    "2023": 396,
+    "2024": 434,
+    "2025": 336,
+    "(blank)": 5
+  },
+  "issues": {
+    "missing_country": {
+      "count": 9,
+      "employee_ids": [
+        "ACP000120",
+        "ACP000368",
+        "ACP000616",
+        "ACP000864",
+        "ACP001112",
+        "ACP001360",
+        "ACP001608",
+        "ACP001856",
+        "ACP002104"
+      ]
+    },
+    "noncanonical_country": {
+      "count": 8,
+      "employee_ids": [
+        "ACP000073",
+        "ACP000405",
+        "ACP000737",
+        "ACP001069",
+        "ACP001401",
+        "ACP001733",
+        "ACP002065",
+        "ACP002321"
+      ]
+    },
+    "missing_hire_date": {
+      "count": 5,
+      "employee_ids": [
+        "ACP000159",
+        "ACP000560",
+        "ACP000961",
+        "ACP001362",
+        "ACP001763"
+      ]
+    },
+    "termination_before_hire": {
+      "count": 5,
+      "employee_ids": [
+        "ACP000206",
+        "ACP000607",
+        "ACP001008",
+        "ACP001409",
+        "ACP001810"
+      ]
+    },
+    "termination_after_snapshot": {
+      "count": 0,
+      "employee_ids": []
+    },
+    "termination_without_type": {
+      "count": 13,
+      "employee_ids": [
+        "ACP000089",
+        "ACP000267",
+        "ACP000445",
+        "ACP000623",
+        "ACP000801",
+        "ACP000979",
+        "ACP001157",
+        "ACP001335",
+        "ACP001513",
+        "ACP001691",
+        "ACP001869",
+        "ACP002047",
+        "ACP002225"
+      ]
+    },
+    "voluntary_without_regretted_flag": {
+      "count": 2,
+      "employee_ids": [
+        "ACP000534",
+        "ACP001068"
+      ]
+    },
+    "nonstandard_career_level": {
+      "count": 10,
+      "employee_ids": [
+        "ACP000102",
+        "ACP000334",
+        "ACP000566",
+        "ACP000798",
+        "ACP001030",
+        "ACP001262",
+        "ACP001494",
+        "ACP001726",
+        "ACP001958",
+        "ACP002190"
+      ]
+    },
+    "termination_without_regretted_flag": {
+      "count": 14,
+      "employee_ids": [
+        "ACP000089",
+        "ACP000267",
+        "ACP000445",
+        "ACP000534",
+        "ACP000623",
+        "ACP000801",
+        "ACP000979",
+        "ACP001068",
+        "ACP001157",
+        "ACP001335",
+        "ACP001513",
+        "ACP001691",
+        "ACP001869",
+        "ACP002225"
+      ]
+    }
+  },
+  "records_with_any_listed_issue": 52,
+  "examples": [
+    {
+      "employee_id": "ACP000001",
+      "country_code": "BG",
+      "business_unit": "Supply Chain",
+      "job_family": "Procurement",
+      "career_level": "Individual Contributor",
+      "employment_type": "Permanent",
+      "hire_date": "2024-09-04",
+      "termination_date": "",
+      "termination_type": "",
+      "regretted_exit": "",
+      "source_system": "HCM_A",
+      "record_updated_at": "2025-12-21"
+    },
+    {
+      "employee_id": "ACP000002",
+      "country_code": "BG",
+      "business_unit": "Digital",
+      "job_family": "Data",
+      "career_level": "Manager",
+      "employment_type": "Permanent",
+      "hire_date": "2022-11-24",
+      "termination_date": "",
+      "termination_type": "",
+      "regretted_exit": "",
+      "source_system": "HCM_A",
+      "record_updated_at": "2025-12-22"
+    },
+    {
+      "employee_id": "ACP000003",
+      "country_code": "IE",
+      "business_unit": "Sales",
+      "job_family": "Field Sales",
+      "career_level": "Individual Contributor",
+      "employment_type": "Permanent",
+      "hire_date": "2025-09-21",
+      "termination_date": "",
+      "termination_type": "",
+      "regretted_exit": "",
+      "source_system": "HCM_A",
+      "record_updated_at": "2025-12-23"
+    }
+  ]
+}

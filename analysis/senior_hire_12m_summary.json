@@ -1,0 +1,141 @@
+{
+  "objective_id": "SENIOR_HIRE_12M",
+  "as_of": "2025-12-31",
+  "hire_period": [
+    "2021-01-01",
+    "2025-12-31"
+  ],
+  "non_senior_records_outside_scope": 2020,
+  "overall": {
+    "records": 380,
+    "eligible_hires": 266,
+    "retained": 209,
+    "left_before_milestone": 57,
+    "pending_observation": 49,
+    "excluded_invalid_dates": 2,
+    "excluded_contradiction": 0,
+    "outside_objective_hire_period": 63,
+    "retention_rate": 0.7857142857142857,
+    "target": 0.9,
+    "target_status": "below_target"
+  },
+  "excluding_assumed_sr_mgmt": {
+    "records": 370,
+    "eligible_hires": 259,
+    "retained": 203,
+    "left_before_milestone": 56,
+    "pending_observation": 49,
+    "excluded_invalid_dates": 2,
+    "excluded_contradiction": 0,
+    "outside_objective_hire_period": 60,
+    "retention_rate": 0.7837837837837838,
+    "target": 0.9,
+    "target_status": "below_target"
+  },
+  "by_hire_year": [
+    {
+      "hire_year": "2020",
+      "records": 63,
+      "eligible_hires": 0,
+      "retained": 0,
+      "left_before_milestone": 0,
+      "pending_observation": 0,
+      "excluded_invalid_dates": 0,
+      "excluded_contradiction": 0,
+      "outside_objective_hire_period": 63,
+      "retention_rate": null,
+      "target": 0.9,
+      "target_status": "unavailable"
+    },
+    {
+      "hire_year": "2021",
+      "records": 65,
+      "eligible_hires": 65,
+      "retained": 48,
+      "left_before_milestone": 17,
+      "pending_observation": 0,
+      "excluded_invalid_dates": 0,
+      "excluded_contradiction": 0,
+      "outside_objective_hire_period": 0,
+      "retention_rate": 0.7384615384615385,
+      "target": 0.9,
+      "target_status": "below_target"
+    },
+    {
+      "hire_year": "2022",
+      "records": 71,
+      "eligible_hires": 71,
+      "retained": 56,
+      "left_before_milestone": 15,
+      "pending_observation": 0,
+      "excluded_invalid_dates": 0,
+      "excluded_contradiction": 0,
+      "outside_objective_hire_period": 0,
+      "retention_rate": 0.7887323943661971,
+      "target": 0.9,
+      "target_status": "below_target"
+    },
+    {
+      "hire_year": "2023",
+      "records": 67,
+      "eligible_hires": 67,
+      "retained": 54,
+      "left_before_milestone": 13,
+      "pending_observation": 0,
+      "excluded_invalid_dates": 0,
+      "excluded_contradiction": 0,
+      "outside_objective_hire_period": 0,
+      "retention_rate": 0.8059701492537313,
+      "target": 0.9,
+      "target_status": "below_target"
+    },
+    {
+      "hire_year": "2024",
+      "records": 63,
+      "eligible_hires": 63,
+      "retained": 51,
+      "left_before_milestone": 12,
+      "pending_observation": 0,
+      "excluded_invalid_dates": 0,
+      "excluded_contradiction": 0,
+      "outside_objective_hire_period": 0,
+      "retention_rate": 0.8095238095238095,
+      "target": 0.9,
+      "target_status": "below_target"
+    },
+    {
+      "hire_year": "2025",
+      "records": 49,
+      "eligible_hires": 0,
+      "retained": 0,
+      "left_before_milestone": 0,
+      "pending_observation": 49,
+      "excluded_invalid_dates": 0,
+      "excluded_contradiction": 0,
+      "outside_objective_hire_period": 0,
+      "retention_rate": null,
+      "target": 0.9,
+      "target_status": "unavailable"
+    },
+    {
+      "hire_year": "unknown",
+      "records": 2,
+      "eligible_hires": 0,
+      "retained": 0,
+      "left_before_milestone": 0,
+      "pending_observation": 0,
+      "excluded_invalid_dates": 2,
+      "excluded_contradiction": 0,
+      "outside_objective_hire_period": 0,
+      "retention_rate": null,
+      "target": 0.9,
+      "target_status": "unavailable"
+    }
+  ],
+  "notes": [
+    "Senior Leader includes provisionally mapped Sr Mgmt; Manager is outside scope.",
+    "2025 hires have no complete twelve-month observation window and no rate.",
+    "Retention is evaluated on the anniversary, with termination date inclusive.",
+    "Unknown hire dates are excluded before period classification."
+  ]
+}
