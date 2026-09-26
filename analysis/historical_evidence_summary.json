@@ -1,0 +1,15 @@
+{
+  "scope": "Partial demonstration using ONE Eurostat release, not full historical coverage",
+  "unemployment_observations": 30,
+  "wb_archive_cells": 24,
+  "wb_nonnull_cells": 18,
+  "wb_strict_join_status": "not_joined_month_only_vintage_requires_daily_availability_policy_or_evidence",
+  "vacancy_strict_join_status": "not_joined_release_sector_dimensions_do_not_match_B-N",
+  "employee_join_counts": {
+    "stale": 591,
+    "no_verified_historical_match": 1686,
+    "matched": 104,
+    "missing_country": 9,
+    "invalid_or_excluded_employment": 10
+  }
+}

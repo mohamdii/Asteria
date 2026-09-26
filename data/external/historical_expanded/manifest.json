@@ -1,0 +1,452 @@
+{
+  "files": [
+    {
+      "file": "cpi_202002.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202002/data?format=json&per_page=1000",
+      "sha256": "ff13646602ae2db300b557bed0083bdfcb0b4002c63988764e58f4ffdbd314c1",
+      "retrieved_at": "2026-09-26T09:13:26.261533+00:00"
+    },
+    {
+      "file": "cpi_202003.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202003/data?format=json&per_page=1000",
+      "sha256": "6b17f2bf168c57ab37df5219fcfb0db01a2f64b82b7623884fcf88828cc621b6",
+      "retrieved_at": "2026-09-26T09:13:26.905675+00:00"
+    },
+    {
+      "file": "cpi_202004.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202004/data?format=json&per_page=1000",
+      "sha256": "bff44c4408057d0108b6b729e1b5e27d24e2023b24ab2a14608a2ac66331a4c7",
+      "retrieved_at": "2026-09-26T09:13:25.703476+00:00"
+    },
+    {
+      "file": "cpi_202005.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202005/data?format=json&per_page=1000",
+      "sha256": "233122e5e4ddedf79bc9273b7e31a0701ffd0f69d11fa3d3126f5fa2d702514f",
+      "retrieved_at": "2026-09-26T09:13:27.513614+00:00"
+    },
+    {
+      "file": "cpi_202007.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202007/data?format=json&per_page=1000",
+      "sha256": "ea7b0573663295ec8e51649135f7c60ecbb5f166539fe282651331819224de07",
+      "retrieved_at": "2026-09-26T09:13:31.758659+00:00"
+    },
+    {
+      "file": "cpi_202008.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202008/data?format=json&per_page=1000",
+      "sha256": "bd158b4a2f250402d2270373671c4e5a9d294efbf173acd640fb31b2c49ef672",
+      "retrieved_at": "2026-09-26T09:13:32.703743+00:00"
+    },
+    {
+      "file": "cpi_202009.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202009/data?format=json&per_page=1000",
+      "sha256": "d73bb3e223c805142522324309ccec19b85d0dc17a3fd29e21498eaf951d2975",
+      "retrieved_at": "2026-09-26T09:13:33.358119+00:00"
+    },
+    {
+      "file": "cpi_202010.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202010/data?format=json&per_page=1000",
+      "sha256": "bf08b2b6a266e4a72df5af64bf81b1e8da324fed4ec46f1cd6f5094272912006",
+      "retrieved_at": "2026-09-26T09:13:34.139428+00:00"
+    },
+    {
+      "file": "cpi_202012.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202012/data?format=json&per_page=1000",
+      "sha256": "8ae40812de40275b0e50fbcfb8cfe94f4169ebfed5f5a0a1f3c7428328b36786",
+      "retrieved_at": "2026-09-26T09:13:36.804280+00:00"
+    },
+    {
+      "file": "cpi_202102.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202102/data?format=json&per_page=1000",
+      "sha256": "9780f666dc925db5eab6033f7d8e9cc0ea22ac804694e5d7506eb884486ba56d",
+      "retrieved_at": "2026-09-26T09:13:37.450197+00:00"
+    },
+    {
+      "file": "cpi_202103.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202103/data?format=json&per_page=1000",
+      "sha256": "77a073f8b3b2e8829c15f16655dc6591758d3b8a7fef93c4593c8e122cb0425f",
+      "retrieved_at": "2026-09-26T09:13:38.462667+00:00"
+    },
+    {
+      "file": "cpi_202104.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202104/data?format=json&per_page=1000",
+      "sha256": "4b4a196c93cb74cf66506d8c5ec914d612b5413e3eef53cac5a1879ab20754e4",
+      "retrieved_at": "2026-09-26T09:13:38.568839+00:00"
+    },
+    {
+      "file": "cpi_202105.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202105/data?format=json&per_page=1000",
+      "sha256": "a8ec151a5888a7d3004bf9ae7f3417e50c5750f9df29d9d7bb93a2278c59a9f3",
+      "retrieved_at": "2026-09-26T09:13:39.243705+00:00"
+    },
+    {
+      "file": "cpi_202107.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202107/data?format=json&per_page=1000",
+      "sha256": "9c42a329eb3ace68b7b350d03bc69c7c92d48b227e9ccfac7f630ea38b82453f",
+      "retrieved_at": "2026-09-26T09:13:39.335158+00:00"
+    },
+    {
+      "file": "cpi_202109.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202109/data?format=json&per_page=1000",
+      "sha256": "bfbad5bb4ffa9e5ada29f2e24bed493bed512c3b4a14f95b02f27519848b2d9c",
+      "retrieved_at": "2026-09-26T09:13:40.068693+00:00"
+    },
+    {
+      "file": "cpi_202111.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202111/data?format=json&per_page=1000",
+      "sha256": "48b96e227a36e8f96251e195298ca0abb5ebae506e14d03d9702c8993cc5b7b7",
+      "retrieved_at": "2026-09-26T09:13:40.258005+00:00"
+    },
+    {
+      "file": "cpi_202112.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202112/data?format=json&per_page=1000",
+      "sha256": "d6b51a93d682aa37bb09bf2fda0951e15c0558aa1a654f4e1ef4ef0687a87340",
+      "retrieved_at": "2026-09-26T09:13:40.715960+00:00"
+    },
+    {
+      "file": "cpi_202202.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202202/data?format=json&per_page=1000",
+      "sha256": "95ed0074fba0a2c4103a609664b64de192224526a3e77f88959b4a460c3a3161",
+      "retrieved_at": "2026-09-26T09:13:40.737873+00:00"
+    },
+    {
+      "file": "cpi_202204.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202204/data?format=json&per_page=1000",
+      "sha256": "f17ba4e86d26b38938d46c1face61717ad16ffd9bf3d6119933f5ba7d22c8162",
+      "retrieved_at": "2026-09-26T09:13:41.441404+00:00"
+    },
+    {
+      "file": "cpi_202207.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202207/data?format=json&per_page=1000",
+      "sha256": "fcc394a0d05bfd87e45fc547aef5880c30345f851b8fb0eaa8012bebe91815eb",
+      "retrieved_at": "2026-09-26T09:13:41.669303+00:00"
+    },
+    {
+      "file": "cpi_202209.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202209/data?format=json&per_page=1000",
+      "sha256": "8ab4e907a1d5a14b0333cddb83037df8a4527ce02dae1c134f1b8e624b35d4f7",
+      "retrieved_at": "2026-09-26T09:13:42.104227+00:00"
+    },
+    {
+      "file": "cpi_202212.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202212/data?format=json&per_page=1000",
+      "sha256": "9f9c53886164cc2ac3b8d887dc4a8b473bb32591611378a714bb37f361134272",
+      "retrieved_at": "2026-09-26T09:13:42.169866+00:00"
+    },
+    {
+      "file": "cpi_202303.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202303/data?format=json&per_page=1000",
+      "sha256": "c8515a665f59a521fe4b854c474869a12e16189c06f0fe994a9f3886a3e5ff97",
+      "retrieved_at": "2026-09-26T09:13:42.821508+00:00"
+    },
+    {
+      "file": "cpi_202305.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202305/data?format=json&per_page=1000",
+      "sha256": "2c0314f1d26c55000808124a9b319bd2c28086955a25340fbdacceb9de9c5921",
+      "retrieved_at": "2026-09-26T09:13:43.222791+00:00"
+    },
+    {
+      "file": "cpi_202307.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202307/data?format=json&per_page=1000",
+      "sha256": "e630e47e612f543e7dc939c6bbf4d219244876718de28ad3bf5da7dfc351351e",
+      "retrieved_at": "2026-09-26T09:13:43.604387+00:00"
+    },
+    {
+      "file": "cpi_202309.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202309/data?format=json&per_page=1000",
+      "sha256": "6ab34f46a2868e425d4ac98bd90071bae6bb20dd63f784b2142709f4f500be1c",
+      "retrieved_at": "2026-09-26T09:13:43.415958+00:00"
+    },
+    {
+      "file": "cpi_202310.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202310/data?format=json&per_page=1000",
+      "sha256": "3db39edeb886bf2fcd2ccad51caf4a99fe03c0861cc05924dc824e390609487d",
+      "retrieved_at": "2026-09-26T09:13:44.016223+00:00"
+    },
+    {
+      "file": "cpi_202312.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202312/data?format=json&per_page=1000",
+      "sha256": "018b9ac410fe4b61e0716a6659574061d9f7048eea1b955f22b00761c64ead29",
+      "retrieved_at": "2026-09-26T09:13:44.552698+00:00"
+    },
+    {
+      "file": "cpi_202403.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202403/data?format=json&per_page=1000",
+      "sha256": "0ca0709cbe1784e8236d24121a36ec2e0254b7cfb5a77654180fa00becf26527",
+      "retrieved_at": "2026-09-26T09:13:44.904775+00:00"
+    },
+    {
+      "file": "cpi_202405.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202405/data?format=json&per_page=1000",
+      "sha256": "07955449417718a49e2c4ed6d0d186a3d771aab77d70556bee4b1943cc5e88be",
+      "retrieved_at": "2026-09-26T09:13:44.900335+00:00"
+    },
+    {
+      "file": "cpi_202407.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202407/data?format=json&per_page=1000",
+      "sha256": "eb408a1a73bb606a3a34434999a392d4679c043a0d7277dd8202953e5c7a44b8",
+      "retrieved_at": "2026-09-26T09:13:45.188703+00:00"
+    },
+    {
+      "file": "cpi_202409.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202409/data?format=json&per_page=1000",
+      "sha256": "88235d805dd49613431794b01d7a805fc71b43f46cf1e889f76362ccba6aef36",
+      "retrieved_at": "2026-09-26T09:13:45.774732+00:00"
+    },
+    {
+      "file": "cpi_202410.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202410/data?format=json&per_page=1000",
+      "sha256": "7a979aa1593c234d11d26b1e10d9bf48821b19bb0c6d984d799a71d6658deb99",
+      "retrieved_at": "2026-09-26T09:13:46.107564+00:00"
+    },
+    {
+      "file": "cpi_202411.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202411/data?format=json&per_page=1000",
+      "sha256": "1cec9a0d385bd81fef531abeb8fef399fe2cf4013d5ee9a6e76f9da553886c22",
+      "retrieved_at": "2026-09-26T09:13:46.233740+00:00"
+    },
+    {
+      "file": "cpi_202412.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202412/data?format=json&per_page=1000",
+      "sha256": "15a5949e0dab0ac1281f006e79054456eb464387fe51ac6a84f15a7502cd384c",
+      "retrieved_at": "2026-09-26T09:13:46.435551+00:00"
+    },
+    {
+      "file": "cpi_202501.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202501/data?format=json&per_page=1000",
+      "sha256": "5d9634d21871dbcd19704965b4d2e2c2bbb02186bf441baf10f0e27422fca3cd",
+      "retrieved_at": "2026-09-26T09:13:47.001487+00:00"
+    },
+    {
+      "file": "cpi_202503.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202503/data?format=json&per_page=1000",
+      "sha256": "4046147b2ac0ebe0145c0e0392dd2f4dbd75f73c18a55d8bb79260116d8975eb",
+      "retrieved_at": "2026-09-26T09:13:47.480607+00:00"
+    },
+    {
+      "file": "cpi_202504.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202504/data?format=json&per_page=1000",
+      "sha256": "abb61774ce8df1fc0fc0acb169dd6df3ce99795520f3fb0033f77aeeec1cd8b5",
+      "retrieved_at": "2026-09-26T09:13:47.570447+00:00"
+    },
+    {
+      "file": "cpi_202506.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202506/data?format=json&per_page=1000",
+      "sha256": "ba52cd00dd95147578a4f8fb9a92f0caab06ceb7c3d01b45ced0a0948317975d",
+      "retrieved_at": "2026-09-26T09:13:47.702779+00:00"
+    },
+    {
+      "file": "cpi_202507.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202507/data?format=json&per_page=1000",
+      "sha256": "754fef0fdbee8bb977c28724f3fc8cc0e917fa8678ca080b5eec495341cd5115",
+      "retrieved_at": "2026-09-26T09:13:48.551438+00:00"
+    },
+    {
+      "file": "cpi_202510.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202510/data?format=json&per_page=1000",
+      "sha256": "eebc8acfcc0cfdc217ce96f107b02a3f544570c75a4dc0dc60cf8418f8b7ec01",
+      "retrieved_at": "2026-09-26T09:13:48.682390+00:00"
+    },
+    {
+      "file": "cpi_202512.json",
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202512/data?format=json&per_page=1000",
+      "sha256": "f0c75eb853960729873335926fadd3fb280abd91f222e5685e8b72abd8af5747",
+      "retrieved_at": "2026-09-26T09:13:48.841262+00:00"
+    },
+    {
+      "file": "unemployment_20240301_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01032024-bp",
+      "sha256": "7b9a73e013dd069c2677925a9eaf13d449fba91577fc7b67687dbe6d135786d8",
+      "retrieved_at": "2026-09-26T09:13:50.976006+00:00"
+    },
+    {
+      "file": "unemployment_20240403_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03042024-bp",
+      "sha256": "aba9a09ce0c365d75882f063afe6f73cf7c507a6100852333139be60deb34956",
+      "retrieved_at": "2026-09-26T09:13:54.017895+00:00"
+    },
+    {
+      "file": "unemployment_20240503_ap.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03052024-ap",
+      "sha256": "da98317419d6b155fb133505a1077ca95a79c83978233eba597037bc0086e998",
+      "retrieved_at": "2026-09-26T09:13:55.801284+00:00"
+    },
+    {
+      "file": "unemployment_20240530_ap.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30052024-ap",
+      "sha256": "c25134b8ce4fe35b52fdb84a024bb2d0ce7f8213af3260482f66b31ff9f26fa5",
+      "retrieved_at": "2026-09-26T09:13:56.469583+00:00"
+    },
+    {
+      "file": "unemployment_20240702_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02072024-bp",
+      "sha256": "233eab3829fccbff66872dcb95e1bf942e0b8dddce1461e08e5e52c9e8e6a714",
+      "retrieved_at": "2026-09-26T09:13:58.227061+00:00"
+    },
+    {
+      "file": "unemployment_20240801_ap.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01082024-ap",
+      "sha256": "6749b8a018bcb79faec61bdef1000036ec78a3920f882d001538eeba551c5c56",
+      "retrieved_at": "2026-09-26T09:13:58.972307+00:00"
+    },
+    {
+      "file": "unemployment_20240830_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30082024-bp",
+      "sha256": "e97569bd9d4e40943198f199c1da29759854ba08b25d8e550966f5c45607d1c3",
+      "retrieved_at": "2026-09-26T09:14:00.635947+00:00"
+    },
+    {
+      "file": "unemployment_20241002_ap.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02102024-ap",
+      "sha256": "578899fb227bd5ad5295164be76d1630311178fd1e65ec08a90318b109c49680",
+      "retrieved_at": "2026-09-26T09:14:01.359959+00:00"
+    },
+    {
+      "file": "unemployment_20241031_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-31102024-bp",
+      "sha256": "1452c8c1b4e8d641e572917734b810fc284e176473a532eb85adedde19625149",
+      "retrieved_at": "2026-09-26T09:14:02.551375+00:00"
+    },
+    {
+      "file": "unemployment_20241202_ap.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02122024-ap",
+      "sha256": "c810d7641c1621a32a11b6555ae90021f69d6ce61b71aa7ced15feeba2d4e9a6",
+      "retrieved_at": "2026-09-26T09:16:00.689157+00:00"
+    },
+    {
+      "file": "unemployment_20250107_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-07012025-bp",
+      "sha256": "21cee9b5eecfbe629461e5ab793df9b7fabbd7a97f1d88f2d81654b61b6f3d25",
+      "retrieved_at": "2026-09-26T09:14:59.865173+00:00"
+    },
+    {
+      "file": "unemployment_20250130_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30012025-bp",
+      "sha256": "1b341dbfe79c58b189b7c3c030bf3c5e3b8ec41726818059be5bbc7ea007d42a",
+      "retrieved_at": "2026-09-26T09:15:01.927107+00:00"
+    },
+    {
+      "file": "unemployment_20250304_ap.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-04032025-ap",
+      "sha256": "cca83c26a3d400c4dba9d868c3eaddd8924b7394668c59ef237106d3126b0e62",
+      "retrieved_at": "2026-09-26T09:15:03.554745+00:00"
+    },
+    {
+      "file": "unemployment_20250401_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01042025-bp",
+      "sha256": "fa50364f9c6503074c928e3ad7e35320e46f3826f71ab0a0146872860520e95b",
+      "retrieved_at": "2026-09-26T09:15:05.293231+00:00"
+    },
+    {
+      "file": "unemployment_20250502_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02052025-bp",
+      "sha256": "93ec9e451231c00d5ebf1c1823de855ae117bd125374994d953571a166aa10b9",
+      "retrieved_at": "2026-09-26T09:15:06.967525+00:00"
+    },
+    {
+      "file": "unemployment_20250603_bp.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03062025-bp",
+      "sha256": "f7e9c79130594e8ac703170873a1baa33ac5e4e398c850d824ff2ab15b2755cf",
+      "retrieved_at": "2026-09-26T09:15:08.759414+00:00"
+    },
+    {
+      "file": "unemployment_20250702_ap.html",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02072025-ap",
+      "sha256": "498960900b66e1f3c5b0e04d30f91a69837e4d41d31168d26face8f07dd5eb77",
+      "retrieved_at": "2026-09-26T09:15:10.328841+00:00"
+    },
+    {
+      "file": "unemployment_20250731_ap.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-31072025-ap",
+      "sha256": "f28cf4b5becfa503983147d09f88761b2d3809d0c7b283e603e433a102bf9777",
+      "retrieved_at": "2026-09-26T09:16:04.463388+00:00"
+    },
+    {
+      "file": "unemployment_20250901_ap.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092025-ap",
+      "sha256": "8b56ee615a347108a5e4a033c8297f541be398da7e084f010c7f4eca6edef14a",
+      "retrieved_at": "2026-09-26T09:16:05.153528+00:00"
+    },
+    {
+      "file": "unemployment_20251002_ap.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02102025-ap",
+      "sha256": "8b1dc33f547de71a721c13b69d4ee494a3a87e1a8e38768a2cbc4d2c044c503b",
+      "retrieved_at": "2026-09-26T09:16:06.898741+00:00"
+    },
+    {
+      "file": "unemployment_20251030_bp.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30102025-bp",
+      "sha256": "5abef611fa48dfa3e30d88faf594458b46a1e1ee8c3cfb73355f925203fec095",
+      "retrieved_at": "2026-09-26T09:16:08.881974+00:00"
+    },
+    {
+      "file": "unemployment_20251202_bp.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02122025-bp",
+      "sha256": "81539504e807115b8a368ed7595e156961e2366f9f214e120e4ff9219b36dbb7",
+      "retrieved_at": "2026-09-26T09:16:10.528046+00:00"
+    },
+    {
+      "file": "vacancies_20240315_ap.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-15032024-ap",
+      "sha256": "c0549d20c8f89be00d83d0a6fb1b35f1975e90f54db1bfe1968979b6be479175",
+      "retrieved_at": "2026-09-26T09:19:05.339817+00:00"
+    },
+    {
+      "file": "vacancies_20240614_bp.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-14062024-bp",
+      "sha256": "96d4319700a8b814eb5de1893e8accb0bd8ab202fcbdca2ec429160702d97c1a",
+      "retrieved_at": "2026-09-26T09:19:06.947317+00:00"
+    },
+    {
+      "file": "vacancies_20240913_bp.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-13092024-bp",
+      "sha256": "03eb21dd31fb35ca93563864769d20dd8f8cfcab355a0857e1a514d915014846",
+      "retrieved_at": "2026-09-26T09:19:08.417602+00:00"
+    },
+    {
+      "file": "vacancies_20241216_bp.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-16122024-bp",
+      "sha256": "0f48a6c6a80c728364983753ee07ad6835e991722f3ff2f896b10a64ecc258e4",
+      "retrieved_at": "2026-09-26T09:19:09.760927+00:00"
+    },
+    {
+      "file": "vacancies_20250318_bp.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-18032025-bp",
+      "sha256": "5c62d1aad0e08e4c762c54d748a2311606d15bce7b0f80e157316cdc34be7ffc",
+      "retrieved_at": "2026-09-26T09:19:11.224451+00:00"
+    },
+    {
+      "file": "vacancies_20250616_ap.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-16062025-ap",
+      "sha256": "251111359c8b227399d947f8de4f66134fbd67b8b5faf7699c44c80644783f9d",
+      "retrieved_at": "2026-09-26T09:19:11.789515+00:00"
+    },
+    {
+      "file": "vacancies_20250915_bp.html",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-15092025-bp",
+      "sha256": "5b50c81825f0426f59c860adbb7e6c6e14f8edd4ea17f2eac0b3a6656d472d83",
+      "retrieved_at": "2026-09-26T09:19:13.213054+00:00"
+    }
+  ],
+  "errors": [
+    {
+      "source": "unemployment",
+      "date": "2024-12-02",
+      "error": "No matching ap/bp release"
+    },
+    {
+      "source": "unemployment",
+      "date": "2025-07-31",
+      "error": "No matching ap/bp release"
+    },
+    {
+      "source": "unemployment",
+      "date": "2023-11-30",
+      "error": "No matching ap/bp release"
+    },
+    {
+      "source": "vacancies",
+      "date": "2025-12-16",
+      "error": "No matching ap/bp release"
+    }
+  ]
+}

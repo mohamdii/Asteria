@@ -1,16 +1,13 @@
 """Coverage probe, not a production ingestion pipeline. Saves official responses."""
 import csv
+from http_client import fetch
 import hashlib
 import itertools
 import json
-import subprocess
-import ssl
-from urllib.error import URLError
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode
-from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'
@@ -26,19 +23,6 @@ REQUESTS = {
     'vacancies': euro_url('jvs_q_nace2', {'freq':'Q','s_adj':'NSA','nace_r2':'B-N','sizeclas':'TOTAL','indic_em':'JVR'}),
     'inflation': 'https://api.worldbank.org/v2/country/GR;RO;PL;IT;IE;BG/indicator/FP.CPI.TOTL.ZG?date=2021:2025&format=json&per_page=100',
 }
-
-
-def fetch(item):
-    name, url = item
-    try:
-        with urlopen(url, timeout=55) as response:
-            raw = response.read()
-    except URLError as error:
-        if not isinstance(error.reason, ssl.SSLCertVerificationError):
-            raise
-        # Windows curl uses the native certificate store; certificate checking stays enabled.
-        raw = subprocess.run(['curl.exe', '--fail', '--silent', '--show-error', '--max-time', '55', url], check=True, capture_output=True).stdout
-    return name, url, raw
 
 
 def main():

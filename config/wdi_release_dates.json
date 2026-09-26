@@ -1,0 +1,11 @@
+{
+  "evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+  "mapping_note": "Archive version YYYYMM is matched to the official WDI update for that month. This is archive-to-release mapping, not CPI's first national publication date. Only matching version months with reviewed update dates are admitted.",
+  "dates": {
+    "202002": "2020-02-27", "202003": "2020-03-18", "202012": "2020-12-16",
+    "202102": "2021-02-17", "202103": "2021-03-19", "202104": "2021-04-26", "202105": "2021-05-25", "202107": "2021-07-01", "202109": "2021-09-15", "202112": "2021-12-16",
+    "202202": "2022-02-15", "202204": "2022-04-27", "202207": "2022-07-01", "202209": "2022-09-16", "202212": "2022-12-22",
+    "202303": "2023-03-02", "202309": "2023-09-20", "202312": "2023-12-20",
+    "202403": "2024-03-28", "202405": "2024-05-30", "202407": "2024-07-01", "202409": "2024-09-19", "202410": "2024-10-24", "202411": "2024-11-13", "202412": "2024-12-16"
+  }
+}

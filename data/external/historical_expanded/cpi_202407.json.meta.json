@@ -1,0 +1,6 @@
+{
+  "file": "cpi_202407.json",
+  "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202407/data?format=json&per_page=1000",
+  "sha256": "eb408a1a73bb606a3a34434999a392d4679c043a0d7277dd8202953e5c7a44b8",
+  "retrieved_at": "2026-09-26T09:13:45.188703+00:00"
+}
