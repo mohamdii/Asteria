@@ -9,8 +9,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 STAGES=['validate_assessment.py','calculate_retention.py','calculate_senior_retention.py',
         'calculate_regretted_turnover.py','build_expanded_historical_features.py',
-        'report_external_coverage.py','join_metric_external.py','build_sql_reporting.py','build_dashboard.py']
-OUTPUT_PATTERNS=['analysis/dashboard.html','analysis/reporting.sqlite','analysis/sql_reporting.json','analysis/schema_validation.json',
+        'report_external_coverage.py','join_metric_external.py','build_sql_reporting.py','analyze_associations.py','build_dashboard.py']
+OUTPUT_PATTERNS=['analysis/association_analysis.json','analysis/association_analysis.md','analysis/dashboard.html','analysis/reporting.sqlite','analysis/sql_reporting.json','analysis/schema_validation.json',
     'data/curated/*.csv','data/curated/*.json','analysis/new_hire_6m_*',
     'analysis/senior_hire_12m_*','analysis/regretted_turnover_*',
     'analysis/expanded_historical_*','analysis/historical_match_coverage_by_year.csv',

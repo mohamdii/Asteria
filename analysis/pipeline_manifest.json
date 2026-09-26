@@ -1,7 +1,7 @@
 {
   "status": "success",
   "mode": "offline_saved_evidence",
-  "repeat_verified": true,
+  "repeat_verified": false,
   "python": "3.14.7",
   "pypdf": "6.19.0",
   "inputs": {
@@ -209,6 +209,7 @@
     "data/raw/employee_lifecycle_events.csv": "9397a896d3111f178efa10206cadff956295e69bf599639ade01c98aece90b3e",
     "data/raw/retention_objectives.csv": "a774edd86360812d32af04cf5c4f82c3bebb0068b3f4b2a560b4a89cb98f2463",
     "requirements-historical.txt": "07b94ce78d416564de4864b1c5ed6b87cab8b621d5f631f4bf820f0414b7a0d2",
+    "scripts/analyze_associations.py": "2f2c63d662bd96acd105b0b73477ed8c6bb8c440c54870b1fc577856add37194",
     "scripts/build_dashboard.py": "2abe153a144471951ef647e35ef1f9d2fa8b640c7e9e548bb6e46328d6f21403",
     "scripts/build_expanded_historical_features.py": "52e55af6ef02047c23da6c78216eb82d3951699c6a29a2cb5358e0e9f5e49e6c",
     "scripts/build_historical_join_demo.py": "9dacb93d6773a8e3bbc1367aadbd0413687f82665ed03ba7f30e25d8427ba5fb",
@@ -224,10 +225,11 @@
     "scripts/join_metric_external.py": "319d4378ff3446f29bbf341c5b50457dadd20bb86c1dde6ccf77f163279ef3ec",
     "scripts/replay_historical_pdfs.py": "6959a20e90f0a22f7df84d0bf71f926bcb058edd7de42b23ba21238c35a80448",
     "scripts/report_external_coverage.py": "3b2bc98ae4a4ebbbf52df2c961aa54f9088388861bea6d999b66b7fb74871316",
-    "scripts/run_pipeline.py": "02555a97a3ef7383b08af0fe7bddec66af77f4c8cca8a1e76615098197fb5dcc",
+    "scripts/run_pipeline.py": "770992b34a17d88788e084d46e5830ee77e8777698ca205c979894719ed7d52e",
     "scripts/temporal_join.py": "78a3d81c195528d9462df6ce165e9c0134f0bf6cb95401734ae43fa410ac6ea5",
     "scripts/validate_assessment.py": "f9538816f838eae78482c56216088f04cca9e2604a36c54ad3ea0da430473896",
     "sql/reporting.sql": "f0584e5e03ae87d814679c0f8c91772b798cf678fe0de097276a6e9ff3fc9459",
+    "tests/test_associations.py": "0e7fa71f9bb54b7e19246ed8093395fa1c8dc2a975c5a9af4d9bb59ec55ce18a",
     "tests/test_clean_assessment.py": "541d52bf46f3c5c8a699c23f04791ce7cd0e6348efa63ab71d9efda0b29349bf",
     "tests/test_historical_extraction.py": "2a095639b1ebc4bde5cf67fbb034b2e218a0717f08d21a0467953a2952243e6f",
     "tests/test_historical_pdfs.py": "b468128329b65cd45aa216484937e357855eb99434a701355ed8168bba3a5564",
@@ -241,6 +243,8 @@
     "tests/test_validation.py": "4b1fe7894593e6c9adc5fdf2fe02c208d1e6f0b5001256cef4edd2702ed84326"
   },
   "outputs": {
+    "analysis/association_analysis.json": "838875208f01016170b7b6cb388f54a9fe4834d41be2e0c4a2759764204d7e24",
+    "analysis/association_analysis.md": "fee079f5260384d1ee2329668d8baa1b8101f63abc736654c4ce90f1962d8ae1",
     "analysis/dashboard.html": "6df7d9cd690de36050323744f9182d952f8b996e41d137ce025582027731a9c8",
     "analysis/expanded_historical_coverage.json": "5ad6b2ac33596dd8e217911a830f28d48a522c85481d7855e94b8194c95d3dd2",
     "analysis/expanded_historical_features.csv": "4af0b9920ba4373a9f8817940dcacacbd1b43408f0f645af43600f89d6841983",
