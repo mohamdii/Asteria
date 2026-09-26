@@ -1,0 +1,98 @@
+[
+  {
+    "indicator": "vacancies",
+    "reported_release_date": "2021-09-16",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/11563271/3-16092021-BP-EN.pdf/7b7d4725-1228-b221-33bb-85562d6c58fe",
+    "file": "vacancies_2021-09-16.pdf",
+    "sha256": "2ab7593d12beeaafcc0c7614a5c75a1abca9a78ead0f3e3b9ba84a8b972ad51c",
+    "retrieved_at": "2026-09-26T13:29:04.501175+00:00"
+  },
+  {
+    "indicator": "vacancies",
+    "reported_release_date": "2022-03-17",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/14358242/3-17032022-BP-EN.pdf/3e6f6746-aa8d-b25c-7696-3912bf7ebd2c",
+    "file": "vacancies_2022-03-17.pdf",
+    "sha256": "f4fbd74c61a2ebc7ddac7505031b036ad7ab671f4c7375ecd83c4068c6843a70",
+    "retrieved_at": "2026-09-26T13:29:05.235479+00:00"
+  },
+  {
+    "indicator": "vacancies",
+    "reported_release_date": "2022-09-16",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/14698147/3-16092022-BP-EN.pdf/ce89f62d-6e8e-e5ec-d542-203a42943b9c",
+    "file": "vacancies_2022-09-16.pdf",
+    "sha256": "821390436d37d5c9ff098660d4be3edadbaaea98de5a07e86717696c7b2ed498",
+    "retrieved_at": "2026-09-26T13:29:05.810968+00:00"
+  },
+  {
+    "indicator": "vacancies",
+    "reported_release_date": "2023-03-20",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/16310170/3-20032023-BP-EN.pdf/94c96dce-5803-33ba-0173-afc9dc21e074",
+    "file": "vacancies_2023-03-20.pdf",
+    "sha256": "110c184f0f29a527b8f679b871555f50dc5172ae010e9fa6055cea6853904180",
+    "retrieved_at": "2026-09-26T13:29:06.463290+00:00"
+  },
+  {
+    "indicator": "vacancies",
+    "reported_release_date": "2023-09-14",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/17501484/3-14092023-AP-EN.pdf/ad3c84e2-fbbb-b3a8-b762-5e6996dfa08d",
+    "file": "vacancies_2023-09-14.pdf",
+    "sha256": "293207132a798f154862cb18898de43d2f6d1da4efa027811aa9c0b897c7b22e",
+    "retrieved_at": "2026-09-26T13:29:06.986157+00:00"
+  },
+  {
+    "indicator": "vacancies",
+    "reported_release_date": "2023-12-18",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/18134838/3-18122023-AP-EN.pdf/8040054f-078e-391b-63a4-af98fcfe1679",
+    "file": "vacancies_2023-12-18.pdf",
+    "sha256": "05dbfc215765fadb56eea071c8ca2b4801023528c3e203f36aa135b134d91ef8",
+    "retrieved_at": "2026-09-26T13:29:07.439298+00:00"
+  },
+  {
+    "indicator": "unemployment",
+    "reported_release_date": "2023-01-09",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/15725152/3-09012023-AP-EN.pdf",
+    "file": "unemployment_2023-01-09.pdf",
+    "sha256": "b93b1c7cd2615570b2f70b4d5d6ead7dcdbaa61f2434ade3eab3738c4f044826",
+    "retrieved_at": "2026-09-26T13:29:07.898304+00:00"
+  },
+  {
+    "indicator": "unemployment",
+    "reported_release_date": "2021-07-30",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/11563203/3-30072021-CP-EN.pdf/35dbf525-da32-809f-0f9d-cd36a271a760",
+    "file": "unemployment_2021-07-30.pdf",
+    "sha256": "9d55bc819652e31d00bf44f98ef7d5ea27171d04fb903096ef036f13d3d0831f",
+    "retrieved_at": "2026-09-26T14:15:56.581635+00:00"
+  },
+  {
+    "indicator": "unemployment",
+    "reported_release_date": "2022-03-31",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/14358254/3-31032022-AP-EN.pdf",
+    "file": "unemployment_2022-03-31.pdf",
+    "sha256": "9f5486bb7d2a7e590622bc8cf3cf8eb942c00debd0e460a82a816b60fa295427",
+    "retrieved_at": "2026-09-26T14:15:58.050140+00:00"
+  },
+  {
+    "indicator": "unemployment",
+    "reported_release_date": "2023-03-31",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/16324762/3-31032023-BP-EN.pdf/4cb7a93a-bb55-923d-ec95-5fcb8073271c",
+    "file": "unemployment_2023-03-31.pdf",
+    "sha256": "88c1b83fbbf202a433de6b307b3233e1382f223da32f1ba84835c6f57f525409",
+    "retrieved_at": "2026-09-26T14:46:04.829942+00:00"
+  },
+  {
+    "indicator": "unemployment",
+    "reported_release_date": "2023-06-30",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/17075197/3-30062023-BP-EN.pdf/ee3b1511-c710-4033-fc9a-aaf1c3d60241",
+    "file": "unemployment_2023-06-30.pdf",
+    "sha256": "e9ca8e37b0db5f88d1d6f478fa6d1ebd3fe3db197cfcee4404a66ae66f35df0e",
+    "retrieved_at": "2026-09-26T14:46:05.343607+00:00"
+  },
+  {
+    "indicator": "unemployment",
+    "reported_release_date": "2021-09-01",
+    "url": "https://ec.europa.eu/eurostat/documents/2995521/11563247/3-01092021-AP-EN.pdf",
+    "file": "unemployment_2021-09-01.pdf",
+    "sha256": "6819f5d932eb306f8eb6356a683481f6060650786d798fc033872c283629faa2",
+    "retrieved_at": "2026-09-26T14:46:05.880769+00:00"
+  }
+]

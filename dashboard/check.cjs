@@ -1,0 +1,10 @@
+﻿const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const html=fs.readFileSync('analysis/dashboard.html','utf8');const data=html.match(/<script id="data" type="application\/json">([\s\S]*?)<\/script>/)[1];
+const elements={};for(const id of ['data','cards','metric','country','unit','selection','trend','cohortTable','countries','coverage','legend','quality','sources','coverageMetric']) elements[id]={value:'all',innerHTML:'',textContent:'',add(){},addEventListener(){}};
+elements.data.textContent=data;elements.metric.value='new_hire_6m';elements.coverageMetric.value='new_hire_6m';
+const ctx={document:{getElementById:id=>elements[id]},Option:function(){}};vm.createContext(ctx);vm.runInContext(html.match(/<script>([\s\S]*?)<\/script>/)[1],ctx);
+assert(elements.selection.textContent.includes('1580 / 1813'));assert(elements.cards.innerHTML.includes('5.10%'));
+elements.metric.value='senior_hire_12m';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes('209 / 266'));assert(elements.cohortTable.innerHTML.includes('Unavailable'));
+elements.country.value='unknown';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes('Unavailable'));assert(!elements.trend.innerHTML.includes('NaN'));
+elements.coverageMetric.value='regretted_turnover';vm.runInContext('coverage()',ctx);assert(elements.coverage.innerHTML.includes('1861/1868'));assert(elements.coverage.innerHTML.includes('0/1868'));
+console.log('Dashboard startup, cohort filters, empty population and coverage checks passed.');

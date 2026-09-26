@@ -1,28 +1,65 @@
-# Workforce assessment exploration
+# Workforce assessment - software emphasis
 
-Expanded historical evidence can be replayed offline with `python scripts/build_expanded_historical_features.py`. See [coverage and limitations](docs/historical-coverage-expansion.md). It produces `analysis/expanded_historical_features.csv` and yearly match coverage; B–F vacancies remain a separate candidate, not a replacement for B–N. Pre-2024 unemployment/vacancy release coverage remains incomplete.
+The data-preparation pipeline replays saved workforce and external evidence, calculates the three required metrics, joins historical context, and reports coverage. The complete assessment product (including the dashboard) is still in progress.
 
-Publication timing and joining rules are documented in [temporal alignment](docs/temporal-alignment.md). The strict selector in `scripts/temporal_join.py` rejects unverified vintages and future releases. Current API fixtures are retrospective data, not verified historical features. Historical evidence collection and integration remain unfinished.
+## Setup
 
-Initial extraction, profiling, and curation of the supplied synthetic assessment data. This is the data preparation stage, not the completed assessment product.
+Requires Python 3.11+ (tested with Python 3.14). Retain `data/raw`, both historical evidence directories and their manifests, `config`, `scripts`, and `tests`.
 
-Requires Python 3.11+ with no additional packages. From the repository root:
+Install the pinned PDF dependency once (network access required):
 
 ```powershell
-python scripts/clean_assessment.py
-python scripts/validate_assessment.py
-python scripts/calculate_retention.py
-python scripts/calculate_senior_retention.py
-python scripts/calculate_regretted_turnover.py
-python -m unittest discover -s tests -v
+python -m pip install --target .tools/pdf -r requirements-historical.txt
 ```
 
-The cleaning command verifies raw inputs, applies documented rules, and overwrites derived files deterministically in `data/curated/`. Raw inputs remain unchanged. It produces all unique records with eligibility flags, an employment-date quarantine, a row-level quality audit, and a JSON summary. Do not use every curated row indiscriminately for metrics.
+## One-command offline replay
 
-Read [metric and quality rules](docs/metric-and-quality-rules.md) before using the outputs. Each metric command rebuilds curation. Six-month results are in `analysis/new_hire_6m_*`; senior twelve-month results, annual cohort counts, employee decisions, and mapping sensitivity are in `analysis/senior_hire_12m_*`. Snapshot trailing-twelve-month turnover, employee-day decisions, daily headcounts, and classification sensitivity are in `analysis/regretted_turnover_*`. Historical turnover trends, external data, SQL transformations, and a dashboard remain future work. The selected assessment track is Software emphasis.
+From the repository root:
 
-The original pack extraction and exploration can be repeated with Node.js using `node scripts/explore-assessment.cjs`. It refuses to overwrite differing raw data.
+```powershell
+python scripts/run_pipeline.py
+```
 
-The validation command audits dictionary nullability and types, selected pack-specific categories, date ordering, target ranges, and departure contradictions. Results are in `analysis/schema_validation.json`. The audit itself reports findings. Curation enforces departure-contradiction exclusions through retention_eligible, headcount_eligible, and regretted_turnover_eligible; six-month retention consumes its eligibility flag. Other schema checks are not yet pipeline gates. See the documented policy for metric-specific treatment.
+To rebuild twice and verify byte-identical output files:
 
-External acquisition scripts share a bounded HTTP download client with retries, Retry-After handling and certificate-verifying Windows curl fallback. See [download behavior and limitations](docs/http-downloads.md).
+```powershell
+python scripts/run_pipeline.py --verify-reproducibility
+```
+
+The command checks prerequisites and saved evidence hashes; validates and cleans workforce data; calculates six-month retention, senior twelve-month retention, and trailing regretted turnover; replays historical releases; builds coverage reports and metric-specific joins; builds and reconciles SQLite reporting views; and runs the test suite. Derived outputs are overwritten. No external service is contacted by the replay stages. Raw workforce files are verified against their saved manifest. The assessment HTML and Node.js are not needed.
+
+A successful run writes `analysis/pipeline_manifest.json` with input/output SHA-256 hashes, runtime versions and repeat-verification status. A failed run exits nonzero and leaves no success marker; individual derived files may already have been written, so do not treat them as a completed run without that manifest. The workflow is not transactional. The manifest covers pipeline outputs, not legacy demonstration/probe artifacts in `analysis`.
+
+Repeat verification establishes identical outputs in the same environment. Clean-environment and cross-platform certification remain separate checks. For stable CSV bytes, use the recorded platform/runtime; line endings can differ across platforms.
+
+## Results and rules
+
+- [Metric-specific external coverage](analysis/metric_external_coverage.md)
+- [Country/year coverage and acquisition priorities](analysis/external_coverage_report.md)
+- Metric results, employee audits and external joins: `analysis/new_hire_6m_*`, `analysis/senior_hire_12m_*`, `analysis/regretted_turnover_*`
+- [Metric and quality rules](docs/metric-and-quality-rules.md)
+- [Publication timing](docs/temporal-alignment.md)
+- [Historical evidence progress and limitations](docs/historical-coverage-expansion.md)
+- [HTTP download behavior](docs/http-downloads.md)
+
+B-N vacancy rates remain preferred but lack verified historical matches; B-F is supplementary. Coverage remains partial and no causal analysis is claimed. Missing external context does not remove employees from headline KPIs. Some schema checks are audit-only; metric-specific contradiction exclusions are enforced by curation.
+
+## Online acquisition is separate
+
+Acquisition changes the saved evidence set and can change results. It is not part of offline replay. Existing acquisition scripts use a shared HTTP client with limited retries, timeouts and certificate-verifying curl fallback on Windows. For the configured PDF list, `python scripts/replay_historical_pdfs.py --download` downloads missing files and validates cached hashes. See the historical coverage document for other acquisition scripts and known gaps.
+
+## Clean-workspace verification procedure
+
+Create a fresh directory containing only `scripts`, `tests`, `sql`, `config`, `data/raw`, `data/external/historical_expanded`, `data/external/historical_pdfs`, `requirements-historical.txt`. Exclude caches and both derived `canonical_observations.json` files. Do not copy `analysis`, `data/curated`, or installed dependencies.
+
+Create a virtual environment with `python -m venv .venv`, then use `.venv\Scripts\python.exe` on Windows to install the requirements into `.tools/pdf` and run the pipeline with `--verify-reproducibility`. Compare the `outputs` mapping in the resulting manifest with the original manifest. Package installation can also use a separately downloaded wheel with `--no-index --find-links`, keeping replay independent of network access.
+
+Verified on the current Windows host: the fresh-copy virtual-environment run passed twice, with all 60 tests and all 30 output hashes matching the original workspace. Evidence: `analysis/clean_environment_verification.json`. Cross-platform and alternate-runtime verification remain untested.
+
+Assessment links and full visible reference text are preserved in `config/assessment_reference.json`. Collected project source URLs are in `config/source_links.json`. The assessment itself has internal navigation links only, not external URLs. Legacy extraction is retired; `analysis/assessment_profile.json` is a historical artifact, not a current pipeline output. Previous verification reports describe the earlier pipeline; rerun verification for the updated input contract.
+
+The [SQL reporting layer](docs/sql-reporting.md) produces `analysis/reporting.sqlite` and `analysis/sql_reporting.json`. Include the `sql` directory when copying the project. Existing clean-environment verification reports predate this stage; the current pipeline repeat check includes it.
+
+Open `analysis/dashboard.html` in a browser for the offline interactive dashboard. The pipeline rebuilds it from reconciled SQL reports. Retention filters affect cohort charts only; KPI cards and external-coverage populations stay company-wide. Include `dashboard/template.html` when copying the project. Optional UI logic check: `node dashboard/check.cjs` (Node is not required for replay). Browser visual verification remains outstanding in the current tool environment.
+
+See the [assessment acceptance audit](docs/assessment-acceptance-checklist.md) for the requirement-by-requirement status and remaining submission work. The working dashboard is an initial implementation, not yet the complete analytical experience required by the brief.

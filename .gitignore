@@ -1,0 +1,6 @@
+
+# Local dependencies and disposable reproducibility environments
+.tools/
+clean-replay-*/
+__pycache__/
+*.pyc

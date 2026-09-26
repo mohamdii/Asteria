@@ -11,14 +11,15 @@
   },
   "observations": {
     "inflation": 580,
-    "unemployment": 659,
-    "vacancies_bf_supplementary": 210
+    "unemployment": 839,
+    "vacancies_bf_supplementary": 388
   },
   "parser_failures": [],
   "matches": {
     "unemployment": {
-      "matched": 695,
-      "no_verified_historical_match": 1686,
+      "matched": 1253,
+      "stale": 494,
+      "no_verified_historical_match": 634,
       "missing_country": 9,
       "invalid_or_excluded_employment": 10
     },
@@ -34,8 +35,9 @@
       "invalid_or_excluded_employment": 10
     },
     "vacancies_bf_supplementary": {
-      "matched": 683,
-      "no_verified_historical_match": 1698,
+      "matched": 1569,
+      "no_verified_historical_match": 691,
+      "stale": 121,
       "missing_country": 9,
       "invalid_or_excluded_employment": 10
     }

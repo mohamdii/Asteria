@@ -1,7 +1,7 @@
 indicator,hire_year,records,matched
-unemployment,2021,418,0
-unemployment,2022,397,0
-unemployment,2023,396,0
+unemployment,2021,418,156
+unemployment,2022,397,107
+unemployment,2023,396,295
 unemployment,2024,434,362
 unemployment,2025,336,333
 inflation,2021,418,416
@@ -14,8 +14,8 @@ vacancies,2022,397,0
 vacancies,2023,396,0
 vacancies,2024,434,0
 vacancies,2025,336,0
-vacancies_bf_supplementary,2021,418,0
-vacancies_bf_supplementary,2022,397,0
-vacancies_bf_supplementary,2023,396,0
-vacancies_bf_supplementary,2024,434,350
+vacancies_bf_supplementary,2021,418,123
+vacancies_bf_supplementary,2022,397,339
+vacancies_bf_supplementary,2023,396,341
+vacancies_bf_supplementary,2024,434,433
 vacancies_bf_supplementary,2025,336,333

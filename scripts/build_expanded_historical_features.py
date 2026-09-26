@@ -113,6 +113,9 @@ def main():
     manifest=json.loads((folder/'manifest.json').read_text())
     dates=json.loads((ROOT/'config/wdi_release_dates.json').read_text())
     observations=[]; failures=[]
+    if (ROOT/'data/external/historical_pdfs/manifest.json').exists():
+        from replay_historical_pdfs import main as replay_pdfs
+        observations.extend(replay_pdfs())
     for meta in manifest['files']:
         raw=(folder/meta['file']).read_bytes()
         if hashlib.sha256(raw).hexdigest()!=meta['sha256']: raise ValueError('Evidence hash mismatch')
@@ -145,7 +148,7 @@ def main():
                 source_flags=obs.get('source_flags',''),
                 evidence_url=obs.get('evidence_url',''),age_days=selected.get('age_days','')))
     write_csv(ROOT/'analysis/expanded_historical_features.csv',joined,list(joined[0]))
-    summary=dict(vacancy_policy=VACANCY_POLICY, observations=dict(Counter(o['indicator'] for o in observations)),parser_failures=failures,
+    summary=dict(vacancy_policy=VACANCY_POLICY, observations=dict(Counter(o['indicator'] for o in observations if o['value'] is not None)),parser_failures=failures,
         matches={i:dict(Counter(r['join_status'] for r in joined if r['indicator']==i)) for i in INDICATORS},
         workforce_rows=len(employees),scope='All curated employees; not just metric denominators. CPI archive month is mapped to documented WDI update date; not first CPI publication.')
     (ROOT/'analysis/expanded_historical_coverage.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')

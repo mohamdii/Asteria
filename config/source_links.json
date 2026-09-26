@@ -1,0 +1,897 @@
+{
+  "note": "Project source URLs collected from saved metadata and documentation; not links extracted from the assessment HTML. Listing does not independently validate a URL.",
+  "links": [
+    {
+      "url": "http://publications.europa.eu/resource/authority/corporate-body/ESTAT\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "http://purl.org/dc/terms/\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "http://purl.org/spar/datacite/doi\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "http://www.w3.org/1999/02/22-rdf-syntax-ns#\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2001/XMLSchema#date\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2004/02/skos/core.html\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "http://www.w3.org/ns/adms#\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "http://www.worldbank.org",
+      "referenced_in": [
+        "data/external/historical_releases/wdi_cpi_2024_02.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/country/GR;RO;PL;IT;IE;BG/indicator/FP.CPI.TOTL.ZG?date=2021:2025&format=json&per_page=100",
+      "referenced_in": [
+        "data/external/coverage_probe/provenance.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202002/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202002.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202003/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202003.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202004/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202004.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202005/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202005.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202007/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202007.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202008/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202008.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202009/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202009.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202010/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202010.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202012/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202012.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202102/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202102.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202103/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202103.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202104/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202104.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202105/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202105.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202107/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202107.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202109/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202109.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202111/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202111.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202112/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202112.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202202/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202202.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202204/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202204.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202207/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202207.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202209/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202209.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202212/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202212.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202303/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202303.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202305/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202305.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202307/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202307.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202309/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202309.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202310/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202310.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202312/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202312.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202403/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202403.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202405/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202405.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202407/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202407.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202409/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202409.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202410/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202410.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202411/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202411.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202412/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202412.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202501/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202501.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202503/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202503.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202504/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202504.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202506/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202506.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202507/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202507.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202510/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202510.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202512/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_expanded/cpi_202512.json.meta.json",
+        "data/external/historical_expanded/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2020;YR2021;YR2022;YR2023/version/202403/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_releases/manifest.json"
+      ]
+    },
+    {
+      "url": "https://api.worldbank.org/v2/sources/57/version/data?format=json&per_page=1000",
+      "referenced_in": [
+        "data/external/historical_releases/manifest.json"
+      ]
+    },
+    {
+      "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FP.CPI.TOTL.ZG",
+      "referenced_in": [
+        "docs/temporal-alignment.md"
+      ]
+    },
+    {
+      "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FP.CPI.TOTL.ZG):",
+      "referenced_in": [
+        "docs/external-source-coverage.md"
+      ]
+    },
+    {
+      "url": "https://datacatalog.worldbank.org/public-licenses):",
+      "referenced_in": [
+        "docs/external-source-coverage.md"
+      ]
+    },
+    {
+      "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/1886686-advanced-data-api-queries",
+      "referenced_in": [
+        "docs/historical-evidence-and-flow.md"
+      ]
+    },
+    {
+      "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "referenced_in": [
+        "config/wdi_release_dates.json",
+        "docs/historical-coverage-expansion.md",
+        "docs/temporal-alignment.md"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2908/JVS_Q_NACE2\\",
+      "referenced_in": [
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2908/UNE_RT_M\\",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/files?file=metadata/jvs_esms.sdmx.zip",
+      "referenced_in": [
+        "data/external/coverage_probe/vacancies.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/files?file=metadata/une_rt_m_esms.sdmx.zip",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/jvs_q_nace2?lang=EN&sinceTimePeriod=2021&untilTimePeriod=2025&freq=Q&s_adj=NSA&nace_r2=B-N&sizeclas=TOTAL&indic_em=JVR&geo=EL&geo=RO&geo=PL&geo=IT&geo=IE&geo=BG",
+      "referenced_in": [
+        "data/external/coverage_probe/provenance.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?lang=EN&sinceTimePeriod=2021&untilTimePeriod=2025&freq=M&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&geo=EL&geo=RO&geo=PL&geo=IT&geo=IE&geo=BG",
+      "referenced_in": [
+        "data/external/coverage_probe/provenance.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/Annexes/une_rt_m_esms_an_footnote.xlsx",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/jvs_esms.htm",
+      "referenced_in": [
+        "data/external/coverage_probe/vacancies.json",
+        "docs/temporal-alignment.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/jvs_esms.htm):",
+      "referenced_in": [
+        "docs/external-source-coverage.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/une_rt_m_esms.htm",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json",
+        "docs/temporal-alignment.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/une_rt_m_esms.htm):",
+      "referenced_in": [
+        "docs/external-source-coverage.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/databrowser-backend/api/public/explanatory-notes/get/Info_note_LFSQ_20240604.pdf",
+      "referenced_in": [
+        "data/external/coverage_probe/unemployment.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/11563203/3-30072021-CP-EN.pdf/35dbf525-da32-809f-0f9d-cd36a271a760",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/11563247/3-01092021-AP-EN.pdf",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/11563271/3-16092021-BP-EN.pdf/7b7d4725-1228-b221-33bb-85562d6c58fe",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/14358242/3-17032022-BP-EN.pdf/3e6f6746-aa8d-b25c-7696-3912bf7ebd2c",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/14358254/3-31032022-AP-EN.pdf",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/14698147/3-16092022-BP-EN.pdf/ce89f62d-6e8e-e5ec-d542-203a42943b9c",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/15725152/3-09012023-AP-EN.pdf",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/16310170/3-20032023-BP-EN.pdf/94c96dce-5803-33ba-0173-afc9dc21e074",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/16324762/3-31032023-BP-EN.pdf/4cb7a93a-bb55-923d-ec95-5fcb8073271c",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/17075197/3-30062023-BP-EN.pdf/ee3b1511-c710-4033-fc9a-aaf1c3d60241",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/17501484/3-14092023-AP-EN.pdf/ad3c84e2-fbbb-b3a8-b762-5e6996dfa08d",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/documents/2995521/18134838/3-18122023-AP-EN.pdf/8040054f-078e-391b-63a4-af98fcfe1679",
+      "referenced_in": [
+        "config/historical_pdf_candidates.json",
+        "data/external/historical_pdfs/manifest.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250901_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02102025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20251002_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02122024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20241202_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02122025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20251202_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02122025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20251202_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-13092024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/vacancies_20240913_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-13092024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/vacancies_20240913_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-14062024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/vacancies_20240614_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-14062024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/vacancies_20240614_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-15032024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/vacancies_20240315_ap.html.meta.json",
+        "docs/historical-coverage-expansion.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-15092025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/vacancies_20250915_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-15092025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/vacancies_20250915_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-16062025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/vacancies_20250616_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-16122024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/vacancies_20241216_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-16122024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/vacancies_20241216_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-18032025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/vacancies_20250318_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-18032025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/vacancies_20250318_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30102025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20251030_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30102025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20251030_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30112023-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20231130_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30112023-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20231130_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-31072025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250731_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/help/copyright-notice",
+      "referenced_in": [
+        "docs/external-source-coverage.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01032024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20240301_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01032024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20240301_bp.html.meta.json",
+        "data/external/historical_releases/manifest.json",
+        "data/external/historical_releases/verified_unemployment_observations.json",
+        "docs/historical-evidence-and-flow.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01042025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20250401_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01042025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250401_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01082024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20240801_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02052025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20250502_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02052025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250502_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02072024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20240702_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02072024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20240702_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02072025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250702_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02102024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20241002_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-02122024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20241202_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03042024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20240403_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03042024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20240403_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03052024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20240503_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03062025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20250603_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03062025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250603_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-04032025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250304_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-07012025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20250107_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-07012025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250107_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-14062024-bp",
+      "referenced_in": [
+        "data/external/historical_releases/manifest.json",
+        "docs/historical-coverage-expansion.md",
+        "docs/historical-evidence-and-flow.md"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30012025-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20250130_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30012025-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20250130_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30052024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20240530_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30082024-ap",
+      "referenced_in": [
+        "data/external/historical_expanded/unemployment_20240830_ap.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30082024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20240830_bp.html.meta.json"
+      ]
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-31102024-bp",
+      "referenced_in": [
+        "data/external/historical_expanded/manifest.json",
+        "data/external/historical_expanded/unemployment_20241031_bp.html.meta.json"
+      ]
+    }
+  ]
+}
