@@ -38,7 +38,18 @@ Status meanings: Complete = evidence exists for the stated scope; Partial = subs
 | 15-minute presentation | Missing | Add a lightweight Markdown, HTML or PDF deck: 3 minutes scope, 5 architecture/reliability, 4 dashboard/findings, 3 tradeoffs/AI/next steps. |
 | Repository submission/access and deadline | Unverified | No evidence of reviewer access, final submission or deadline in inspected files. User must supply/confirm these logistics. |
 
-## Recommended completion order
+## Follow-up review ? 2026-09-27
+
+The table above is the historical 2026-09-26 audit. These updates supersede its analysis and dashboard rows:
+
+- Association analysis already exists, including matched/unmatched breakdowns, country-centering, minimum-size and leave-one-country-out sensitivity. See docs/association-findings.md. Its cohort counts are not independent sample sizes; inferential uncertainty remains intentionally unestimated.
+- The dashboard now includes hire-year filtering and economic exposure/retention scatterplots with accessible tables, sample counts, source-age ranges, and full-population sensitivity summaries. Country/year/measure affect relationships; business-unit filtering affects only retention charts. Preferred B?N has an explicit unavailable state. Actual native-period source timelines and release/retrieval dates remain unfinished.
+- The Node DOM harness passed both existing checks and new year-filter, relationship, empty-selection, B?N and annual-CPI checks on this host. No Python executable was available on PATH. Full replay and fresh-copy verification remain pending; old manifests do not certify the updated dashboard. The browser tool reported no connected browsers, so visual/keyboard/mobile verification remains pending.
+- The original assessment HTML was checked against the saved reference: its SHA-256 matches after CRLF-to-LF normalization. No requirement change was found through that comparison.
+
+Immediate next steps: restore a Python 3.11+ runtime and pinned dependency, run the complete repeat-verification command, then browser QA. Finish source register/refinement/production architecture, publication safeguards and presentation before submission. Human effort/review and submission logistics still require the candidate's input.
+
+## Recommended completion order (original audit)
 
 1. Specify and implement a small external-association analysis with explicit effective sample sizes, selection bias and sensitivity checks. Existing missingness is not a reason to invent matches or assume B-F replaces B-N.
 2. Add time filtering, actual signal context and relationship views to the dashboard; retain honest unavailable states. Test the resulting full interaction path.

@@ -1,10 +1,22 @@
 ﻿const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const html=fs.readFileSync('analysis/dashboard.html','utf8');const data=html.match(/<script id="data" type="application\/json">([\s\S]*?)<\/script>/)[1];
-const elements={};for(const id of ['data','cards','metric','country','unit','selection','trend','cohortTable','countries','coverage','legend','quality','sources','coverageMetric']) elements[id]={value:'all',innerHTML:'',textContent:'',add(){},addEventListener(){}};
-elements.data.textContent=data;elements.metric.value='new_hire_6m';elements.coverageMetric.value='new_hire_6m';
+const elements={};for(const id of ['data','cards','metric','country','unit','selection','trend','cohortTable','countries','coverage','legend','quality','sources','coverageMetric','year','signal','relationshipSummary','relationship','relationshipTable']) elements[id]={value:'all',innerHTML:'',textContent:'',add(){},addEventListener(){}};
+elements.signal.value='unemployment';elements.data.textContent=data;elements.metric.value='new_hire_6m';elements.coverageMetric.value='new_hire_6m';
 const ctx={document:{getElementById:id=>elements[id]},Option:function(){}};vm.createContext(ctx);vm.runInContext(html.match(/<script>([\s\S]*?)<\/script>/)[1],ctx);
-assert(elements.selection.textContent.includes('1580 / 1813'));assert(elements.cards.innerHTML.includes('5.10%'));
-elements.metric.value='senior_hire_12m';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes('209 / 266'));assert(elements.cohortTable.innerHTML.includes('Unavailable'));
+const readSummary=m=>JSON.parse(fs.readFileSync(`analysis/${m}_summary.json`,'utf8'));
+const six=readSummary('new_hire_6m').overall,senior=readSummary('senior_hire_12m').overall,turnover=readSummary('regretted_turnover');
+assert(elements.selection.textContent.includes(`${six.retained} / ${six.eligible_hires}`));assert(elements.cards.innerHTML.includes((100*turnover.confirmed_rate).toFixed(2)+'%'));
+assert(html.includes('verified recovery from the original synthetic generator'));
+elements.metric.value='senior_hire_12m';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes(`${senior.retained} / ${senior.eligible_hires}`));assert(elements.cohortTable.innerHTML.includes('Unavailable'));
 elements.country.value='unknown';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes('Unavailable'));assert(!elements.trend.innerHTML.includes('NaN'));
-elements.coverageMetric.value='regretted_turnover';vm.runInContext('coverage()',ctx);assert(elements.coverage.innerHTML.includes('1861/1868'));assert(elements.coverage.innerHTML.includes('0/1868'));
+elements.coverageMetric.value='regretted_turnover';vm.runInContext('coverage()',ctx);assert(!elements.coverage.innerHTML.includes('NaN'));assert.equal((elements.coverage.innerHTML.match(/class="row"/g)||[]).length,3);assert(elements.coverage.innerHTML.includes('industry and construction'));assert(!html.includes('<option value="vacancies">'));
 console.log('Dashboard startup, cohort filters, empty population and coverage checks passed.');
+
+elements.metric.value='new_hire_6m';elements.country.value='all';elements.year.value='2023';vm.runInContext('draw();relationships()',ctx);
+const payload=JSON.parse(data),expected=payload.reports.retention_cohorts.filter(r=>r.metric==='new_hire_6m'&&r.hire_year==='2023').reduce((a,r)=>a+r.eligible,0);
+assert(elements.selection.textContent.includes('/ '+expected+' mature'));
+assert(elements.relationshipTable.innerHTML.includes('Jan-Mar 2023'));assert(!elements.relationshipTable.innerHTML.includes('Jan-Mar 2022'));
+elements.country.value='unknown';vm.runInContext('relationships()',ctx);assert(elements.relationshipSummary.textContent.includes('Unavailable'));assert.equal(elements.relationship.innerHTML,'');
+elements.signal.value='vacancies_bf_supplementary';elements.country.value='all';vm.runInContext('relationships()',ctx);assert(elements.relationshipTable.innerHTML.includes('Jan-Mar 2023'));assert(elements.relationship.innerHTML.includes('<circle'));
+elements.signal.value='inflation';elements.country.value='all';elements.year.value='all';vm.runInContext('relationships()',ctx);assert(elements.relationshipTable.innerHTML.includes('2023'));assert(!elements.relationshipTable.innerHTML.includes('Jan-Mar 2023'));assert(!elements.relationship.innerHTML.includes('NaN'));
+console.log('Time filter, association scope, annual CPI and supplementary vacancy checks passed.');

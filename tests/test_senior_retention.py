@@ -41,6 +41,10 @@ class SeniorRetentionTests(unittest.TestCase):
         self.assertEqual(summary['outside_objective_hire_period'], 1)
         self.assertIsNone(summary['retention_rate'])
 
+    def test_verified_recovered_level_is_not_an_assumed_mapping(self):
+        rows = [self.row(career_level_original='Sr Mgmt', source_recovery_fields='career_level')]
+        self.assertEqual(self.run_metric(rows, include_mapped=False)[1]['eligible_hires'], 1)
+
     def test_leap_day_anniversary(self):
         audit, _ = self.run_metric([self.row(hire_date='2024-02-29', termination_date='2025-02-28')])
         self.assertEqual(audit[0]['twelve_month_anniversary'], '2025-02-28')

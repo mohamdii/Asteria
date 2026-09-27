@@ -5,17 +5,15 @@
   "records": 2400,
   "classifications": {
     "confirmed_regretted_departure": 82,
-    "excluded_invalid_dates": 10,
-    "no_departure_in_window": 2139,
-    "other_departure": 167,
-    "potentially_regretted_unknown": 2
+    "no_departure_in_window": 2151,
+    "other_departure": 167
   },
-  "employee_days": 586744,
-  "average_daily_headcount": 1607.517808219178,
+  "employee_days": 593210,
+  "average_daily_headcount": 1625.2328767123288,
   "confirmed_regretted_departures": 82,
-  "potentially_regretted_unknown_departures": 2,
-  "confirmed_rate": 0.05101032136672893,
-  "classification_upper_rate": 0.05225447554640525,
+  "potentially_regretted_unknown_departures": 0,
+  "confirmed_rate": 0.050454307917938,
+  "classification_upper_rate": 0.050454307917938,
   "target": 0.075,
   "target_status": "met_under_classification_scenarios",
   "notes": [

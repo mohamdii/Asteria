@@ -11,6 +11,19 @@ ROOT = Path(__file__).resolve().parents[1]
 COUNTRIES = {'GR', 'RO', 'PL', 'IT', 'IE', 'BG'}
 
 
+def apply_corrections(row, corrections):
+    """Apply only exact source-matched, evidence-backed synthetic repairs."""
+    result = dict(row)
+    for correction in corrections:
+        field = correction['field']
+        if field == 'employee_id' or field not in row:
+            raise ValueError('Unsupported correction field: ' + field)
+        if row[field] != correction['original']:
+            raise ValueError('Correction source mismatch: ' + row['employee_id'] + '/' + field)
+        result[field] = correction['corrected']
+    return result
+
+
 def anniversary(day, months):
     index = day.year * 12 + day.month - 1 + months
     year, month = divmod(index, 12)
@@ -97,7 +110,21 @@ def main():
     as_of = date.fromisoformat(manifest['workforce_as_of_date'])
     with (raw / 'employee_lifecycle_events.csv').open(newline='', encoding='utf-8') as stream:
         rows = list(csv.DictReader(stream))
+    evidence = json.loads((ROOT / 'config/synthetic_source_corrections.json').read_text(encoding='utf-8'))
+    if not manifest.get('synthetic') or evidence['mode'] != 'verified_synthetic_generator_recovery':
+        raise ValueError('Source recovery is restricted to the verified synthetic assessment')
+    if hashlib.sha256((raw / 'employee_lifecycle_events.csv').read_bytes()).hexdigest() != evidence['raw_sha256']:
+        raise ValueError('Recovery evidence does not match raw snapshot')
+    corrections = {}
+    correction_keys = set()
+    for item in evidence['corrections']:
+        key = (item['employee_id'], item['field'])
+        if key in correction_keys:
+            raise ValueError('Duplicate source correction: ' + str(key))
+        correction_keys.add(key)
+        corrections.setdefault(item['employee_id'], []).append(item)
     seen, ids, curated, audit = set(), set(), [], []
+    recovery_audit = []
     for line, row in enumerate(rows, start=2):
         signature = tuple(row.items())
         if signature in seen:
@@ -107,7 +134,16 @@ def main():
             raise ValueError('Conflicting employee records require review: ' + row['employee_id'])
         seen.add(signature)
         ids.add(row['employee_id'])
-        record = curate(row, as_of)
+        repairs = corrections.get(row['employee_id'], [])
+        record = curate(apply_corrections(row, repairs), as_of)
+        for field, value in row.items():
+            record[field + '_original'] = value
+        record['source_recovery_fields'] = '|'.join(item['field'] for item in repairs)
+        record['source_recovery_method'] = evidence['mode'] if repairs else ''
+        if repairs:
+            record['quality_flags'] = '|'.join(filter(None, [record['quality_flags'], 'synthetic_source_recovered']))
+        for item in repairs:
+            recovery_audit.append({'source_csv_line': line, **item, 'source_sha256': evidence['source_sha256']})
         record['source_csv_line'] = line
         curated.append(record)
         for flag in filter(None, record['quality_flags'].split('|')):
@@ -119,6 +155,8 @@ def main():
             elif flag == 'regretted_type_conflict':
                 action = 'exclude_regretted_turnover_only'
             audit.append({'source_csv_line': line, 'employee_id': row['employee_id'], 'issue': flag, 'action': action})
+    if set(corrections) - ids:
+        raise ValueError('Correction references an unknown employee')
     out = ROOT / 'data/curated'
     out.mkdir(parents=True, exist_ok=True)
     fields = list(curated[0])
@@ -126,12 +164,18 @@ def main():
     write_csv(out / 'employee_lifecycle_curated.csv', curated, fields)
     write_csv(out / 'employment_date_quarantine.csv', quarantined, fields)
     write_csv(out / 'quality_audit.csv', audit, ['source_csv_line', 'employee_id', 'issue', 'action'])
+    write_csv(out / 'source_recovery_audit.csv', recovery_audit,
+              ['source_csv_line', 'employee_id', 'field', 'original', 'corrected', 'source_sha256'])
     summary = {
         'as_of': str(as_of), 'raw_manifest_verified': True, 'raw_rows': len(rows),
         'curated_rows_including_quarantine': len(curated), 'exact_duplicates_removed': len(rows)-len(curated),
         'employment_date_quarantine': len(quarantined), 'valid_employment_dates': len(curated)-len(quarantined),
         'country_analysis_eligible': sum(r['country_analysis_eligible']=='true' for r in curated),
         'contradictory_records': sum(r['regretted_classification']=='conflict' for r in curated),
+        'source_recovery': {'mode': evidence['mode'], 'corrected_cells': len(recovery_audit),
+                            'corrected_employees': len(corrections),
+                            'fields': dict(sorted(Counter(r['field'] for r in recovery_audit).items())),
+                            'evidence': 'config/synthetic_source_corrections.json'},
         'issues': dict(sorted(Counter(a['issue'] for a in audit).items())),
         'note': 'Flags can overlap. Curated file retains quarantined rows; consumers must filter eligibility. Maturity flags are not final metric denominators.'
     }

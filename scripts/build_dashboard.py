@@ -6,6 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     report=json.loads((ROOT/'analysis/sql_reporting.json').read_text())
     if report['reconciliation']!='passed': raise ValueError('SQL reconciliation required')
+    report['associations']=json.loads((ROOT/'analysis/association_analysis.json').read_text())
+    report['data_quality']=json.loads((ROOT/'data/curated/quality_summary.json').read_text())
     with sqlite3.connect(ROOT/'analysis/reporting.sqlite') as db:
         db.row_factory=sqlite3.Row
         report['sources']=[dict(r) for r in db.execute('SELECT * FROM input_lineage ORDER BY path')]

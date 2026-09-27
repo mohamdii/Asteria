@@ -8,7 +8,8 @@ from clean_assessment import ROOT, main as clean, write_csv
 
 def senior_rows(rows, include_mapped=True):
     return [r for r in rows if r['career_level'] == 'Senior Leader'
-            and (include_mapped or r['career_level_original'] != 'Sr Mgmt')]
+            and (include_mapped or r['career_level_original'] != 'Sr Mgmt'
+                 or 'career_level' in r.get('source_recovery_fields', '').split('|'))]
 
 
 def calculate(rows, as_of, start, stop, target, include_mapped=True):

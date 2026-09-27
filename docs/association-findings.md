@@ -1,5 +1,7 @@
 # Initial descriptive association findings
 
+**Historical findings:** the numbers below predate the user-requested synthetic source recovery. Use [the regenerated association findings](../analysis/association_analysis.md) and current dashboard for the corrected population; see [recovery provenance](source-recovery.md).
+
 Source: `analysis/association_analysis.json`, produced by `scripts/analyze_associations.py`. This is exploratory analysis of synthetic matched cohorts, not statistical evidence of a causal effect. Correlations are equally weighted across cohorts. Native annual CPI observations remain annual; cohort exposure means summarize employee-specific as-of context rather than inventing new measurements.
 
 1. Six-month retention shows a weak negative unemployment association: pooled r=-0.123 across 72 country-quarter cohorts (1,092 matched hires). Requiring ten hires reduces it to -0.071; within-country centering gives -0.170. Matched retention is 87.27% versus 86.96% among 721 unmatched hires. Similar overall rates do not establish equivalent country/year composition.

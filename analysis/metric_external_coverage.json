@@ -2,39 +2,36 @@
   "metrics": {
     "new_hire_6m": {
       "audit_rows": 2400,
-      "metric_population_records": 1813,
+      "metric_population_records": 1822,
       "cutoff": "hire_date",
       "indicators": {
         "unemployment": {
           "statuses": {
-            "matched": 1092,
-            "stale": 494,
-            "no_verified_historical_match": 222,
-            "missing_country": 5
+            "matched": 1102,
+            "stale": 497,
+            "no_verified_historical_match": 223
           },
-          "matched_records": 1092,
-          "matched_pct": 60.23166023166023,
+          "matched_records": 1102,
+          "matched_pct": 60.48298572996707,
           "matched_outcomes": {
-            "retained": 953,
-            "left_before_milestone": 139
+            "retained": 966,
+            "left_before_milestone": 136
           }
         },
         "inflation": {
           "statuses": {
-            "matched": 1808,
-            "missing_country": 5
+            "matched": 1822
           },
-          "matched_records": 1808,
-          "matched_pct": 99.72421400992829,
+          "matched_records": 1822,
+          "matched_pct": 100.0,
           "matched_outcomes": {
-            "retained": 1576,
-            "left_before_milestone": 232
+            "retained": 1596,
+            "left_before_milestone": 226
           }
         },
         "vacancies": {
           "statuses": {
-            "no_verified_historical_match": 1808,
-            "missing_country": 5
+            "no_verified_historical_match": 1822
           },
           "matched_records": 0,
           "matched_pct": 0.0,
@@ -42,52 +39,51 @@
         },
         "vacancies_bf_supplementary": {
           "statuses": {
-            "matched": 1408,
-            "no_verified_historical_match": 279,
-            "stale": 121,
-            "missing_country": 5
+            "matched": 1419,
+            "no_verified_historical_match": 281,
+            "stale": 122
           },
-          "matched_records": 1408,
-          "matched_pct": 77.66133480419195,
+          "matched_records": 1419,
+          "matched_pct": 77.8814489571899,
           "matched_outcomes": {
-            "retained": 1234,
-            "left_before_milestone": 174
+            "retained": 1250,
+            "left_before_milestone": 169
           }
         }
       }
     },
     "senior_hire_12m": {
-      "audit_rows": 380,
-      "metric_population_records": 266,
+      "audit_rows": 371,
+      "metric_population_records": 260,
       "cutoff": "hire_date",
       "indicators": {
         "unemployment": {
           "statuses": {
-            "matched": 150,
-            "no_verified_historical_match": 28,
+            "matched": 146,
+            "no_verified_historical_match": 26,
             "stale": 88
           },
-          "matched_records": 150,
-          "matched_pct": 56.390977443609025,
+          "matched_records": 146,
+          "matched_pct": 56.15384615384615,
           "matched_outcomes": {
-            "retained": 115,
-            "left_before_milestone": 35
+            "retained": 112,
+            "left_before_milestone": 34
           }
         },
         "inflation": {
           "statuses": {
-            "matched": 266
+            "matched": 260
           },
-          "matched_records": 266,
+          "matched_records": 260,
           "matched_pct": 100.0,
           "matched_outcomes": {
-            "retained": 209,
-            "left_before_milestone": 57
+            "retained": 204,
+            "left_before_milestone": 56
           }
         },
         "vacancies": {
           "statuses": {
-            "no_verified_historical_match": 266
+            "no_verified_historical_match": 260
           },
           "matched_records": 0,
           "matched_pct": 0.0,
@@ -95,48 +91,45 @@
         },
         "vacancies_bf_supplementary": {
           "statuses": {
-            "matched": 211,
-            "no_verified_historical_match": 36,
+            "matched": 207,
+            "no_verified_historical_match": 34,
             "stale": 19
           },
-          "matched_records": 211,
-          "matched_pct": 79.32330827067669,
+          "matched_records": 207,
+          "matched_pct": 79.61538461538461,
           "matched_outcomes": {
-            "retained": 165,
-            "left_before_milestone": 46
+            "retained": 162,
+            "left_before_milestone": 45
           }
         }
       }
     },
     "regretted_turnover": {
       "audit_rows": 2400,
-      "metric_population_records": 1868,
+      "metric_population_records": 1885,
       "cutoff": "window_start",
       "indicators": {
         "unemployment": {
           "statuses": {
-            "matched": 1861,
-            "missing_country": 7
+            "matched": 1885
           },
-          "matched_records": 1861,
-          "matched_pct": 99.62526766595289,
-          "matched_employee_days": 585014,
-          "matched_confirmed_departures": 80
+          "matched_records": 1885,
+          "matched_pct": 100.0,
+          "matched_employee_days": 593210,
+          "matched_confirmed_departures": 82
         },
         "inflation": {
           "statuses": {
-            "matched": 1861,
-            "missing_country": 7
+            "matched": 1885
           },
-          "matched_records": 1861,
-          "matched_pct": 99.62526766595289,
-          "matched_employee_days": 585014,
-          "matched_confirmed_departures": 80
+          "matched_records": 1885,
+          "matched_pct": 100.0,
+          "matched_employee_days": 593210,
+          "matched_confirmed_departures": 82
         },
         "vacancies": {
           "statuses": {
-            "no_verified_historical_match": 1861,
-            "missing_country": 7
+            "no_verified_historical_match": 1885
           },
           "matched_records": 0,
           "matched_pct": 0.0,
@@ -145,24 +138,23 @@
         },
         "vacancies_bf_supplementary": {
           "statuses": {
-            "matched": 1861,
-            "missing_country": 7
+            "matched": 1885
           },
-          "matched_records": 1861,
-          "matched_pct": 99.62526766595289,
-          "matched_employee_days": 585014,
-          "matched_confirmed_departures": 80
+          "matched_records": 1885,
+          "matched_pct": 100.0,
+          "matched_employee_days": 593210,
+          "matched_confirmed_departures": 82
         }
       }
     }
   },
   "inputs": {
-    "data\\curated\\employee_lifecycle_curated.csv": "316b93e151de61074bb6b02b09449844497b64d33fa25bf8aeac4e1f1cc89581",
+    "data\\curated\\employee_lifecycle_curated.csv": "aa874e7e03785fa033e34bcce3385753cda3fb55052eb2916833e29e989d299c",
     "data\\external\\historical_expanded\\canonical_observations.json": "219d7391e8efbb5c7e45f68a0f769e8410c245e33cd07321be28322f87b6edde",
-    "analysis\\regretted_turnover_summary.json": "74dda387bbe87d8df286d9671a1e78fa0d35037dfdb3698f39035147e5f2f13c",
-    "analysis\\new_hire_6m_employee_audit.csv": "5b8ec20760ca35daf3f604faf2da1e5a75b84babd08c5b9445c731ea7699fab1",
-    "analysis\\senior_hire_12m_employee_audit.csv": "9645fac2804cff2f3de3f94fff788b4764160c94498d12e47aa6002aa58ee08e",
-    "analysis\\regretted_turnover_employee_audit.csv": "33982939a99c88e8fd4aa789b8cbff15f3f921830ff8128541802292ff35b371"
+    "analysis\\regretted_turnover_summary.json": "eecc8ed48fcc40775c071c37226033a6e26b9860a95ad1f76fa6378d5f79cef9",
+    "analysis\\new_hire_6m_employee_audit.csv": "6a2580d4c7c6f1f71ab30708ea7360a7046d367e399c5eb2b6da665873e7a3bb",
+    "analysis\\senior_hire_12m_employee_audit.csv": "05e6713b90b064efcb8ffe0a5eae11f86d638af56b17f37c8f603c815d269c2d",
+    "analysis\\regretted_turnover_employee_audit.csv": "8e26a1c07314992cefc2b09744cd94240940960395ff852562a7f6954d79f0be"
   },
   "notes": [
     "All original audit rows and fields are preserved. External status outside_metric_population means not attempted, not missing source evidence.",

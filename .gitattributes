@@ -1,0 +1,4 @@
+# Preserve byte-level source manifests across Windows checkouts.
+data/raw/*.csv text eol=crlf
+data/external/historical_expanded/*.html -text
+data/external/historical_pdfs/*.pdf -text

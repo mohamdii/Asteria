@@ -4,126 +4,36 @@
     "kpis": [
       {
         "metric": "new_hire_6m",
-        "numerator": 1580,
-        "denominator": 1813,
+        "numerator": 1596,
+        "denominator": 1822,
         "unknown_departures": 0,
         "target": 0.86,
-        "rate": 0.8714837286265857,
-        "classification_upper_rate": 0.8714837286265857,
+        "rate": 0.8759604829857299,
+        "classification_upper_rate": 0.8759604829857299,
         "target_status": "met"
       },
       {
         "metric": "regretted_turnover",
         "numerator": 82,
-        "denominator": 1607.517808219178,
-        "unknown_departures": 2,
+        "denominator": 1625.2328767123288,
+        "unknown_departures": 0,
         "target": 0.075,
-        "rate": 0.05101032136672893,
-        "classification_upper_rate": 0.05225447554640525,
+        "rate": 0.050454307917938,
+        "classification_upper_rate": 0.050454307917938,
         "target_status": "met_under_classification_scenarios"
       },
       {
         "metric": "senior_hire_12m",
-        "numerator": 209,
-        "denominator": 266,
+        "numerator": 204,
+        "denominator": 260,
         "unknown_departures": 0,
         "target": 0.9,
-        "rate": 0.7857142857142857,
-        "classification_upper_rate": 0.7857142857142857,
+        "rate": 0.7846153846153846,
+        "classification_upper_rate": 0.7846153846153846,
         "target_status": "below_target"
       }
     ],
     "retention_cohorts": [
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Digital",
-        "hire_year": "2020",
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Digital",
-        "hire_year": "2022",
-        "records": 1,
-        "eligible": 1,
-        "retained": 0,
-        "rate": 0.0
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Digital",
-        "hire_year": "2025",
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Finance",
-        "hire_year": "2020",
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Finance",
-        "hire_year": "2025",
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Supply Chain",
-        "hire_year": "2021",
-        "records": 1,
-        "eligible": 1,
-        "retained": 1,
-        "rate": 1.0
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Supply Chain",
-        "hire_year": "2023",
-        "records": 2,
-        "eligible": 2,
-        "retained": 2,
-        "rate": 1.0
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": null,
-        "business_unit": "Supply Chain",
-        "hire_year": "2025",
-        "records": 1,
-        "eligible": 1,
-        "retained": 1,
-        "rate": 1.0
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": "BG",
-        "business_unit": "Digital",
-        "hire_year": null,
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
       {
         "metric": "new_hire_6m",
         "country": "BG",
@@ -179,27 +89,17 @@
         "country": "BG",
         "business_unit": "Digital",
         "hire_year": "2025",
-        "records": 13,
-        "eligible": 5,
-        "retained": 4,
-        "rate": 0.8
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": "BG",
-        "business_unit": "Finance",
-        "hire_year": null,
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
+        "records": 14,
+        "eligible": 6,
+        "retained": 5,
+        "rate": 0.8333333333333334
       },
       {
         "metric": "new_hire_6m",
         "country": "BG",
         "business_unit": "Finance",
         "hire_year": "2020",
-        "records": 18,
+        "records": 19,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -241,8 +141,8 @@
         "hire_year": "2024",
         "records": 13,
         "eligible": 13,
-        "retained": 9,
-        "rate": 0.6923076923076923
+        "retained": 10,
+        "rate": 0.7692307692307693
       },
       {
         "metric": "new_hire_6m",
@@ -350,19 +250,19 @@
         "business_unit": "Supply Chain",
         "hire_year": "2023",
         "records": 16,
-        "eligible": 15,
-        "retained": 13,
-        "rate": 0.8666666666666667
+        "eligible": 16,
+        "retained": 14,
+        "rate": 0.875
       },
       {
         "metric": "new_hire_6m",
         "country": "BG",
         "business_unit": "Supply Chain",
         "hire_year": "2024",
-        "records": 34,
-        "eligible": 34,
-        "retained": 28,
-        "rate": 0.8235294117647058
+        "records": 35,
+        "eligible": 35,
+        "retained": 29,
+        "rate": 0.8285714285714286
       },
       {
         "metric": "new_hire_6m",
@@ -379,7 +279,7 @@
         "country": "GR",
         "business_unit": "Digital",
         "hire_year": "2020",
-        "records": 23,
+        "records": 24,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -389,10 +289,10 @@
         "country": "GR",
         "business_unit": "Digital",
         "hire_year": "2021",
-        "records": 21,
-        "eligible": 21,
+        "records": 20,
+        "eligible": 20,
         "retained": 18,
-        "rate": 0.8571428571428571
+        "rate": 0.9
       },
       {
         "metric": "new_hire_6m",
@@ -439,7 +339,7 @@
         "country": "GR",
         "business_unit": "Finance",
         "hire_year": "2020",
-        "records": 10,
+        "records": 11,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -479,17 +379,17 @@
         "country": "GR",
         "business_unit": "Finance",
         "hire_year": "2024",
-        "records": 16,
-        "eligible": 16,
+        "records": 17,
+        "eligible": 17,
         "retained": 15,
-        "rate": 0.9375
+        "rate": 0.8823529411764706
       },
       {
         "metric": "new_hire_6m",
         "country": "GR",
         "business_unit": "Finance",
         "hire_year": "2025",
-        "records": 12,
+        "records": 13,
         "eligible": 8,
         "retained": 6,
         "rate": 0.75
@@ -529,7 +429,7 @@
         "country": "GR",
         "business_unit": "Sales",
         "hire_year": "2023",
-        "records": 21,
+        "records": 20,
         "eligible": 20,
         "retained": 16,
         "rate": 0.8
@@ -569,10 +469,10 @@
         "country": "GR",
         "business_unit": "Supply Chain",
         "hire_year": "2021",
-        "records": 20,
-        "eligible": 19,
-        "retained": 14,
-        "rate": 0.7368421052631579
+        "records": 21,
+        "eligible": 21,
+        "retained": 15,
+        "rate": 0.7142857142857143
       },
       {
         "metric": "new_hire_6m",
@@ -589,30 +489,30 @@
         "country": "GR",
         "business_unit": "Supply Chain",
         "hire_year": "2023",
-        "records": 15,
-        "eligible": 15,
-        "retained": 14,
-        "rate": 0.9333333333333333
+        "records": 16,
+        "eligible": 16,
+        "retained": 15,
+        "rate": 0.9375
       },
       {
         "metric": "new_hire_6m",
         "country": "GR",
         "business_unit": "Supply Chain",
         "hire_year": "2024",
-        "records": 18,
-        "eligible": 18,
-        "retained": 15,
-        "rate": 0.8333333333333334
+        "records": 17,
+        "eligible": 17,
+        "retained": 14,
+        "rate": 0.8235294117647058
       },
       {
         "metric": "new_hire_6m",
         "country": "GR",
         "business_unit": "Supply Chain",
         "hire_year": "2025",
-        "records": 9,
-        "eligible": 4,
-        "retained": 2,
-        "rate": 0.5
+        "records": 10,
+        "eligible": 5,
+        "retained": 3,
+        "rate": 0.6
       },
       {
         "metric": "new_hire_6m",
@@ -629,20 +529,20 @@
         "country": "IE",
         "business_unit": "Digital",
         "hire_year": "2021",
-        "records": 13,
-        "eligible": 13,
-        "retained": 10,
-        "rate": 0.7692307692307693
+        "records": 14,
+        "eligible": 14,
+        "retained": 11,
+        "rate": 0.7857142857142857
       },
       {
         "metric": "new_hire_6m",
         "country": "IE",
         "business_unit": "Digital",
         "hire_year": "2022",
-        "records": 10,
-        "eligible": 10,
+        "records": 11,
+        "eligible": 11,
         "retained": 10,
-        "rate": 1.0
+        "rate": 0.9090909090909091
       },
       {
         "metric": "new_hire_6m",
@@ -650,9 +550,9 @@
         "business_unit": "Digital",
         "hire_year": "2023",
         "records": 13,
-        "eligible": 12,
+        "eligible": 13,
         "retained": 11,
-        "rate": 0.9166666666666666
+        "rate": 0.8461538461538461
       },
       {
         "metric": "new_hire_6m",
@@ -701,8 +601,8 @@
         "hire_year": "2022",
         "records": 16,
         "eligible": 16,
-        "retained": 12,
-        "rate": 0.75
+        "retained": 13,
+        "rate": 0.8125
       },
       {
         "metric": "new_hire_6m",
@@ -769,10 +669,10 @@
         "country": "IE",
         "business_unit": "Sales",
         "hire_year": "2023",
-        "records": 17,
-        "eligible": 17,
-        "retained": 15,
-        "rate": 0.8823529411764706
+        "records": 18,
+        "eligible": 18,
+        "retained": 16,
+        "rate": 0.8888888888888888
       },
       {
         "metric": "new_hire_6m",
@@ -829,10 +729,10 @@
         "country": "IE",
         "business_unit": "Supply Chain",
         "hire_year": "2023",
-        "records": 18,
-        "eligible": 18,
-        "retained": 15,
-        "rate": 0.8333333333333334
+        "records": 19,
+        "eligible": 19,
+        "retained": 17,
+        "rate": 0.8947368421052632
       },
       {
         "metric": "new_hire_6m",
@@ -841,8 +741,8 @@
         "hire_year": "2024",
         "records": 21,
         "eligible": 21,
-        "retained": 18,
-        "rate": 0.8571428571428571
+        "retained": 19,
+        "rate": 0.9047619047619048
       },
       {
         "metric": "new_hire_6m",
@@ -869,10 +769,10 @@
         "country": "IT",
         "business_unit": "Digital",
         "hire_year": "2021",
-        "records": 27,
-        "eligible": 27,
-        "retained": 24,
-        "rate": 0.8888888888888888
+        "records": 28,
+        "eligible": 28,
+        "retained": 26,
+        "rate": 0.9285714285714286
       },
       {
         "metric": "new_hire_6m",
@@ -909,9 +809,9 @@
         "country": "IT",
         "business_unit": "Digital",
         "hire_year": "2025",
-        "records": 21,
-        "eligible": 8,
-        "retained": 8,
+        "records": 22,
+        "eligible": 9,
+        "retained": 9,
         "rate": 1.0
       },
       {
@@ -1038,16 +938,6 @@
         "metric": "new_hire_6m",
         "country": "IT",
         "business_unit": "Supply Chain",
-        "hire_year": null,
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": "IT",
-        "business_unit": "Supply Chain",
         "hire_year": "2020",
         "records": 17,
         "eligible": 0,
@@ -1081,18 +971,18 @@
         "hire_year": "2023",
         "records": 18,
         "eligible": 18,
-        "retained": 14,
-        "rate": 0.7777777777777778
+        "retained": 15,
+        "rate": 0.8333333333333334
       },
       {
         "metric": "new_hire_6m",
         "country": "IT",
         "business_unit": "Supply Chain",
         "hire_year": "2024",
-        "records": 14,
-        "eligible": 14,
-        "retained": 13,
-        "rate": 0.9285714285714286
+        "records": 15,
+        "eligible": 15,
+        "retained": 14,
+        "rate": 0.9333333333333333
       },
       {
         "metric": "new_hire_6m",
@@ -1121,8 +1011,8 @@
         "hire_year": "2021",
         "records": 11,
         "eligible": 11,
-        "retained": 9,
-        "rate": 0.8181818181818182
+        "retained": 10,
+        "rate": 0.9090909090909091
       },
       {
         "metric": "new_hire_6m",
@@ -1210,9 +1100,9 @@
         "business_unit": "Finance",
         "hire_year": "2024",
         "records": 20,
-        "eligible": 19,
-        "retained": 18,
-        "rate": 0.9473684210526315
+        "eligible": 20,
+        "retained": 19,
+        "rate": 0.95
       },
       {
         "metric": "new_hire_6m",
@@ -1221,18 +1111,8 @@
         "hire_year": "2025",
         "records": 18,
         "eligible": 7,
-        "retained": 6,
-        "rate": 0.8571428571428571
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": "PL",
-        "business_unit": "Sales",
-        "hire_year": null,
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
+        "retained": 7,
+        "rate": 1.0
       },
       {
         "metric": "new_hire_6m",
@@ -1279,10 +1159,10 @@
         "country": "PL",
         "business_unit": "Sales",
         "hire_year": "2024",
-        "records": 8,
-        "eligible": 8,
-        "retained": 6,
-        "rate": 0.75
+        "records": 9,
+        "eligible": 9,
+        "retained": 7,
+        "rate": 0.7777777777777778
       },
       {
         "metric": "new_hire_6m",
@@ -1369,10 +1249,10 @@
         "country": "RO",
         "business_unit": "Digital",
         "hire_year": "2021",
-        "records": 17,
-        "eligible": 17,
-        "retained": 15,
-        "rate": 0.8823529411764706
+        "records": 16,
+        "eligible": 16,
+        "retained": 14,
+        "rate": 0.875
       },
       {
         "metric": "new_hire_6m",
@@ -1410,8 +1290,8 @@
         "business_unit": "Digital",
         "hire_year": "2025",
         "records": 18,
-        "eligible": 9,
-        "retained": 9,
+        "eligible": 8,
+        "retained": 8,
         "rate": 1.0
       },
       {
@@ -1459,10 +1339,10 @@
         "country": "RO",
         "business_unit": "Finance",
         "hire_year": "2024",
-        "records": 23,
-        "eligible": 23,
+        "records": 22,
+        "eligible": 22,
         "retained": 20,
-        "rate": 0.8695652173913043
+        "rate": 0.9090909090909091
       },
       {
         "metric": "new_hire_6m",
@@ -1538,16 +1418,6 @@
         "metric": "new_hire_6m",
         "country": "RO",
         "business_unit": "Supply Chain",
-        "hire_year": null,
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "new_hire_6m",
-        "country": "RO",
-        "business_unit": "Supply Chain",
         "hire_year": "2020",
         "records": 11,
         "eligible": 0,
@@ -1559,10 +1429,10 @@
         "country": "RO",
         "business_unit": "Supply Chain",
         "hire_year": "2021",
-        "records": 12,
-        "eligible": 12,
-        "retained": 10,
-        "rate": 0.8333333333333334
+        "records": 13,
+        "eligible": 13,
+        "retained": 11,
+        "rate": 0.8461538461538461
       },
       {
         "metric": "new_hire_6m",
@@ -1603,26 +1473,6 @@
         "eligible": 3,
         "retained": 3,
         "rate": 1.0
-      },
-      {
-        "metric": "senior_hire_12m",
-        "country": null,
-        "business_unit": "Digital",
-        "hire_year": "2025",
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "senior_hire_12m",
-        "country": null,
-        "business_unit": "Finance",
-        "hire_year": "2020",
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
       },
       {
         "metric": "senior_hire_12m",
@@ -1678,18 +1528,8 @@
         "metric": "senior_hire_12m",
         "country": "BG",
         "business_unit": "Finance",
-        "hire_year": null,
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
-      },
-      {
-        "metric": "senior_hire_12m",
-        "country": "BG",
-        "business_unit": "Finance",
         "hire_year": "2020",
-        "records": 1,
+        "records": 2,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -1739,7 +1579,7 @@
         "country": "BG",
         "business_unit": "Sales",
         "hire_year": "2020",
-        "records": 2,
+        "records": 1,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -1799,19 +1639,19 @@
         "country": "BG",
         "business_unit": "Supply Chain",
         "hire_year": "2021",
-        "records": 4,
-        "eligible": 4,
-        "retained": 3,
-        "rate": 0.75
+        "records": 3,
+        "eligible": 3,
+        "retained": 2,
+        "rate": 0.6666666666666666
       },
       {
         "metric": "senior_hire_12m",
         "country": "BG",
         "business_unit": "Supply Chain",
         "hire_year": "2022",
-        "records": 3,
-        "eligible": 3,
-        "retained": 3,
+        "records": 2,
+        "eligible": 2,
+        "retained": 2,
         "rate": 1.0
       },
       {
@@ -1829,10 +1669,10 @@
         "country": "BG",
         "business_unit": "Supply Chain",
         "hire_year": "2024",
-        "records": 7,
-        "eligible": 7,
-        "retained": 5,
-        "rate": 0.7142857142857143
+        "records": 6,
+        "eligible": 6,
+        "retained": 4,
+        "rate": 0.6666666666666666
       },
       {
         "metric": "senior_hire_12m",
@@ -1859,10 +1699,10 @@
         "country": "GR",
         "business_unit": "Digital",
         "hire_year": "2021",
-        "records": 5,
-        "eligible": 5,
-        "retained": 4,
-        "rate": 0.8
+        "records": 4,
+        "eligible": 4,
+        "retained": 3,
+        "rate": 0.75
       },
       {
         "metric": "senior_hire_12m",
@@ -1909,7 +1749,7 @@
         "country": "GR",
         "business_unit": "Finance",
         "hire_year": "2020",
-        "records": 2,
+        "records": 3,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -1999,9 +1839,9 @@
         "country": "GR",
         "business_unit": "Sales",
         "hire_year": "2023",
-        "records": 5,
-        "eligible": 5,
-        "retained": 5,
+        "records": 4,
+        "eligible": 4,
+        "retained": 4,
         "rate": 1.0
       },
       {
@@ -2089,9 +1929,9 @@
         "country": "IE",
         "business_unit": "Digital",
         "hire_year": "2021",
-        "records": 2,
-        "eligible": 2,
-        "retained": 2,
+        "records": 3,
+        "eligible": 3,
+        "retained": 3,
         "rate": 1.0
       },
       {
@@ -2219,9 +2059,9 @@
         "country": "IE",
         "business_unit": "Sales",
         "hire_year": "2023",
-        "records": 1,
-        "eligible": 1,
-        "retained": 1,
+        "records": 2,
+        "eligible": 2,
+        "retained": 2,
         "rate": 1.0
       },
       {
@@ -2289,10 +2129,10 @@
         "country": "IE",
         "business_unit": "Supply Chain",
         "hire_year": "2024",
-        "records": 4,
-        "eligible": 4,
-        "retained": 3,
-        "rate": 0.75
+        "records": 3,
+        "eligible": 3,
+        "retained": 2,
+        "rate": 0.6666666666666666
       },
       {
         "metric": "senior_hire_12m",
@@ -2359,7 +2199,7 @@
         "country": "IT",
         "business_unit": "Finance",
         "hire_year": "2020",
-        "records": 2,
+        "records": 1,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -2429,10 +2269,10 @@
         "country": "IT",
         "business_unit": "Sales",
         "hire_year": "2023",
-        "records": 5,
-        "eligible": 5,
+        "records": 4,
+        "eligible": 4,
         "retained": 4,
-        "rate": 0.8
+        "rate": 1.0
       },
       {
         "metric": "senior_hire_12m",
@@ -2443,16 +2283,6 @@
         "eligible": 4,
         "retained": 4,
         "rate": 1.0
-      },
-      {
-        "metric": "senior_hire_12m",
-        "country": "IT",
-        "business_unit": "Supply Chain",
-        "hire_year": null,
-        "records": 1,
-        "eligible": 0,
-        "retained": 0,
-        "rate": null
       },
       {
         "metric": "senior_hire_12m",
@@ -2499,10 +2329,10 @@
         "country": "IT",
         "business_unit": "Supply Chain",
         "hire_year": "2024",
-        "records": 3,
-        "eligible": 3,
-        "retained": 1,
-        "rate": 0.3333333333333333
+        "records": 4,
+        "eligible": 4,
+        "retained": 2,
+        "rate": 0.5
       },
       {
         "metric": "senior_hire_12m",
@@ -2648,16 +2478,6 @@
         "metric": "senior_hire_12m",
         "country": "PL",
         "business_unit": "Sales",
-        "hire_year": "2021",
-        "records": 1,
-        "eligible": 1,
-        "retained": 1,
-        "rate": 1.0
-      },
-      {
-        "metric": "senior_hire_12m",
-        "country": "PL",
-        "business_unit": "Sales",
         "hire_year": "2023",
         "records": 2,
         "eligible": 2,
@@ -2749,9 +2569,9 @@
         "country": "RO",
         "business_unit": "Digital",
         "hire_year": "2021",
-        "records": 2,
-        "eligible": 2,
-        "retained": 2,
+        "records": 1,
+        "eligible": 1,
+        "retained": 1,
         "rate": 1.0
       },
       {
@@ -2789,7 +2609,7 @@
         "country": "RO",
         "business_unit": "Digital",
         "hire_year": "2025",
-        "records": 2,
+        "records": 3,
         "eligible": 0,
         "retained": 0,
         "rate": null
@@ -2938,18 +2758,13 @@
     "quality_counts": [
       {
         "metric": "new_hire_6m",
-        "status": "excluded_invalid_dates",
-        "records": 10
-      },
-      {
-        "metric": "new_hire_6m",
         "status": "left_before_milestone",
-        "records": 233
+        "records": 226
       },
       {
         "metric": "new_hire_6m",
         "status": "outside_objective_hire_period",
-        "records": 414
+        "records": 415
       },
       {
         "metric": "new_hire_6m",
@@ -2959,7 +2774,7 @@
       {
         "metric": "new_hire_6m",
         "status": "retained",
-        "records": 1580
+        "records": 1596
       },
       {
         "metric": "regretted_turnover",
@@ -2968,13 +2783,8 @@
       },
       {
         "metric": "regretted_turnover",
-        "status": "excluded_invalid_dates",
-        "records": 10
-      },
-      {
-        "metric": "regretted_turnover",
         "status": "no_departure_in_window",
-        "records": 2139
+        "records": 2151
       },
       {
         "metric": "regretted_turnover",
@@ -2982,24 +2792,14 @@
         "records": 167
       },
       {
-        "metric": "regretted_turnover",
-        "status": "potentially_regretted_unknown",
-        "records": 2
-      },
-      {
-        "metric": "senior_hire_12m",
-        "status": "excluded_invalid_dates",
-        "records": 2
-      },
-      {
         "metric": "senior_hire_12m",
         "status": "left_before_milestone",
-        "records": 57
+        "records": 56
       },
       {
         "metric": "senior_hire_12m",
         "status": "outside_objective_hire_period",
-        "records": 63
+        "records": 62
       },
       {
         "metric": "senior_hire_12m",
@@ -3009,7 +2809,7 @@
       {
         "metric": "senior_hire_12m",
         "status": "retained",
-        "records": 209
+        "records": 204
       }
     ],
     "external_coverage": [
@@ -3017,161 +2817,105 @@
         "metric": "new_hire_6m",
         "indicator": "inflation",
         "status": "matched",
-        "records": 1808,
-        "employee_days": 0
-      },
-      {
-        "metric": "new_hire_6m",
-        "indicator": "inflation",
-        "status": "missing_country",
-        "records": 5,
+        "records": 1822,
         "employee_days": 0
       },
       {
         "metric": "new_hire_6m",
         "indicator": "unemployment",
         "status": "matched",
-        "records": 1092,
-        "employee_days": 0
-      },
-      {
-        "metric": "new_hire_6m",
-        "indicator": "unemployment",
-        "status": "missing_country",
-        "records": 5,
+        "records": 1102,
         "employee_days": 0
       },
       {
         "metric": "new_hire_6m",
         "indicator": "unemployment",
         "status": "no_verified_historical_match",
-        "records": 222,
+        "records": 223,
         "employee_days": 0
       },
       {
         "metric": "new_hire_6m",
         "indicator": "unemployment",
         "status": "stale",
-        "records": 494,
-        "employee_days": 0
-      },
-      {
-        "metric": "new_hire_6m",
-        "indicator": "vacancies",
-        "status": "missing_country",
-        "records": 5,
+        "records": 497,
         "employee_days": 0
       },
       {
         "metric": "new_hire_6m",
         "indicator": "vacancies",
         "status": "no_verified_historical_match",
-        "records": 1808,
+        "records": 1822,
         "employee_days": 0
       },
       {
         "metric": "new_hire_6m",
         "indicator": "vacancies_bf_supplementary",
         "status": "matched",
-        "records": 1408,
-        "employee_days": 0
-      },
-      {
-        "metric": "new_hire_6m",
-        "indicator": "vacancies_bf_supplementary",
-        "status": "missing_country",
-        "records": 5,
+        "records": 1419,
         "employee_days": 0
       },
       {
         "metric": "new_hire_6m",
         "indicator": "vacancies_bf_supplementary",
         "status": "no_verified_historical_match",
-        "records": 279,
+        "records": 281,
         "employee_days": 0
       },
       {
         "metric": "new_hire_6m",
         "indicator": "vacancies_bf_supplementary",
         "status": "stale",
-        "records": 121,
+        "records": 122,
         "employee_days": 0
       },
       {
         "metric": "regretted_turnover",
         "indicator": "inflation",
         "status": "matched",
-        "records": 1861,
-        "employee_days": 585014
-      },
-      {
-        "metric": "regretted_turnover",
-        "indicator": "inflation",
-        "status": "missing_country",
-        "records": 7,
-        "employee_days": 1730
+        "records": 1885,
+        "employee_days": 593210
       },
       {
         "metric": "regretted_turnover",
         "indicator": "unemployment",
         "status": "matched",
-        "records": 1861,
-        "employee_days": 585014
-      },
-      {
-        "metric": "regretted_turnover",
-        "indicator": "unemployment",
-        "status": "missing_country",
-        "records": 7,
-        "employee_days": 1730
-      },
-      {
-        "metric": "regretted_turnover",
-        "indicator": "vacancies",
-        "status": "missing_country",
-        "records": 7,
-        "employee_days": 1730
+        "records": 1885,
+        "employee_days": 593210
       },
       {
         "metric": "regretted_turnover",
         "indicator": "vacancies",
         "status": "no_verified_historical_match",
-        "records": 1861,
-        "employee_days": 585014
+        "records": 1885,
+        "employee_days": 593210
       },
       {
         "metric": "regretted_turnover",
         "indicator": "vacancies_bf_supplementary",
         "status": "matched",
-        "records": 1861,
-        "employee_days": 585014
-      },
-      {
-        "metric": "regretted_turnover",
-        "indicator": "vacancies_bf_supplementary",
-        "status": "missing_country",
-        "records": 7,
-        "employee_days": 1730
+        "records": 1885,
+        "employee_days": 593210
       },
       {
         "metric": "senior_hire_12m",
         "indicator": "inflation",
         "status": "matched",
-        "records": 266,
+        "records": 260,
         "employee_days": 0
       },
       {
         "metric": "senior_hire_12m",
         "indicator": "unemployment",
         "status": "matched",
-        "records": 150,
+        "records": 146,
         "employee_days": 0
       },
       {
         "metric": "senior_hire_12m",
         "indicator": "unemployment",
         "status": "no_verified_historical_match",
-        "records": 28,
+        "records": 26,
         "employee_days": 0
       },
       {
@@ -3185,21 +2929,21 @@
         "metric": "senior_hire_12m",
         "indicator": "vacancies",
         "status": "no_verified_historical_match",
-        "records": 266,
+        "records": 260,
         "employee_days": 0
       },
       {
         "metric": "senior_hire_12m",
         "indicator": "vacancies_bf_supplementary",
         "status": "matched",
-        "records": 211,
+        "records": 207,
         "employee_days": 0
       },
       {
         "metric": "senior_hire_12m",
         "indicator": "vacancies_bf_supplementary",
         "status": "no_verified_historical_match",
-        "records": 36,
+        "records": 34,
         "employee_days": 0
       },
       {

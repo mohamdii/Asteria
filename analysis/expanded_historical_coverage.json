@@ -17,29 +17,21 @@
   "parser_failures": [],
   "matches": {
     "unemployment": {
-      "matched": 1253,
-      "stale": 494,
-      "no_verified_historical_match": 634,
-      "missing_country": 9,
-      "invalid_or_excluded_employment": 10
+      "matched": 1265,
+      "stale": 497,
+      "no_verified_historical_match": 638
     },
     "inflation": {
-      "matched": 2315,
-      "no_verified_historical_match": 66,
-      "missing_country": 9,
-      "invalid_or_excluded_employment": 10
+      "matched": 2333,
+      "no_verified_historical_match": 67
     },
     "vacancies": {
-      "no_verified_historical_match": 2381,
-      "missing_country": 9,
-      "invalid_or_excluded_employment": 10
+      "no_verified_historical_match": 2400
     },
     "vacancies_bf_supplementary": {
-      "matched": 1569,
-      "no_verified_historical_match": 691,
-      "stale": 121,
-      "missing_country": 9,
-      "invalid_or_excluded_employment": 10
+      "matched": 1582,
+      "no_verified_historical_match": 696,
+      "stale": 122
     }
   },
   "workforce_rows": 2400,

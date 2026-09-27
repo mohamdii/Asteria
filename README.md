@@ -1,5 +1,9 @@
 # Workforce assessment - software emphasis
 
+The curated data now uses [verified synthetic source recovery](docs/source-recovery.md): all nine missing countries and other deliberately corrupted values are restored from the original generator, with unchanged raw inputs and a cell-level audit. Rebuilt metrics supersede earlier numeric findings.
+
+The cleanup replay uses the bundled Python 3.12 runtime (available outside PATH) with the pinned PDF dependency. This supersedes the earlier host-unavailable note below. The current dashboard includes a notice that its metrics use recovered synthetic values.
+
 The data-preparation pipeline replays saved workforce and external evidence, calculates the three required metrics, joins historical context, and reports coverage. The complete assessment product (including the dashboard) is still in progress.
 
 ## Setup
@@ -50,7 +54,7 @@ Acquisition changes the saved evidence set and can change results. It is not par
 
 ## Clean-workspace verification procedure
 
-Create a fresh directory containing only `scripts`, `tests`, `sql`, `config`, `data/raw`, `data/external/historical_expanded`, `data/external/historical_pdfs`, `requirements-historical.txt`. Exclude caches and both derived `canonical_observations.json` files. Do not copy `analysis`, `data/curated`, or installed dependencies.
+Create a fresh directory containing only `scripts`, `tests`, `sql`, `config`, `dashboard`, `data/raw`, `data/external/historical_expanded`, `data/external/historical_pdfs`, `requirements-historical.txt`. Exclude caches and both derived `canonical_observations.json` files. Do not copy `analysis`, `data/curated`, or installed dependencies.
 
 Create a virtual environment with `python -m venv .venv`, then use `.venv\Scripts\python.exe` on Windows to install the requirements into `.tools/pdf` and run the pipeline with `--verify-reproducibility`. Compare the `outputs` mapping in the resulting manifest with the original manifest. Package installation can also use a separately downloaded wheel with `--no-index --find-links`, keeping replay independent of network access.
 
@@ -65,3 +69,5 @@ Open `analysis/dashboard.html` in a browser for the offline interactive dashboar
 See the [assessment acceptance audit](docs/assessment-acceptance-checklist.md) for the requirement-by-requirement status and remaining submission work. The working dashboard is an initial implementation, not yet the complete analytical experience required by the brief.
 
 Exploratory cohort associations are built by `scripts/analyze_associations.py` within replay. See [initial findings and limitations](docs/association-findings.md) and `analysis/association_analysis.json` for cohort points, matched/unmatched breakdowns and sensitivity results. No significance or causal claims are made.
+
+Continuation on 2026-09-27: the dashboard includes hire-year filtering and descriptive external-signal relationship views with sample counts and sensitivity checks. See [current acceptance updates](docs/assessment-acceptance-checklist.md). The expanded Node checks pass, but Python is unavailable on this host and no browser is connected. The current preview is not certified by the older pipeline manifest; full replay and browser QA remain required.
