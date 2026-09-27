@@ -9,6 +9,39 @@ spec.loader.exec_module(clean)
 
 
 class CleaningTests(unittest.TestCase):
+    def test_default_needs_no_recovery_evidence_and_experiment_is_isolated(self):
+        import contextlib
+        import csv
+        import io
+        import json
+        import shutil
+        import tempfile
+        from unittest.mock import patch
+        original_root = clean.ROOT
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            shutil.copytree(original_root / 'data/raw', root / 'data/raw')
+            with patch.object(clean, 'ROOT', root), contextlib.redirect_stdout(io.StringIO()):
+                clean.main()
+                output = root / 'data/curated'
+                before = {p.name: p.read_bytes() for p in output.iterdir()}
+                summary = json.loads((output / 'quality_summary.json').read_text())
+                self.assertEqual(summary['cleaning_policy'], 'conservative_supplied_data')
+                self.assertEqual(summary['source_recovery']['corrected_cells'], 0)
+                self.assertEqual(summary['issues']['missing_or_unknown_country'], 9)
+                self.assertEqual(summary['employment_date_quarantine'], 10)
+                with (output / 'employee_lifecycle_curated.csv').open(newline='', encoding='utf-8') as stream:
+                    records = {r['employee_id']: r for r in csv.DictReader(stream)}
+                self.assertEqual(records['ACP000120']['country_code'], '')
+                self.assertEqual(records['ACP000073']['country_code'], 'GR')
+                self.assertEqual(records['ACP000159']['hire_date'], '')
+                (root / 'config').mkdir()
+                shutil.copyfile(original_root / 'config/synthetic_source_corrections.json', root / 'config/synthetic_source_corrections.json')
+                clean.main(recover_synthetic=True)
+                self.assertEqual(before, {p.name: p.read_bytes() for p in output.iterdir()})
+                experiment = json.loads((root / 'experiments/synthetic_recovery/curated/quality_summary.json').read_text())
+                self.assertEqual(experiment['source_recovery']['corrected_cells'], 61)
+
     def test_evidenced_repair_preserves_input_and_rejects_stale_value(self):
         raw = {'employee_id': 'a', 'country_code': ''}
         repairs = [{'field': 'country_code', 'original': '', 'corrected': 'GR'}]

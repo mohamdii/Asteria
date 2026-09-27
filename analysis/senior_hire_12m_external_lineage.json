@@ -1056,10 +1056,10 @@
     "cutoff": "2023-01-26",
     "status": "matched",
     "observation": {
-      "country": "IE",
+      "country": "GR",
       "indicator": "unemployment",
-      "value": 4.4,
-      "source_value_text": "4.4",
+      "value": 11.4,
+      "source_value_text": "11.4",
       "source_flags": "",
       "period_start": "2022-11-01",
       "period_end": "2022-11-30",
@@ -1084,9 +1084,9 @@
     "cutoff": "2023-01-26",
     "status": "matched",
     "observation": {
-      "country": "IE",
+      "country": "GR",
       "indicator": "inflation",
-      "value": 2.35814296241712,
+      "value": 1.22382501019855,
       "period_start": "2021-01-01",
       "period_end": "2021-12-31",
       "frequency": "A",
@@ -1115,10 +1115,10 @@
     "cutoff": "2023-01-26",
     "status": "matched",
     "observation": {
-      "country": "IE",
+      "country": "GR",
       "indicator": "vacancies_bf_supplementary",
-      "value": 1.2,
-      "source_value_text": "1.2",
+      "value": 0.7,
+      "source_value_text": "0.7",
       "source_flags": "",
       "period_start": "2022-04-01",
       "period_end": "2022-06-30",
@@ -1265,6 +1265,93 @@
     "cutoff": "2021-07-02",
     "status": "no_verified_historical_match",
     "observation": null
+  },
+  {
+    "employee_id": "ACP000102",
+    "indicator": "unemployment",
+    "cutoff": "2021-11-21",
+    "status": "matched",
+    "observation": {
+      "country": "PL",
+      "indicator": "unemployment",
+      "value": 3.4,
+      "source_value_text": "3.4",
+      "source_flags": "",
+      "period_start": "2021-07-01",
+      "period_end": "2021-07-31",
+      "frequency": "M",
+      "unit": "percent_labour_force",
+      "sector": "",
+      "seasonal_adjustment": "SA",
+      "available_on": "2021-09-01",
+      "vintage_id": "Eurostat-2021-09-01",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/documents/2995521/11563247/3-01092021-AP-EN.pdf",
+      "availability_basis": "dated_release",
+      "source_file": "unemployment_2021-09-01.pdf",
+      "source_sha256": "6819f5d932eb306f8eb6356a683481f6060650786d798fc033872c283629faa2",
+      "source_page": 4
+    },
+    "age_days": 113
+  },
+  {
+    "employee_id": "ACP000102",
+    "indicator": "inflation",
+    "cutoff": "2021-11-21",
+    "status": "matched",
+    "observation": {
+      "country": "PL",
+      "indicator": "inflation",
+      "value": 3.3744697261859,
+      "period_start": "2020-01-01",
+      "period_end": "2020-12-31",
+      "frequency": "A",
+      "unit": "percent_annual_change",
+      "available_on": "2021-09-15",
+      "vintage_id": "WDI-202109",
+      "vintage_verified": true,
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202109/data?format=json&per_page=1000",
+      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "availability_basis": "archive_month_mapped_to_documented_update",
+      "source_file": "cpi_202109.json",
+      "source_sha256": "bfbad5bb4ffa9e5ada29f2e24bed493bed512c3b4a14f95b02f27519848b2d9c"
+    },
+    "age_days": 325
+  },
+  {
+    "employee_id": "ACP000102",
+    "indicator": "vacancies",
+    "cutoff": "2021-11-21",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP000102",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2021-11-21",
+    "status": "matched",
+    "observation": {
+      "country": "PL",
+      "indicator": "vacancies_bf_supplementary",
+      "value": 1.4,
+      "source_value_text": "1.4",
+      "source_flags": "",
+      "period_start": "2021-04-01",
+      "period_end": "2021-06-30",
+      "frequency": "Q",
+      "unit": "percent_total_posts",
+      "sector": "B-F",
+      "seasonal_adjustment": "NSA",
+      "available_on": "2021-09-16",
+      "vintage_id": "Eurostat-2021-09-16",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/documents/2995521/11563271/3-16092021-BP-EN.pdf/7b7d4725-1228-b221-33bb-85562d6c58fe",
+      "availability_basis": "dated_release",
+      "source_file": "vacancies_2021-09-16.pdf",
+      "source_sha256": "2ab7593d12beeaafcc0c7614a5c75a1abca9a78ead0f3e3b9ba84a8b972ad51c",
+      "source_page": 4
+    },
+    "age_days": 144
   },
   {
     "employee_id": "ACP000104",
@@ -3412,6 +3499,90 @@
     "observation": null
   },
   {
+    "employee_id": "ACP000334",
+    "indicator": "unemployment",
+    "cutoff": "2024-05-26",
+    "status": "matched",
+    "observation": {
+      "country": "BG",
+      "indicator": "unemployment",
+      "value": 4.4,
+      "source_value_text": "4.4",
+      "source_flags": "",
+      "period_start": "2024-03-01",
+      "period_end": "2024-03-31",
+      "frequency": "M",
+      "unit": "percent_labour_force",
+      "seasonal_adjustment": "SA",
+      "available_on": "2024-05-03",
+      "vintage_id": "Eurostat-2024-05-03",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-03052024-ap",
+      "availability_basis": "dated_release",
+      "source_file": "unemployment_20240503_ap.html",
+      "source_sha256": "da98317419d6b155fb133505a1077ca95a79c83978233eba597037bc0086e998"
+    },
+    "age_days": 56
+  },
+  {
+    "employee_id": "ACP000334",
+    "indicator": "inflation",
+    "cutoff": "2024-05-26",
+    "status": "matched",
+    "observation": {
+      "country": "BG",
+      "indicator": "inflation",
+      "value": 15.3252589264366,
+      "period_start": "2022-01-01",
+      "period_end": "2022-12-31",
+      "frequency": "A",
+      "unit": "percent_annual_change",
+      "available_on": "2024-03-28",
+      "vintage_id": "WDI-202403",
+      "vintage_verified": true,
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202403/data?format=json&per_page=1000",
+      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "availability_basis": "archive_month_mapped_to_documented_update",
+      "source_file": "cpi_202403.json",
+      "source_sha256": "0ca0709cbe1784e8236d24121a36ec2e0254b7cfb5a77654180fa00becf26527"
+    },
+    "age_days": 512
+  },
+  {
+    "employee_id": "ACP000334",
+    "indicator": "vacancies",
+    "cutoff": "2024-05-26",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP000334",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2024-05-26",
+    "status": "matched",
+    "observation": {
+      "country": "BG",
+      "indicator": "vacancies_bf_supplementary",
+      "value": 0.6,
+      "source_value_text": "0.6",
+      "source_flags": "",
+      "period_start": "2023-10-01",
+      "period_end": "2023-12-31",
+      "frequency": "Q",
+      "unit": "percent_total_posts",
+      "sector": "B-F",
+      "seasonal_adjustment": "NSA",
+      "available_on": "2024-03-15",
+      "vintage_id": "Eurostat-2024-03-15",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-15032024-ap",
+      "availability_basis": "dated_release",
+      "source_file": "vacancies_20240315_ap.html",
+      "source_sha256": "c0549d20c8f89be00d83d0a6fb1b35f1975e90f54db1bfe1968979b6be479175"
+    },
+    "age_days": 147
+  },
+  {
     "employee_id": "ACP000342",
     "indicator": "unemployment",
     "cutoff": "2020-01-27",
@@ -3978,9 +4149,9 @@
     "cutoff": "2021-01-17",
     "status": "matched",
     "observation": {
-      "country": "IE",
+      "country": "RO",
       "indicator": "inflation",
-      "value": 0.939044481054341,
+      "value": 3.82785432599428,
       "period_start": "2019-01-01",
       "period_end": "2019-12-31",
       "frequency": "A",
@@ -5501,6 +5672,51 @@
     "indicator": "vacancies_bf_supplementary",
     "cutoff": "2025-09-22",
     "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP000566",
+    "indicator": "unemployment",
+    "cutoff": "2021-04-07",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP000566",
+    "indicator": "inflation",
+    "cutoff": "2021-04-07",
+    "status": "matched",
+    "observation": {
+      "country": "BG",
+      "indicator": "inflation",
+      "value": 3.10372944796774,
+      "period_start": "2019-01-01",
+      "period_end": "2019-12-31",
+      "frequency": "A",
+      "unit": "percent_annual_change",
+      "available_on": "2021-03-19",
+      "vintage_id": "WDI-202103",
+      "vintage_verified": true,
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202103/data?format=json&per_page=1000",
+      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "availability_basis": "archive_month_mapped_to_documented_update",
+      "source_file": "cpi_202103.json",
+      "source_sha256": "77a073f8b3b2e8829c15f16655dc6591758d3b8a7fef93c4593c8e122cb0425f"
+    },
+    "age_days": 463
+  },
+  {
+    "employee_id": "ACP000566",
+    "indicator": "vacancies",
+    "cutoff": "2021-04-07",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP000566",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2021-04-07",
+    "status": "no_verified_historical_match",
     "observation": null
   },
   {
@@ -7524,6 +7740,90 @@
     "age_days": 130
   },
   {
+    "employee_id": "ACP000798",
+    "indicator": "unemployment",
+    "cutoff": "2024-12-28",
+    "status": "matched",
+    "observation": {
+      "country": "IE",
+      "indicator": "unemployment",
+      "value": 4.2,
+      "source_value_text": "4.2",
+      "source_flags": "",
+      "period_start": "2024-10-01",
+      "period_end": "2024-10-31",
+      "frequency": "M",
+      "unit": "percent_labour_force",
+      "seasonal_adjustment": "SA",
+      "available_on": "2024-12-02",
+      "vintage_id": "Eurostat-2024-12-02",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-02122024-ap",
+      "availability_basis": "dated_release",
+      "source_file": "unemployment_20241202_ap.html",
+      "source_sha256": "c810d7641c1621a32a11b6555ae90021f69d6ce61b71aa7ced15feeba2d4e9a6"
+    },
+    "age_days": 58
+  },
+  {
+    "employee_id": "ACP000798",
+    "indicator": "inflation",
+    "cutoff": "2024-12-28",
+    "status": "matched",
+    "observation": {
+      "country": "IE",
+      "indicator": "inflation",
+      "value": 6.29942487419125,
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "frequency": "A",
+      "unit": "percent_annual_change",
+      "available_on": "2024-12-16",
+      "vintage_id": "WDI-202412",
+      "vintage_verified": true,
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202412/data?format=json&per_page=1000",
+      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "availability_basis": "archive_month_mapped_to_documented_update",
+      "source_file": "cpi_202412.json",
+      "source_sha256": "15a5949e0dab0ac1281f006e79054456eb464387fe51ac6a84f15a7502cd384c"
+    },
+    "age_days": 363
+  },
+  {
+    "employee_id": "ACP000798",
+    "indicator": "vacancies",
+    "cutoff": "2024-12-28",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP000798",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2024-12-28",
+    "status": "matched",
+    "observation": {
+      "country": "IE",
+      "indicator": "vacancies_bf_supplementary",
+      "value": 0.9,
+      "source_value_text": "0.9",
+      "source_flags": "",
+      "period_start": "2024-07-01",
+      "period_end": "2024-09-30",
+      "frequency": "Q",
+      "unit": "percent_total_posts",
+      "sector": "B-F",
+      "seasonal_adjustment": "NSA",
+      "available_on": "2024-12-16",
+      "vintage_id": "Eurostat-2024-12-16",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-16122024-bp",
+      "availability_basis": "dated_release",
+      "source_file": "vacancies_20241216_bp.html",
+      "source_sha256": "0f48a6c6a80c728364983753ee07ad6835e991722f3ff2f896b10a64ecc258e4"
+    },
+    "age_days": 89
+  },
+  {
     "employee_id": "ACP000801",
     "indicator": "unemployment",
     "cutoff": "2025-01-24",
@@ -8926,28 +9226,28 @@
   {
     "employee_id": "ACP000961",
     "indicator": "unemployment",
-    "cutoff": "2020-11-14",
+    "cutoff": "",
     "status": "outside_metric_population",
     "observation": null
   },
   {
     "employee_id": "ACP000961",
     "indicator": "inflation",
-    "cutoff": "2020-11-14",
+    "cutoff": "",
     "status": "outside_metric_population",
     "observation": null
   },
   {
     "employee_id": "ACP000961",
     "indicator": "vacancies",
-    "cutoff": "2020-11-14",
+    "cutoff": "",
     "status": "outside_metric_population",
     "observation": null
   },
   {
     "employee_id": "ACP000961",
     "indicator": "vacancies_bf_supplementary",
-    "cutoff": "2020-11-14",
+    "cutoff": "",
     "status": "outside_metric_population",
     "observation": null
   },
@@ -9449,6 +9749,34 @@
       "source_sha256": "03eb21dd31fb35ca93563864769d20dd8f8cfcab355a0857e1a514d915014846"
     },
     "age_days": 163
+  },
+  {
+    "employee_id": "ACP001030",
+    "indicator": "unemployment",
+    "cutoff": "2020-10-16",
+    "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001030",
+    "indicator": "inflation",
+    "cutoff": "2020-10-16",
+    "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001030",
+    "indicator": "vacancies",
+    "cutoff": "2020-10-16",
+    "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001030",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2020-10-16",
+    "status": "outside_metric_population",
+    "observation": null
   },
   {
     "employee_id": "ACP001034",
@@ -13878,6 +14206,93 @@
     "age_days": 153
   },
   {
+    "employee_id": "ACP001494",
+    "indicator": "unemployment",
+    "cutoff": "2023-08-16",
+    "status": "matched",
+    "observation": {
+      "country": "IT",
+      "indicator": "unemployment",
+      "value": 7.6,
+      "source_value_text": "7.6",
+      "source_flags": "",
+      "period_start": "2023-05-01",
+      "period_end": "2023-05-31",
+      "frequency": "M",
+      "unit": "percent_labour_force",
+      "sector": "",
+      "seasonal_adjustment": "SA",
+      "available_on": "2023-06-30",
+      "vintage_id": "Eurostat-2023-06-30",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/documents/2995521/17075197/3-30062023-BP-EN.pdf/ee3b1511-c710-4033-fc9a-aaf1c3d60241",
+      "availability_basis": "dated_release",
+      "source_file": "unemployment_2023-06-30.pdf",
+      "source_sha256": "e9ca8e37b0db5f88d1d6f478fa6d1ebd3fe3db197cfcee4404a66ae66f35df0e",
+      "source_page": 4
+    },
+    "age_days": 77
+  },
+  {
+    "employee_id": "ACP001494",
+    "indicator": "inflation",
+    "cutoff": "2023-08-16",
+    "status": "matched",
+    "observation": {
+      "country": "IT",
+      "indicator": "inflation",
+      "value": 1.87378325762491,
+      "period_start": "2021-01-01",
+      "period_end": "2021-12-31",
+      "frequency": "A",
+      "unit": "percent_annual_change",
+      "available_on": "2023-03-02",
+      "vintage_id": "WDI-202303",
+      "vintage_verified": true,
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202303/data?format=json&per_page=1000",
+      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "availability_basis": "archive_month_mapped_to_documented_update",
+      "source_file": "cpi_202303.json",
+      "source_sha256": "c8515a665f59a521fe4b854c474869a12e16189c06f0fe994a9f3886a3e5ff97"
+    },
+    "age_days": 593
+  },
+  {
+    "employee_id": "ACP001494",
+    "indicator": "vacancies",
+    "cutoff": "2023-08-16",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001494",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2023-08-16",
+    "status": "matched",
+    "observation": {
+      "country": "IT",
+      "indicator": "vacancies_bf_supplementary",
+      "value": 2.1,
+      "source_value_text": "2.1",
+      "source_flags": "",
+      "period_start": "2022-10-01",
+      "period_end": "2022-12-31",
+      "frequency": "Q",
+      "unit": "percent_total_posts",
+      "sector": "B-F",
+      "seasonal_adjustment": "NSA",
+      "available_on": "2023-03-20",
+      "vintage_id": "Eurostat-2023-03-20",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/documents/2995521/16310170/3-20032023-BP-EN.pdf/94c96dce-5803-33ba-0173-afc9dc21e074",
+      "availability_basis": "dated_release",
+      "source_file": "vacancies_2023-03-20.pdf",
+      "source_sha256": "110c184f0f29a527b8f679b871555f50dc5172ae010e9fa6055cea6853904180",
+      "source_page": 4
+    },
+    "age_days": 228
+  },
+  {
     "employee_id": "ACP001502",
     "indicator": "unemployment",
     "cutoff": "2023-10-13",
@@ -16500,6 +16915,51 @@
     "age_days": 168
   },
   {
+    "employee_id": "ACP001726",
+    "indicator": "unemployment",
+    "cutoff": "2021-06-27",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001726",
+    "indicator": "inflation",
+    "cutoff": "2021-06-27",
+    "status": "matched",
+    "observation": {
+      "country": "GR",
+      "indicator": "inflation",
+      "value": -1.24795187701348,
+      "period_start": "2020-01-01",
+      "period_end": "2020-12-31",
+      "frequency": "A",
+      "unit": "percent_annual_change",
+      "available_on": "2021-05-25",
+      "vintage_id": "WDI-202105",
+      "vintage_verified": true,
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202105/data?format=json&per_page=1000",
+      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "availability_basis": "archive_month_mapped_to_documented_update",
+      "source_file": "cpi_202105.json",
+      "source_sha256": "a8ec151a5888a7d3004bf9ae7f3417e50c5750f9df29d9d7bb93a2278c59a9f3"
+    },
+    "age_days": 178
+  },
+  {
+    "employee_id": "ACP001726",
+    "indicator": "vacancies",
+    "cutoff": "2021-06-27",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001726",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2021-06-27",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
     "employee_id": "ACP001742",
     "indicator": "unemployment",
     "cutoff": "2022-05-28",
@@ -16789,86 +17249,30 @@
   {
     "employee_id": "ACP001763",
     "indicator": "unemployment",
-    "cutoff": "2024-09-02",
-    "status": "matched",
-    "observation": {
-      "country": "IT",
-      "indicator": "unemployment",
-      "value": 6.5,
-      "source_value_text": "6.5",
-      "source_flags": "",
-      "period_start": "2024-07-01",
-      "period_end": "2024-07-31",
-      "frequency": "M",
-      "unit": "percent_labour_force",
-      "seasonal_adjustment": "SA",
-      "available_on": "2024-08-30",
-      "vintage_id": "Eurostat-2024-08-30",
-      "vintage_verified": true,
-      "evidence_url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-30082024-bp",
-      "availability_basis": "dated_release",
-      "source_file": "unemployment_20240830_bp.html",
-      "source_sha256": "e97569bd9d4e40943198f199c1da29759854ba08b25d8e550966f5c45607d1c3"
-    },
-    "age_days": 33
+    "cutoff": "",
+    "status": "outside_metric_population",
+    "observation": null
   },
   {
     "employee_id": "ACP001763",
     "indicator": "inflation",
-    "cutoff": "2024-09-02",
-    "status": "matched",
-    "observation": {
-      "country": "IT",
-      "indicator": "inflation",
-      "value": 5.62219442195901,
-      "period_start": "2023-01-01",
-      "period_end": "2023-12-31",
-      "frequency": "A",
-      "unit": "percent_annual_change",
-      "available_on": "2024-07-01",
-      "vintage_id": "WDI-202407",
-      "vintage_verified": true,
-      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202407/data?format=json&per_page=1000",
-      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
-      "availability_basis": "archive_month_mapped_to_documented_update",
-      "source_file": "cpi_202407.json",
-      "source_sha256": "eb408a1a73bb606a3a34434999a392d4679c043a0d7277dd8202953e5c7a44b8"
-    },
-    "age_days": 246
+    "cutoff": "",
+    "status": "outside_metric_population",
+    "observation": null
   },
   {
     "employee_id": "ACP001763",
     "indicator": "vacancies",
-    "cutoff": "2024-09-02",
-    "status": "no_verified_historical_match",
+    "cutoff": "",
+    "status": "outside_metric_population",
     "observation": null
   },
   {
     "employee_id": "ACP001763",
     "indicator": "vacancies_bf_supplementary",
-    "cutoff": "2024-09-02",
-    "status": "matched",
-    "observation": {
-      "country": "IT",
-      "indicator": "vacancies_bf_supplementary",
-      "value": 2.4,
-      "source_value_text": "2.4",
-      "source_flags": "",
-      "period_start": "2024-01-01",
-      "period_end": "2024-03-31",
-      "frequency": "Q",
-      "unit": "percent_total_posts",
-      "sector": "B-F",
-      "seasonal_adjustment": "NSA",
-      "available_on": "2024-06-14",
-      "vintage_id": "Eurostat-2024-06-14",
-      "vintage_verified": true,
-      "evidence_url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-14062024-bp",
-      "availability_basis": "dated_release",
-      "source_file": "vacancies_20240614_bp.html",
-      "source_sha256": "96d4319700a8b814eb5de1893e8accb0bd8ab202fcbdca2ec429160702d97c1a"
-    },
-    "age_days": 155
+    "cutoff": "",
+    "status": "outside_metric_population",
+    "observation": null
   },
   {
     "employee_id": "ACP001773",
@@ -18507,6 +18911,34 @@
     "employee_id": "ACP001956",
     "indicator": "vacancies_bf_supplementary",
     "cutoff": "2025-05-06",
+    "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001958",
+    "indicator": "unemployment",
+    "cutoff": "2020-10-14",
+    "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001958",
+    "indicator": "inflation",
+    "cutoff": "2020-10-14",
+    "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001958",
+    "indicator": "vacancies",
+    "cutoff": "2020-10-14",
+    "status": "outside_metric_population",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP001958",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2020-10-14",
     "status": "outside_metric_population",
     "observation": null
   },
@@ -20279,6 +20711,93 @@
       "source_sha256": "03eb21dd31fb35ca93563864769d20dd8f8cfcab355a0857e1a514d915014846"
     },
     "age_days": 124
+  },
+  {
+    "employee_id": "ACP002190",
+    "indicator": "unemployment",
+    "cutoff": "2022-04-25",
+    "status": "matched",
+    "observation": {
+      "country": "BG",
+      "indicator": "unemployment",
+      "value": 4.4,
+      "source_value_text": "4.4",
+      "source_flags": "",
+      "period_start": "2022-02-01",
+      "period_end": "2022-02-28",
+      "frequency": "M",
+      "unit": "percent_labour_force",
+      "sector": "",
+      "seasonal_adjustment": "SA",
+      "available_on": "2022-03-31",
+      "vintage_id": "Eurostat-2022-03-31",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/documents/2995521/14358254/3-31032022-AP-EN.pdf",
+      "availability_basis": "dated_release",
+      "source_file": "unemployment_2022-03-31.pdf",
+      "source_sha256": "9f5486bb7d2a7e590622bc8cf3cf8eb942c00debd0e460a82a816b60fa295427",
+      "source_page": 4
+    },
+    "age_days": 56
+  },
+  {
+    "employee_id": "ACP002190",
+    "indicator": "inflation",
+    "cutoff": "2022-04-25",
+    "status": "matched",
+    "observation": {
+      "country": "BG",
+      "indicator": "inflation",
+      "value": 1.67244096855762,
+      "period_start": "2020-01-01",
+      "period_end": "2020-12-31",
+      "frequency": "A",
+      "unit": "percent_annual_change",
+      "available_on": "2022-02-15",
+      "vintage_id": "WDI-202202",
+      "vintage_verified": true,
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/GRC;ROU;POL;ITA;IRL;BGR/series/FP.CPI.TOTL.ZG/time/YR2018;YR2019;YR2020;YR2021;YR2022;YR2023;YR2024;YR2025/version/202202/data?format=json&per_page=1000",
+      "release_evidence_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906522-data-updates-and-errata",
+      "availability_basis": "archive_month_mapped_to_documented_update",
+      "source_file": "cpi_202202.json",
+      "source_sha256": "95ed0074fba0a2c4103a609664b64de192224526a3e77f88959b4a460c3a3161"
+    },
+    "age_days": 480
+  },
+  {
+    "employee_id": "ACP002190",
+    "indicator": "vacancies",
+    "cutoff": "2022-04-25",
+    "status": "no_verified_historical_match",
+    "observation": null
+  },
+  {
+    "employee_id": "ACP002190",
+    "indicator": "vacancies_bf_supplementary",
+    "cutoff": "2022-04-25",
+    "status": "matched",
+    "observation": {
+      "country": "BG",
+      "indicator": "vacancies_bf_supplementary",
+      "value": 0.6,
+      "source_value_text": "0.6",
+      "source_flags": "",
+      "period_start": "2021-10-01",
+      "period_end": "2021-12-31",
+      "frequency": "Q",
+      "unit": "percent_total_posts",
+      "sector": "B-F",
+      "seasonal_adjustment": "NSA",
+      "available_on": "2022-03-17",
+      "vintage_id": "Eurostat-2022-03-17",
+      "vintage_verified": true,
+      "evidence_url": "https://ec.europa.eu/eurostat/documents/2995521/14358242/3-17032022-BP-EN.pdf/3e6f6746-aa8d-b25c-7696-3912bf7ebd2c",
+      "availability_basis": "dated_release",
+      "source_file": "vacancies_2022-03-17.pdf",
+      "source_sha256": "f4fbd74c61a2ebc7ddac7505031b036ad7ab671f4c7375ecd83c4068c6843a70",
+      "source_page": 4
+    },
+    "age_days": 115
   },
   {
     "employee_id": "ACP002191",

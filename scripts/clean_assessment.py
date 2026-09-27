@@ -98,7 +98,7 @@ def write_csv(path, rows, fields):
         writer.writerows(rows)
 
 
-def main():
+def main(recover_synthetic=False):
     raw = ROOT / 'data/raw'
     manifest = json.loads((raw / 'assessment_data_manifest.json').read_text())
     for item in manifest['files']:
@@ -110,11 +110,13 @@ def main():
     as_of = date.fromisoformat(manifest['workforce_as_of_date'])
     with (raw / 'employee_lifecycle_events.csv').open(newline='', encoding='utf-8') as stream:
         rows = list(csv.DictReader(stream))
-    evidence = json.loads((ROOT / 'config/synthetic_source_corrections.json').read_text(encoding='utf-8'))
-    if not manifest.get('synthetic') or evidence['mode'] != 'verified_synthetic_generator_recovery':
-        raise ValueError('Source recovery is restricted to the verified synthetic assessment')
-    if hashlib.sha256((raw / 'employee_lifecycle_events.csv').read_bytes()).hexdigest() != evidence['raw_sha256']:
-        raise ValueError('Recovery evidence does not match raw snapshot')
+    evidence = {'mode': 'disabled', 'corrections': []}
+    if recover_synthetic:
+        evidence = json.loads((ROOT / 'config/synthetic_source_corrections.json').read_text(encoding='utf-8'))
+        if not manifest.get('synthetic') or evidence['mode'] != 'verified_synthetic_generator_recovery':
+            raise ValueError('Source recovery is restricted to the verified synthetic assessment')
+        if hashlib.sha256((raw / 'employee_lifecycle_events.csv').read_bytes()).hexdigest() != evidence['raw_sha256']:
+            raise ValueError('Recovery evidence does not match raw snapshot')
     corrections = {}
     correction_keys = set()
     for item in evidence['corrections']:
@@ -157,7 +159,7 @@ def main():
             audit.append({'source_csv_line': line, 'employee_id': row['employee_id'], 'issue': flag, 'action': action})
     if set(corrections) - ids:
         raise ValueError('Correction references an unknown employee')
-    out = ROOT / 'data/curated'
+    out = ROOT / ('experiments/synthetic_recovery/curated' if recover_synthetic else 'data/curated')
     out.mkdir(parents=True, exist_ok=True)
     fields = list(curated[0])
     quarantined = [r for r in curated if r['valid_employment_dates'] == 'false']
@@ -167,6 +169,7 @@ def main():
     write_csv(out / 'source_recovery_audit.csv', recovery_audit,
               ['source_csv_line', 'employee_id', 'field', 'original', 'corrected', 'source_sha256'])
     summary = {
+        'cleaning_policy': 'synthetic_recovery_experiment' if recover_synthetic else 'conservative_supplied_data',
         'as_of': str(as_of), 'raw_manifest_verified': True, 'raw_rows': len(rows),
         'curated_rows_including_quarantine': len(curated), 'exact_duplicates_removed': len(rows)-len(curated),
         'employment_date_quarantine': len(quarantined), 'valid_employment_dates': len(curated)-len(quarantined),
@@ -175,7 +178,7 @@ def main():
         'source_recovery': {'mode': evidence['mode'], 'corrected_cells': len(recovery_audit),
                             'corrected_employees': len(corrections),
                             'fields': dict(sorted(Counter(r['field'] for r in recovery_audit).items())),
-                            'evidence': 'config/synthetic_source_corrections.json'},
+                            'evidence': 'config/synthetic_source_corrections.json' if recover_synthetic else None},
         'issues': dict(sorted(Counter(a['issue'] for a in audit).items())),
         'note': 'Flags can overlap. Curated file retains quarantined rows; consumers must filter eligibility. Maturity flags are not final metric denominators.'
     }
@@ -184,4 +187,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--recover-synthetic', action='store_true',
+                        help='Write generator-recovered curation only to experiments/synthetic_recovery/curated; never change submission outputs')
+    main(recover_synthetic=parser.parse_args().recover_synthetic)

@@ -1,5 +1,9 @@
 # Assessment acceptance audit
 
+Current cleaning decision: submission uses conservative supplied-data cleaning. Generator recovery is isolated under `experiments/synthetic_recovery`, and no recovered values enter the submission dashboard. Missing countries remain unknown; 10 invalid-date records are quarantined; seniority alias assumptions retain sensitivity analysis. See `docs/source-recovery.md` for the historical experiment. Older recovery results and host-unavailable notes below do not describe the current policy.
+
+Cleaning-policy verification: full offline repeat replay passed with 68 Python tests and 35 byte-identical outputs using Python 3.12.14 and pypdf 6.19.0. Dashboard DOM checks passed. This resolves the cleaning decision and repeat-replay gap; it does not resolve outstanding browser QA, final clean-environment verification, architecture/source documentation or presentation work.
+
 Reviewed 2026-09-26 against `config/assessment_reference.json`, current scripts, SQL, dashboard template, documentation and saved verification evidence. The original assessment HTML was not used. Selected track: Software emphasis. Both emphasis tracks require the complete vertical slice.
 
 Overall: **not ready to declare complete**. This is a deliverable review, not a fresh test run. Latest recorded run: 62 Python tests, dashboard DOM-harness checks, 32 byte-identical outputs on repeated same-environment builds. Older clean-copy reports predate SQL/dashboard.
@@ -8,7 +12,7 @@ Status meanings: Complete = evidence exists for the stated scope; Partial = subs
 
 | Requirement | Status | Evidence and remaining acceptance work |
 |---|---|---|
-| Refine decision, scope, grain, metrics and temporal assumptions | Partial | `docs/metric-and-quality-rules.md` and `docs/temporal-alignment.md` contain detailed rules. Consolidate the leadership decision, questions, accepted assumptions, rejected scope and consequences into one refinement document. |
+| Refine decision, scope, grain, metrics and temporal assumptions | Complete for implemented scope | `docs/requirements-and-decisions.md` consolidates the leadership decision, grain, metric definitions, working assumptions, open questions, cleaning policy, temporal rules, rejected scope, consequences and acceptance evidence. Business-owner confirmation is not claimed. |
 | All three auditable retention objectives | Complete | Three calculators, employee audits, summary JSON, SQL reconciliation; includes maturity, invalid records, senior-mapping sensitivity and unknown-turnover scenario. Scope is snapshot turnover, not a historical turnover series. |
 | At least two authoritative public providers | Complete | Eurostat and World Bank, with saved source metadata and releases. Provider count does not establish independence of underlying measurements. |
 | Three external indicators and two useful lenses | Complete for acquisition | Unemployment, CPI and vacancies; labour supply, cost of living and labour demand. B-F remains supplementary under the approved decision. Analysis of these signals remains missing. |

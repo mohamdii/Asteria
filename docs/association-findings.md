@@ -1,6 +1,6 @@
 # Initial descriptive association findings
 
-**Historical findings:** the numbers below predate the user-requested synthetic source recovery. Use [the regenerated association findings](../analysis/association_analysis.md) and current dashboard for the corrected population; see [recovery provenance](source-recovery.md).
+**Data policy:** the submission uses conservative cleaning of supplied records. Generator recovery is an isolated experiment. Use [the regenerated association findings](../analysis/association_analysis.md) and current dashboard for authoritative current counts and estimates.
 
 Source: `analysis/association_analysis.json`, produced by `scripts/analyze_associations.py`. This is exploratory analysis of synthetic matched cohorts, not statistical evidence of a causal effect. Correlations are equally weighted across cohorts. Native annual CPI observations remain annual; cohort exposure means summarize employee-specific as-of context rather than inventing new measurements.
 

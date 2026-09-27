@@ -1,0 +1,39 @@
+{
+  "vacancy_policy": {
+    "vacancies": {
+      "sector": "B-N",
+      "analytical_role": "preferred"
+    },
+    "vacancies_bf_supplementary": {
+      "sector": "B-F",
+      "analytical_role": "supplementary"
+    }
+  },
+  "observations": {
+    "inflation": 580,
+    "unemployment": 839,
+    "vacancies_bf_supplementary": 388
+  },
+  "parser_failures": [],
+  "matches": {
+    "unemployment": {
+      "matched": 1265,
+      "stale": 497,
+      "no_verified_historical_match": 638
+    },
+    "inflation": {
+      "matched": 2333,
+      "no_verified_historical_match": 67
+    },
+    "vacancies": {
+      "no_verified_historical_match": 2400
+    },
+    "vacancies_bf_supplementary": {
+      "matched": 1582,
+      "no_verified_historical_match": 696,
+      "stale": 122
+    }
+  },
+  "workforce_rows": 2400,
+  "scope": "All curated employees; not just metric denominators. CPI archive month is mapped to documented WDI update date; not first CPI publication."
+}

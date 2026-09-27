@@ -76,7 +76,7 @@ def main():
         build()
         if first != outputs(): raise RuntimeError('Repeated builds produced different output hashes')
     if before != hashes(inputs): raise RuntimeError('Replay changed an input file')
-    report=dict(status='success',mode='offline_saved_evidence',repeat_verified=args.verify_reproducibility,
+    report=dict(status='success',mode='offline_saved_evidence',cleaning_policy='conservative_supplied_data',repeat_verified=args.verify_reproducibility,
         python=sys.version.split()[0],
         pypdf=pypdf.__version__,inputs=before,outputs=first,
         limitations='Repeat verification uses the same environment; it is not a cross-platform or clean-environment certification. Historical coverage remains partial.')

@@ -14,12 +14,12 @@ B-F supplementary sector measure only. Preferred B-N has no verified historical 
 
 | Population | Indicator | Matched | Unmatched | Cohorts | Cohorts <10 | Pooled r | Within-country r | Min-10 r |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| new_hire_6m | unemployment | 1102 | 720 | 72 | 12 | -0.161 | -0.166 | -0.104 |
-| new_hire_6m | inflation | 1822 | 0 | 30 | 0 | 0.220 | 0.224 | 0.220 |
-| new_hire_6m | vacancies_bf_supplementary | 1419 | 403 | 94 | 14 | -0.050 | -0.110 | 0.002 |
-| senior_hire_12m | unemployment | 146 | 114 | 56 | 56 | 0.021 | -0.149 | unavailable |
-| senior_hire_12m | inflation | 260 | 0 | 24 | 7 | 0.096 | 0.218 | 0.098 |
-| senior_hire_12m | vacancies_bf_supplementary | 207 | 53 | 75 | 75 | 0.128 | -0.010 | unavailable |
+| new_hire_6m | unemployment | 1092 | 721 | 72 | 13 | -0.123 | -0.170 | -0.071 |
+| new_hire_6m | inflation | 1808 | 5 | 30 | 0 | 0.162 | 0.176 | 0.162 |
+| new_hire_6m | vacancies_bf_supplementary | 1408 | 405 | 94 | 14 | -0.009 | -0.028 | 0.054 |
+| senior_hire_12m | unemployment | 150 | 116 | 56 | 56 | -0.023 | -0.170 | unavailable |
+| senior_hire_12m | inflation | 266 | 0 | 24 | 6 | 0.094 | 0.175 | 0.087 |
+| senior_hire_12m | vacancies_bf_supplementary | 211 | 55 | 75 | 75 | 0.092 | 0.004 | unavailable |
 
 ## Interpretation guardrails
 

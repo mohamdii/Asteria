@@ -1,0 +1,30 @@
+{
+  "as_of": "2025-12-31",
+  "raw_manifest_verified": true,
+  "raw_rows": 2407,
+  "curated_rows_including_quarantine": 2400,
+  "exact_duplicates_removed": 7,
+  "employment_date_quarantine": 0,
+  "valid_employment_dates": 2400,
+  "country_analysis_eligible": 2400,
+  "contradictory_records": 0,
+  "source_recovery": {
+    "mode": "verified_synthetic_generator_recovery",
+    "corrected_cells": 61,
+    "corrected_employees": 52,
+    "fields": {
+      "career_level": 10,
+      "country_code": 17,
+      "hire_date": 5,
+      "regretted_exit": 7,
+      "termination_date": 17,
+      "termination_type": 5
+    },
+    "evidence": "config/synthetic_source_corrections.json"
+  },
+  "issues": {
+    "exact_duplicate_removed": 7,
+    "synthetic_source_recovered": 52
+  },
+  "note": "Flags can overlap. Curated file retains quarantined rows; consumers must filter eligibility. Maturity flags are not final metric denominators."
+}

@@ -1,81 +1,94 @@
 {
   "inputs": {
-    "analysis\\new_hire_6m_with_external.csv": "6e6abbf4bfe5cdd405ba56a22cad0488ab125198d3f4cb29e6a662ae744bc180",
-    "analysis\\senior_hire_12m_with_external.csv": "22d0734f6ba4bde7a8b9d4dc381d0b51597afcbbbee8c7aa3b19daa0699bb6ab"
+    "analysis\\new_hire_6m_with_external.csv": "3f14828b8e356780310efafea84c2e6be83a508aeaa6a108d5824c4661b0123c",
+    "analysis\\senior_hire_12m_with_external.csv": "fe42c4a3f6c45e50bc68afd4e591099486a520983d779460df90a8ba4bb4181b"
   },
   "metrics": {
     "new_hire_6m": {
       "unemployment": {
         "matched": {
-          "n": 1102,
-          "retained": 966,
-          "rate": 0.8765880217785844
+          "n": 1092,
+          "retained": 953,
+          "rate": 0.8727106227106227
         },
         "unmatched": {
-          "n": 720,
-          "retained": 630,
-          "rate": 0.875
+          "n": 721,
+          "retained": 627,
+          "rate": 0.869625520110957
         },
         "breakdown": {
           "country_code": [
             {
+              "country_code": "",
+              "matched": {
+                "n": 0,
+                "retained": 0,
+                "rate": null
+              },
+              "unmatched": {
+                "n": 5,
+                "retained": 4,
+                "rate": 0.8
+              }
+            },
+            {
               "country_code": "BG",
               "matched": {
-                "n": 194,
-                "retained": 166,
-                "rate": 0.8556701030927835
+                "n": 191,
+                "retained": 163,
+                "rate": 0.8534031413612565
               },
               "unmatched": {
                 "n": 130,
-                "retained": 117,
-                "rate": 0.9
+                "retained": 116,
+                "rate": 0.8923076923076924
               }
             },
             {
               "country_code": "GR",
               "matched": {
-                "n": 193,
-                "retained": 169,
-                "rate": 0.8756476683937824
+                "n": 191,
+                "retained": 168,
+                "rate": 0.8795811518324608
               },
               "unmatched": {
-                "n": 110,
-                "retained": 98,
-                "rate": 0.8909090909090909
+                "n": 109,
+                "retained": 97,
+                "rate": 0.8899082568807339
               }
             },
             {
               "country_code": "IE",
               "matched": {
-                "n": 175,
-                "retained": 156,
-                "rate": 0.8914285714285715
+                "n": 172,
+                "retained": 153,
+                "rate": 0.8895348837209303
               },
               "unmatched": {
-                "n": 105,
-                "retained": 90,
-                "rate": 0.8571428571428571
+                "n": 103,
+                "retained": 87,
+                "rate": 0.8446601941747572
               }
             },
             {
               "country_code": "IT",
               "matched": {
-                "n": 182,
-                "retained": 161,
-                "rate": 0.8846153846153846
+                "n": 180,
+                "retained": 158,
+                "rate": 0.8777777777777778
               },
               "unmatched": {
-                "n": 145,
-                "retained": 124,
-                "rate": 0.8551724137931035
+                "n": 144,
+                "retained": 122,
+                "rate": 0.8472222222222222
               }
             },
             {
               "country_code": "PL",
               "matched": {
-                "n": 172,
-                "retained": 154,
-                "rate": 0.8953488372093024
+                "n": 170,
+                "retained": 150,
+                "rate": 0.8823529411764706
               },
               "unmatched": {
                 "n": 116,
@@ -86,9 +99,9 @@
             {
               "country_code": "RO",
               "matched": {
-                "n": 186,
-                "retained": 160,
-                "rate": 0.8602150537634409
+                "n": 188,
+                "retained": 161,
+                "rate": 0.8563829787234043
               },
               "unmatched": {
                 "n": 114,
@@ -101,14 +114,14 @@
             {
               "hire_year": "2021",
               "matched": {
-                "n": 157,
-                "retained": 137,
-                "rate": 0.8726114649681529
+                "n": 156,
+                "retained": 135,
+                "rate": 0.8653846153846154
               },
               "unmatched": {
-                "n": 262,
-                "retained": 230,
-                "rate": 0.8778625954198473
+                "n": 261,
+                "retained": 228,
+                "rate": 0.8735632183908046
               }
             },
             {
@@ -120,47 +133,47 @@
               },
               "unmatched": {
                 "n": 290,
-                "retained": 252,
-                "rate": 0.8689655172413793
+                "retained": 251,
+                "rate": 0.8655172413793103
               }
             },
             {
               "hire_year": "2023",
               "matched": {
-                "n": 299,
-                "retained": 259,
-                "rate": 0.8662207357859532
+                "n": 295,
+                "retained": 254,
+                "rate": 0.8610169491525423
               },
               "unmatched": {
-                "n": 97,
-                "retained": 83,
-                "rate": 0.8556701030927835
+                "n": 98,
+                "retained": 84,
+                "rate": 0.8571428571428571
               }
             },
             {
               "hire_year": "2024",
               "matched": {
-                "n": 365,
-                "retained": 318,
-                "rate": 0.8712328767123287
+                "n": 362,
+                "retained": 315,
+                "rate": 0.8701657458563536
               },
               "unmatched": {
                 "n": 71,
-                "retained": 65,
-                "rate": 0.9154929577464789
+                "retained": 63,
+                "rate": 0.8873239436619719
               }
             },
             {
               "hire_year": "2025",
               "matched": {
-                "n": 174,
-                "retained": 159,
-                "rate": 0.9137931034482759
+                "n": 172,
+                "retained": 156,
+                "rate": 0.9069767441860465
               },
               "unmatched": {
-                "n": 0,
-                "retained": 0,
-                "rate": null
+                "n": 1,
+                "retained": 1,
+                "rate": 1.0
               }
             }
           ],
@@ -168,53 +181,53 @@
             {
               "business_unit": "Digital",
               "matched": {
-                "n": 268,
-                "retained": 236,
-                "rate": 0.8805970149253731
+                "n": 266,
+                "retained": 233,
+                "rate": 0.8759398496240601
               },
               "unmatched": {
                 "n": 171,
-                "retained": 149,
-                "rate": 0.8713450292397661
+                "retained": 148,
+                "rate": 0.8654970760233918
               }
             },
             {
               "business_unit": "Finance",
               "matched": {
-                "n": 253,
-                "retained": 225,
-                "rate": 0.8893280632411067
+                "n": 252,
+                "retained": 223,
+                "rate": 0.8849206349206349
               },
               "unmatched": {
                 "n": 209,
-                "retained": 186,
-                "rate": 0.8899521531100478
+                "retained": 184,
+                "rate": 0.8803827751196173
               }
             },
             {
               "business_unit": "Sales",
               "matched": {
-                "n": 287,
-                "retained": 245,
-                "rate": 0.8536585365853658
+                "n": 286,
+                "retained": 244,
+                "rate": 0.8531468531468531
               },
               "unmatched": {
-                "n": 156,
-                "retained": 135,
-                "rate": 0.8653846153846154
+                "n": 155,
+                "retained": 134,
+                "rate": 0.864516129032258
               }
             },
             {
               "business_unit": "Supply Chain",
               "matched": {
-                "n": 294,
-                "retained": 260,
-                "rate": 0.8843537414965986
+                "n": 288,
+                "retained": 253,
+                "rate": 0.8784722222222222
               },
               "unmatched": {
-                "n": 184,
-                "retained": 160,
-                "rate": 0.8695652173913043
+                "n": 186,
+                "retained": 161,
+                "rate": 0.8655913978494624
               }
             }
           ]
@@ -222,7 +235,7 @@
         "distinct_country_reference_periods": 131,
         "distinct_country_period_vintages": 131,
         "cohort_count": 72,
-        "cohorts_below_10": 12,
+        "cohorts_below_10": 13,
         "cohorts": [
           {
             "country": "BG",
@@ -260,8 +273,8 @@
           {
             "country": "BG",
             "hire_period": "2023Q1",
-            "n": 14,
-            "retained": 14,
+            "n": 13,
+            "retained": 13,
             "rate": 1.0,
             "exposure_mean": 4.0,
             "distinct_vintages": 1,
@@ -326,21 +339,21 @@
           {
             "country": "BG",
             "hire_period": "2024Q4",
-            "n": 20,
-            "retained": 17,
-            "rate": 0.85,
+            "n": 19,
+            "retained": 16,
+            "rate": 0.8421052631578947,
             "exposure_mean": 4.0,
             "distinct_vintages": 4,
             "age_days_min": 32,
-            "age_days_max": 63
+            "age_days_max": 62
           },
           {
             "country": "BG",
             "hire_period": "2025Q1",
-            "n": 13,
-            "retained": 12,
-            "rate": 0.9230769230769231,
-            "exposure_mean": 3.869230769230769,
+            "n": 12,
+            "retained": 11,
+            "rate": 0.9166666666666666,
+            "exposure_mean": 3.8666666666666667,
             "distinct_vintages": 3,
             "age_days_min": 40,
             "age_days_max": 61
@@ -359,10 +372,10 @@
           {
             "country": "GR",
             "hire_period": "2021Q3",
-            "n": 15,
+            "n": 14,
             "retained": 11,
-            "rate": 0.7333333333333333,
-            "exposure_mean": 14.8,
+            "rate": 0.7857142857142857,
+            "exposure_mean": 14.814285714285715,
             "distinct_vintages": 2,
             "age_days_min": 31,
             "age_days_max": 62
@@ -371,8 +384,8 @@
             "country": "GR",
             "hire_period": "2021Q4",
             "n": 18,
-            "retained": 16,
-            "rate": 0.8888888888888888,
+            "retained": 15,
+            "rate": 0.8333333333333334,
             "exposure_mean": 14.600000000000001,
             "distinct_vintages": 1,
             "age_days_min": 65,
@@ -392,8 +405,8 @@
           {
             "country": "GR",
             "hire_period": "2023Q1",
-            "n": 11,
-            "retained": 11,
+            "n": 12,
+            "retained": 12,
             "rate": 1.0,
             "exposure_mean": 11.4,
             "distinct_vintages": 1,
@@ -414,9 +427,9 @@
           {
             "country": "GR",
             "hire_period": "2023Q3",
-            "n": 27,
-            "retained": 26,
-            "rate": 0.9629629629629629,
+            "n": 26,
+            "retained": 25,
+            "rate": 0.9615384615384616,
             "exposure_mean": 10.8,
             "distinct_vintages": 1,
             "age_days_min": 45,
@@ -447,10 +460,10 @@
           {
             "country": "GR",
             "hire_period": "2024Q3",
-            "n": 18,
+            "n": 17,
             "retained": 16,
-            "rate": 0.8888888888888888,
-            "exposure_mean": 10.161111111111111,
+            "rate": 0.9411764705882353,
+            "exposure_mean": 10.176470588235293,
             "distinct_vintages": 3,
             "age_days_min": 31,
             "age_days_max": 59
@@ -458,13 +471,13 @@
           {
             "country": "GR",
             "hire_period": "2024Q4",
-            "n": 23,
-            "retained": 21,
-            "rate": 0.9130434782608695,
-            "exposure_mean": 9.608695652173912,
-            "distinct_vintages": 3,
+            "n": 24,
+            "retained": 22,
+            "rate": 0.9166666666666666,
+            "exposure_mean": 9.620833333333334,
+            "distinct_vintages": 4,
             "age_days_min": 32,
-            "age_days_max": 61
+            "age_days_max": 63
           },
           {
             "country": "GR",
@@ -480,10 +493,10 @@
           {
             "country": "GR",
             "hire_period": "2025Q2",
-            "n": 15,
-            "retained": 13,
-            "rate": 0.8666666666666667,
-            "exposure_mean": 8.666666666666666,
+            "n": 14,
+            "retained": 12,
+            "rate": 0.8571428571428571,
+            "exposure_mean": 8.642857142857142,
             "distinct_vintages": 3,
             "age_days_min": 35,
             "age_days_max": 59
@@ -524,9 +537,9 @@
           {
             "country": "IE",
             "hire_period": "2023Q1",
-            "n": 21,
-            "retained": 19,
-            "rate": 0.9047619047619048,
+            "n": 20,
+            "retained": 18,
+            "rate": 0.9,
             "exposure_mean": 4.4,
             "distinct_vintages": 1,
             "age_days_min": 53,
@@ -535,9 +548,9 @@
           {
             "country": "IE",
             "hire_period": "2023Q2",
-            "n": 15,
-            "retained": 13,
-            "rate": 0.8666666666666667,
+            "n": 14,
+            "retained": 12,
+            "rate": 0.8571428571428571,
             "exposure_mean": 4.3,
             "distinct_vintages": 1,
             "age_days_min": 32,
@@ -546,13 +559,13 @@
           {
             "country": "IE",
             "hire_period": "2023Q3",
-            "n": 10,
-            "retained": 8,
-            "rate": 0.8,
-            "exposure_mean": 3.8,
+            "n": 9,
+            "retained": 7,
+            "rate": 0.7777777777777778,
+            "exposure_mean": 3.7999999999999994,
             "distinct_vintages": 1,
             "age_days_min": 48,
-            "age_days_max": 114
+            "age_days_max": 94
           },
           {
             "country": "IE",
@@ -657,8 +670,8 @@
             "country": "IT",
             "hire_period": "2023Q1",
             "n": 22,
-            "retained": 20,
-            "rate": 0.9090909090909091,
+            "retained": 19,
+            "rate": 0.8636363636363636,
             "exposure_mean": 7.8,
             "distinct_vintages": 1,
             "age_days_min": 49,
@@ -711,10 +724,10 @@
           {
             "country": "IT",
             "hire_period": "2024Q3",
-            "n": 15,
-            "retained": 14,
-            "rate": 0.9333333333333333,
-            "exposure_mean": 6.72,
+            "n": 14,
+            "retained": 13,
+            "rate": 0.9285714285714286,
+            "exposure_mean": 6.735714285714286,
             "distinct_vintages": 3,
             "age_days_min": 33,
             "age_days_max": 61
@@ -744,10 +757,10 @@
           {
             "country": "IT",
             "hire_period": "2025Q2",
-            "n": 18,
-            "retained": 17,
-            "rate": 0.9444444444444444,
-            "exposure_mean": 5.933333333333334,
+            "n": 17,
+            "retained": 16,
+            "rate": 0.9411764705882353,
+            "exposure_mean": 5.929411764705883,
             "distinct_vintages": 3,
             "age_days_min": 33,
             "age_days_max": 62
@@ -767,8 +780,8 @@
             "country": "PL",
             "hire_period": "2021Q4",
             "n": 18,
-            "retained": 18,
-            "rate": 1.0,
+            "retained": 17,
+            "rate": 0.9444444444444444,
             "exposure_mean": 3.4,
             "distinct_vintages": 1,
             "age_days_min": 62,
@@ -832,10 +845,10 @@
           {
             "country": "PL",
             "hire_period": "2024Q2",
-            "n": 16,
-            "retained": 14,
-            "rate": 0.875,
-            "exposure_mean": 2.9375,
+            "n": 15,
+            "retained": 13,
+            "rate": 0.8666666666666667,
+            "exposure_mean": 2.94,
             "distinct_vintages": 3,
             "age_days_min": 35,
             "age_days_max": 62
@@ -843,10 +856,10 @@
           {
             "country": "PL",
             "hire_period": "2024Q3",
-            "n": 18,
-            "retained": 16,
-            "rate": 0.8888888888888888,
-            "exposure_mean": 2.961111111111111,
+            "n": 17,
+            "retained": 15,
+            "rate": 0.8823529411764706,
+            "exposure_mean": 2.9647058823529413,
             "distinct_vintages": 3,
             "age_days_min": 36,
             "age_days_max": 62
@@ -866,8 +879,8 @@
             "country": "PL",
             "hire_period": "2025Q1",
             "n": 12,
-            "retained": 11,
-            "rate": 0.9166666666666666,
+            "retained": 10,
+            "rate": 0.8333333333333334,
             "exposure_mean": 2.908333333333333,
             "distinct_vintages": 4,
             "age_days_min": 39,
@@ -975,10 +988,10 @@
           {
             "country": "RO",
             "hire_period": "2024Q3",
-            "n": 27,
+            "n": 28,
             "retained": 23,
-            "rate": 0.8518518518518519,
-            "exposure_mean": 5.444444444444445,
+            "rate": 0.8214285714285714,
+            "exposure_mean": 5.442857142857143,
             "distinct_vintages": 3,
             "age_days_min": 31,
             "age_days_max": 61
@@ -1008,46 +1021,59 @@
           {
             "country": "RO",
             "hire_period": "2025Q2",
-            "n": 12,
-            "retained": 11,
-            "rate": 0.9166666666666666,
-            "exposure_mean": 5.6000000000000005,
+            "n": 13,
+            "retained": 12,
+            "rate": 0.9230769230769231,
+            "exposure_mean": 5.592307692307693,
             "distinct_vintages": 3,
             "age_days_min": 33,
             "age_days_max": 64
           }
         ],
-        "descriptive_pearson": -0.16080200095955152,
-        "within_country_centered_pearson": -0.16631660727175682,
-        "min10_cohort_pearson": -0.10449829768155518,
+        "descriptive_pearson": -0.12312291133327892,
+        "within_country_centered_pearson": -0.17002734217918017,
+        "min10_cohort_pearson": -0.07108339525996275,
         "leave_one_country_out": {
-          "BG": -0.17463228324573776,
-          "GR": -0.1445804386155909,
-          "IE": -0.18178463700932976,
-          "IT": -0.1443439762210201,
-          "PL": -0.13778198849903087,
-          "RO": -0.17859026178842358
+          "BG": -0.128501237994046,
+          "GR": -0.12013997885505974,
+          "IE": -0.14243119183360342,
+          "IT": -0.09974087548430269,
+          "PL": -0.1190052352175937,
+          "RO": -0.13588304873565654
         }
       },
       "inflation": {
         "matched": {
-          "n": 1822,
-          "retained": 1596,
-          "rate": 0.8759604829857299
+          "n": 1808,
+          "retained": 1576,
+          "rate": 0.8716814159292036
         },
         "unmatched": {
-          "n": 0,
-          "retained": 0,
-          "rate": null
+          "n": 5,
+          "retained": 4,
+          "rate": 0.8
         },
         "breakdown": {
           "country_code": [
             {
+              "country_code": "",
+              "matched": {
+                "n": 0,
+                "retained": 0,
+                "rate": null
+              },
+              "unmatched": {
+                "n": 5,
+                "retained": 4,
+                "rate": 0.8
+              }
+            },
+            {
               "country_code": "BG",
               "matched": {
-                "n": 324,
-                "retained": 283,
-                "rate": 0.8734567901234568
+                "n": 321,
+                "retained": 279,
+                "rate": 0.8691588785046729
               },
               "unmatched": {
                 "n": 0,
@@ -1058,9 +1084,9 @@
             {
               "country_code": "GR",
               "matched": {
-                "n": 303,
-                "retained": 267,
-                "rate": 0.8811881188118812
+                "n": 300,
+                "retained": 265,
+                "rate": 0.8833333333333333
               },
               "unmatched": {
                 "n": 0,
@@ -1071,9 +1097,9 @@
             {
               "country_code": "IE",
               "matched": {
-                "n": 280,
-                "retained": 246,
-                "rate": 0.8785714285714286
+                "n": 275,
+                "retained": 240,
+                "rate": 0.8727272727272727
               },
               "unmatched": {
                 "n": 0,
@@ -1084,9 +1110,9 @@
             {
               "country_code": "IT",
               "matched": {
-                "n": 327,
-                "retained": 285,
-                "rate": 0.8715596330275229
+                "n": 324,
+                "retained": 280,
+                "rate": 0.8641975308641975
               },
               "unmatched": {
                 "n": 0,
@@ -1097,9 +1123,9 @@
             {
               "country_code": "PL",
               "matched": {
-                "n": 288,
-                "retained": 258,
-                "rate": 0.8958333333333334
+                "n": 286,
+                "retained": 254,
+                "rate": 0.8881118881118881
               },
               "unmatched": {
                 "n": 0,
@@ -1110,9 +1136,9 @@
             {
               "country_code": "RO",
               "matched": {
-                "n": 300,
-                "retained": 257,
-                "rate": 0.8566666666666667
+                "n": 302,
+                "retained": 258,
+                "rate": 0.8543046357615894
               },
               "unmatched": {
                 "n": 0,
@@ -1125,48 +1151,48 @@
             {
               "hire_year": "2021",
               "matched": {
-                "n": 419,
-                "retained": 367,
-                "rate": 0.8758949880668258
+                "n": 416,
+                "retained": 362,
+                "rate": 0.8701923076923077
               },
               "unmatched": {
-                "n": 0,
-                "retained": 0,
-                "rate": null
+                "n": 1,
+                "retained": 1,
+                "rate": 1.0
               }
             },
             {
               "hire_year": "2022",
               "matched": {
-                "n": 397,
-                "retained": 345,
-                "rate": 0.8690176322418136
+                "n": 396,
+                "retained": 344,
+                "rate": 0.8686868686868687
               },
               "unmatched": {
-                "n": 0,
+                "n": 1,
                 "retained": 0,
-                "rate": null
+                "rate": 0.0
               }
             },
             {
               "hire_year": "2023",
               "matched": {
-                "n": 396,
-                "retained": 342,
-                "rate": 0.8636363636363636
+                "n": 391,
+                "retained": 336,
+                "rate": 0.8593350383631714
               },
               "unmatched": {
-                "n": 0,
-                "retained": 0,
-                "rate": null
+                "n": 2,
+                "retained": 2,
+                "rate": 1.0
               }
             },
             {
               "hire_year": "2024",
               "matched": {
-                "n": 436,
-                "retained": 383,
-                "rate": 0.8784403669724771
+                "n": 433,
+                "retained": 378,
+                "rate": 0.8729792147806005
               },
               "unmatched": {
                 "n": 0,
@@ -1177,14 +1203,14 @@
             {
               "hire_year": "2025",
               "matched": {
-                "n": 174,
-                "retained": 159,
-                "rate": 0.9137931034482759
+                "n": 172,
+                "retained": 156,
+                "rate": 0.9069767441860465
               },
               "unmatched": {
-                "n": 0,
-                "retained": 0,
-                "rate": null
+                "n": 1,
+                "retained": 1,
+                "rate": 1.0
               }
             }
           ],
@@ -1192,22 +1218,22 @@
             {
               "business_unit": "Digital",
               "matched": {
-                "n": 439,
-                "retained": 385,
-                "rate": 0.876993166287016
+                "n": 436,
+                "retained": 381,
+                "rate": 0.8738532110091743
               },
               "unmatched": {
-                "n": 0,
+                "n": 1,
                 "retained": 0,
-                "rate": null
+                "rate": 0.0
               }
             },
             {
               "business_unit": "Finance",
               "matched": {
-                "n": 462,
-                "retained": 411,
-                "rate": 0.8896103896103896
+                "n": 461,
+                "retained": 407,
+                "rate": 0.8828633405639913
               },
               "unmatched": {
                 "n": 0,
@@ -1218,9 +1244,9 @@
             {
               "business_unit": "Sales",
               "matched": {
-                "n": 443,
-                "retained": 380,
-                "rate": 0.8577878103837472
+                "n": 441,
+                "retained": 378,
+                "rate": 0.8571428571428571
               },
               "unmatched": {
                 "n": 0,
@@ -1231,14 +1257,14 @@
             {
               "business_unit": "Supply Chain",
               "matched": {
-                "n": 478,
-                "retained": 420,
-                "rate": 0.8786610878661087
+                "n": 470,
+                "retained": 410,
+                "rate": 0.8723404255319149
               },
               "unmatched": {
-                "n": 0,
-                "retained": 0,
-                "rate": null
+                "n": 4,
+                "retained": 4,
+                "rate": 1.0
               }
             }
           ]
@@ -1273,10 +1299,10 @@
           {
             "country": "BG",
             "hire_period": "2023",
-            "n": 66,
-            "retained": 60,
-            "rate": 0.9090909090909091,
-            "exposure_mean": 6.94244573888647,
+            "n": 65,
+            "retained": 59,
+            "rate": 0.9076923076923077,
+            "exposure_mean": 6.998518067900184,
             "distinct_vintages": 4,
             "age_days_min": 268,
             "age_days_max": 626
@@ -1284,10 +1310,10 @@
           {
             "country": "BG",
             "hire_period": "2024",
-            "n": 93,
-            "retained": 75,
-            "rate": 0.8064516129032258,
-            "exposure_mean": 12.352424262986116,
+            "n": 92,
+            "retained": 73,
+            "rate": 0.7934782608695652,
+            "exposure_mean": 12.384050163661119,
             "distinct_vintages": 8,
             "age_days_min": 187,
             "age_days_max": 547
@@ -1295,9 +1321,9 @@
           {
             "country": "BG",
             "hire_period": "2025",
-            "n": 34,
-            "retained": 32,
-            "rate": 0.9411764705882353,
+            "n": 33,
+            "retained": 31,
+            "rate": 0.9393939393939394,
             "exposure_mean": 9.44284140088564,
             "distinct_vintages": 1,
             "age_days_min": 375,
@@ -1306,10 +1332,10 @@
           {
             "country": "GR",
             "hire_period": "2021",
-            "n": 82,
-            "retained": 71,
-            "rate": 0.8658536585365854,
-            "exposure_mean": -0.717135197469923,
+            "n": 81,
+            "retained": 70,
+            "rate": 0.8641975308641975,
+            "exposure_mean": -0.69205190609941,
             "distinct_vintages": 8,
             "age_days_min": 146,
             "age_days_max": 510
@@ -1328,10 +1354,10 @@
           {
             "country": "GR",
             "hire_period": "2023",
-            "n": 65,
-            "retained": 59,
-            "rate": 0.9076923076923077,
-            "exposure_mean": 2.6489908998706477,
+            "n": 64,
+            "retained": 58,
+            "rate": 0.90625,
+            "exposure_mean": 2.5396741981060265,
             "distinct_vintages": 4,
             "age_days_min": 266,
             "age_days_max": 624
@@ -1340,8 +1366,8 @@
             "country": "GR",
             "hire_period": "2024",
             "n": 68,
-            "retained": 60,
-            "rate": 0.8823529411764706,
+            "retained": 61,
+            "rate": 0.8970588235294118,
             "exposure_mean": 5.918806877003922,
             "distinct_vintages": 8,
             "age_days_min": 186,
@@ -1350,10 +1376,10 @@
           {
             "country": "GR",
             "hire_period": "2025",
-            "n": 24,
-            "retained": 19,
-            "rate": 0.7916666666666666,
-            "exposure_mean": 3.4648012851340497,
+            "n": 23,
+            "retained": 18,
+            "rate": 0.782608695652174,
+            "exposure_mean": 3.46480128513405,
             "distinct_vintages": 1,
             "age_days_min": 380,
             "age_days_max": 544
@@ -1361,10 +1387,10 @@
           {
             "country": "IE",
             "hire_period": "2021",
-            "n": 54,
-            "retained": 45,
-            "rate": 0.8333333333333334,
-            "exposure_mean": 0.06637268587169201,
+            "n": 53,
+            "retained": 44,
+            "rate": 0.8301886792452831,
+            "exposure_mean": 0.04990718030220806,
             "distinct_vintages": 7,
             "age_days_min": 154,
             "age_days_max": 469
@@ -1372,10 +1398,10 @@
           {
             "country": "IE",
             "hire_period": "2022",
-            "n": 68,
-            "retained": 60,
-            "rate": 0.8823529411764706,
-            "exposure_mean": 1.645362130336325,
+            "n": 67,
+            "retained": 59,
+            "rate": 0.8805970149253731,
+            "exposure_mean": 1.634723610454522,
             "distinct_vintages": 5,
             "age_days_min": 118,
             "age_days_max": 477
@@ -1383,20 +1409,20 @@
           {
             "country": "IE",
             "hire_period": "2023",
-            "n": 61,
-            "retained": 53,
-            "rate": 0.8688524590163934,
-            "exposure_mean": 3.787449833905663,
+            "n": 58,
+            "retained": 50,
+            "rate": 0.8620689655172413,
+            "exposure_mean": 3.7674272160938624,
             "distinct_vintages": 4,
-            "age_days_min": 265,
+            "age_days_min": 309,
             "age_days_max": 610
           },
           {
             "country": "IE",
             "hire_period": "2024",
             "n": 65,
-            "retained": 58,
-            "rate": 0.8923076923076924,
+            "retained": 57,
+            "rate": 0.8769230769230769,
             "exposure_mean": 7.0418005225732365,
             "distinct_vintages": 8,
             "age_days_min": 193,
@@ -1416,10 +1442,10 @@
           {
             "country": "IT",
             "hire_period": "2021",
-            "n": 87,
-            "retained": 73,
-            "rate": 0.8390804597701149,
-            "exposure_mean": 0.18942198553067963,
+            "n": 86,
+            "retained": 71,
+            "rate": 0.8255813953488372,
+            "exposure_mean": 0.18451704415585857,
             "distinct_vintages": 7,
             "age_days_min": 164,
             "age_days_max": 510
@@ -1439,8 +1465,8 @@
             "country": "IT",
             "hire_period": "2023",
             "n": 82,
-            "retained": 68,
-            "rate": 0.8292682926829268,
+            "retained": 67,
+            "rate": 0.8170731707317073,
             "exposure_mean": 3.5714069940618605,
             "distinct_vintages": 4,
             "age_days_min": 264,
@@ -1449,10 +1475,10 @@
           {
             "country": "IT",
             "hire_period": "2024",
-            "n": 58,
-            "retained": 55,
-            "rate": 0.9482758620689655,
-            "exposure_mean": 7.089610821247279,
+            "n": 57,
+            "retained": 54,
+            "rate": 0.9473684210526315,
+            "exposure_mean": 7.115354968603213,
             "distinct_vintages": 8,
             "age_days_min": 196,
             "age_days_max": 545
@@ -1460,9 +1486,9 @@
           {
             "country": "IT",
             "hire_period": "2025",
-            "n": 31,
-            "retained": 29,
-            "rate": 0.9354838709677419,
+            "n": 30,
+            "retained": 28,
+            "rate": 0.9333333333333333,
             "exposure_mean": 5.62219442195901,
             "distinct_vintages": 1,
             "age_days_min": 378,
@@ -1472,8 +1498,8 @@
             "country": "PL",
             "hire_period": "2021",
             "n": 74,
-            "retained": 68,
-            "rate": 0.918918918918919,
+            "retained": 67,
+            "rate": 0.9054054054054054,
             "exposure_mean": 3.017972549341755,
             "distinct_vintages": 8,
             "age_days_min": 146,
@@ -1504,10 +1530,10 @@
           {
             "country": "PL",
             "hire_period": "2024",
-            "n": 60,
-            "retained": 54,
-            "rate": 0.9,
-            "exposure_mean": 12.88249717812764,
+            "n": 58,
+            "retained": 52,
+            "rate": 0.896551724137931,
+            "exposure_mean": 12.879163226447796,
             "distinct_vintages": 8,
             "age_days_min": 193,
             "age_days_max": 543
@@ -1516,8 +1542,8 @@
             "country": "PL",
             "hire_period": "2025",
             "n": 26,
-            "retained": 24,
-            "rate": 0.9230769230769231,
+            "retained": 23,
+            "rate": 0.8846153846153846,
             "exposure_mean": 11.5289127961105,
             "distinct_vintages": 1,
             "age_days_min": 370,
@@ -1529,7 +1555,7 @@
             "n": 53,
             "retained": 47,
             "rate": 0.8867924528301887,
-            "exposure_mean": 3.1278502196065525,
+            "exposure_mean": 3.150430997231963,
             "distinct_vintages": 8,
             "age_days_min": 147,
             "age_days_max": 507
@@ -1559,10 +1585,10 @@
           {
             "country": "RO",
             "hire_period": "2024",
-            "n": 92,
+            "n": 93,
             "retained": 81,
-            "rate": 0.8804347826086957,
-            "exposure_mean": 12.09633810987585,
+            "rate": 0.8709677419354839,
+            "exposure_mean": 12.078067672957825,
             "distinct_vintages": 8,
             "age_days_min": 185,
             "age_days_max": 540
@@ -1570,46 +1596,59 @@
           {
             "country": "RO",
             "hire_period": "2025",
-            "n": 27,
-            "retained": 25,
-            "rate": 0.9259259259259259,
+            "n": 28,
+            "retained": 26,
+            "rate": 0.9285714285714286,
             "exposure_mean": 10.3971874764996,
             "distinct_vintages": 1,
             "age_days_min": 367,
             "age_days_max": 544
           }
         ],
-        "descriptive_pearson": 0.21969162502382633,
-        "within_country_centered_pearson": 0.2239643085853286,
-        "min10_cohort_pearson": 0.21969162502382633,
+        "descriptive_pearson": 0.16242919338126774,
+        "within_country_centered_pearson": 0.17553091795450065,
+        "min10_cohort_pearson": 0.16242919338126774,
         "leave_one_country_out": {
-          "BG": 0.3423501140239284,
-          "GR": 0.24412586966118643,
-          "IE": 0.16977651288852008,
-          "IT": 0.1466569657598969,
-          "PL": 0.16740957992897643,
-          "RO": 0.26086893077664053
+          "BG": 0.2890684837301852,
+          "GR": 0.1872631757858559,
+          "IE": 0.11349204462415662,
+          "IT": 0.07003787385367172,
+          "PL": 0.14380961014219026,
+          "RO": 0.18582046528136675
         }
       },
       "vacancies_bf_supplementary": {
         "matched": {
-          "n": 1419,
-          "retained": 1250,
-          "rate": 0.8809020436927414
+          "n": 1408,
+          "retained": 1234,
+          "rate": 0.8764204545454546
         },
         "unmatched": {
-          "n": 403,
+          "n": 405,
           "retained": 346,
-          "rate": 0.858560794044665
+          "rate": 0.854320987654321
         },
         "breakdown": {
           "country_code": [
             {
+              "country_code": "",
+              "matched": {
+                "n": 0,
+                "retained": 0,
+                "rate": null
+              },
+              "unmatched": {
+                "n": 5,
+                "retained": 4,
+                "rate": 0.8
+              }
+            },
+            {
               "country_code": "BG",
               "matched": {
-                "n": 271,
-                "retained": 232,
-                "rate": 0.8560885608856088
+                "n": 268,
+                "retained": 228,
+                "rate": 0.8507462686567164
               },
               "unmatched": {
                 "n": 53,
@@ -1620,48 +1659,48 @@
             {
               "country_code": "GR",
               "matched": {
-                "n": 221,
-                "retained": 197,
-                "rate": 0.8914027149321267
+                "n": 219,
+                "retained": 195,
+                "rate": 0.8904109589041096
               },
               "unmatched": {
-                "n": 82,
+                "n": 81,
                 "retained": 70,
-                "rate": 0.8536585365853658
+                "rate": 0.8641975308641975
               }
             },
             {
               "country_code": "IE",
               "matched": {
-                "n": 205,
-                "retained": 185,
-                "rate": 0.9024390243902439
+                "n": 201,
+                "retained": 181,
+                "rate": 0.900497512437811
               },
               "unmatched": {
-                "n": 75,
-                "retained": 61,
-                "rate": 0.8133333333333334
+                "n": 74,
+                "retained": 59,
+                "rate": 0.7972972972972973
               }
             },
             {
               "country_code": "IT",
               "matched": {
-                "n": 247,
-                "retained": 216,
-                "rate": 0.8744939271255061
+                "n": 245,
+                "retained": 213,
+                "rate": 0.8693877551020408
               },
               "unmatched": {
-                "n": 80,
-                "retained": 69,
-                "rate": 0.8625
+                "n": 79,
+                "retained": 67,
+                "rate": 0.8481012658227848
               }
             },
             {
               "country_code": "PL",
               "matched": {
-                "n": 230,
-                "retained": 208,
-                "rate": 0.9043478260869565
+                "n": 228,
+                "retained": 204,
+                "rate": 0.8947368421052632
               },
               "unmatched": {
                 "n": 58,
@@ -1672,9 +1711,9 @@
             {
               "country_code": "RO",
               "matched": {
-                "n": 245,
-                "retained": 212,
-                "rate": 0.8653061224489796
+                "n": 247,
+                "retained": 213,
+                "rate": 0.8623481781376519
               },
               "unmatched": {
                 "n": 55,
@@ -1688,47 +1727,47 @@
               "hire_year": "2021",
               "matched": {
                 "n": 123,
-                "retained": 110,
-                "rate": 0.8943089430894309
+                "retained": 108,
+                "rate": 0.8780487804878049
               },
               "unmatched": {
-                "n": 296,
-                "retained": 257,
-                "rate": 0.8682432432432432
+                "n": 294,
+                "retained": 255,
+                "rate": 0.8673469387755102
               }
             },
             {
               "hire_year": "2022",
               "matched": {
-                "n": 340,
+                "n": 339,
                 "retained": 299,
-                "rate": 0.8794117647058823
+                "rate": 0.8820058997050148
               },
               "unmatched": {
-                "n": 57,
-                "retained": 46,
-                "rate": 0.8070175438596491
+                "n": 58,
+                "retained": 45,
+                "rate": 0.7758620689655172
               }
             },
             {
               "hire_year": "2023",
               "matched": {
-                "n": 346,
-                "retained": 299,
-                "rate": 0.8641618497109826
+                "n": 341,
+                "retained": 293,
+                "rate": 0.8592375366568915
               },
               "unmatched": {
-                "n": 50,
-                "retained": 43,
-                "rate": 0.86
+                "n": 52,
+                "retained": 45,
+                "rate": 0.8653846153846154
               }
             },
             {
               "hire_year": "2024",
               "matched": {
-                "n": 436,
-                "retained": 383,
-                "rate": 0.8784403669724771
+                "n": 433,
+                "retained": 378,
+                "rate": 0.8729792147806005
               },
               "unmatched": {
                 "n": 0,
@@ -1739,14 +1778,14 @@
             {
               "hire_year": "2025",
               "matched": {
-                "n": 174,
-                "retained": 159,
-                "rate": 0.9137931034482759
+                "n": 172,
+                "retained": 156,
+                "rate": 0.9069767441860465
               },
               "unmatched": {
-                "n": 0,
-                "retained": 0,
-                "rate": null
+                "n": 1,
+                "retained": 1,
+                "rate": 1.0
               }
             }
           ],
@@ -1754,35 +1793,35 @@
             {
               "business_unit": "Digital",
               "matched": {
-                "n": 344,
-                "retained": 302,
-                "rate": 0.877906976744186
+                "n": 341,
+                "retained": 299,
+                "rate": 0.8768328445747801
               },
               "unmatched": {
-                "n": 95,
-                "retained": 83,
-                "rate": 0.8736842105263158
+                "n": 96,
+                "retained": 82,
+                "rate": 0.8541666666666666
               }
             },
             {
               "business_unit": "Finance",
               "matched": {
-                "n": 358,
-                "retained": 318,
-                "rate": 0.888268156424581
+                "n": 357,
+                "retained": 315,
+                "rate": 0.8823529411764706
               },
               "unmatched": {
                 "n": 104,
-                "retained": 93,
-                "rate": 0.8942307692307693
+                "retained": 92,
+                "rate": 0.8846153846153846
               }
             },
             {
               "business_unit": "Sales",
               "matched": {
-                "n": 355,
-                "retained": 306,
-                "rate": 0.8619718309859155
+                "n": 353,
+                "retained": 304,
+                "rate": 0.8611898016997167
               },
               "unmatched": {
                 "n": 88,
@@ -1793,14 +1832,14 @@
             {
               "business_unit": "Supply Chain",
               "matched": {
-                "n": 362,
-                "retained": 324,
-                "rate": 0.8950276243093923
+                "n": 357,
+                "retained": 316,
+                "rate": 0.8851540616246498
               },
               "unmatched": {
-                "n": 116,
-                "retained": 96,
-                "rate": 0.8275862068965517
+                "n": 117,
+                "retained": 98,
+                "rate": 0.8376068376068376
               }
             }
           ]
@@ -1879,13 +1918,13 @@
           {
             "country": "BG",
             "hire_period": "2023Q1",
-            "n": 12,
-            "retained": 12,
+            "n": 11,
+            "retained": 11,
             "rate": 1.0,
-            "exposure_mean": 0.7833333333333333,
+            "exposure_mean": 0.7818181818181817,
             "distinct_vintages": 2,
             "age_days_min": 89,
-            "age_days_max": 240
+            "age_days_max": 237
           },
           {
             "country": "BG",
@@ -1924,8 +1963,8 @@
             "country": "BG",
             "hire_period": "2024Q1",
             "n": 24,
-            "retained": 21,
-            "rate": 0.875,
+            "retained": 20,
+            "rate": 0.8333333333333334,
             "exposure_mean": 0.6833333333333332,
             "distinct_vintages": 2,
             "age_days_min": 76,
@@ -1956,10 +1995,10 @@
           {
             "country": "BG",
             "hire_period": "2024Q4",
-            "n": 20,
-            "retained": 17,
-            "rate": 0.85,
-            "exposure_mean": 0.6699999999999999,
+            "n": 19,
+            "retained": 16,
+            "rate": 0.8421052631578947,
+            "exposure_mean": 0.6684210526315789,
             "distinct_vintages": 2,
             "age_days_min": 82,
             "age_days_max": 167
@@ -1967,9 +2006,9 @@
           {
             "country": "BG",
             "hire_period": "2025Q1",
-            "n": 13,
-            "retained": 12,
-            "rate": 0.9230769230769231,
+            "n": 12,
+            "retained": 11,
+            "rate": 0.9166666666666666,
             "exposure_mean": 0.6,
             "distinct_vintages": 2,
             "age_days_min": 83,
@@ -2001,8 +2040,8 @@
             "country": "GR",
             "hire_period": "2021Q4",
             "n": 18,
-            "retained": 16,
-            "rate": 0.8888888888888888,
+            "retained": 15,
+            "rate": 0.8333333333333334,
             "exposure_mean": 0.4,
             "distinct_vintages": 1,
             "age_days_min": 187,
@@ -2044,10 +2083,10 @@
           {
             "country": "GR",
             "hire_period": "2023Q1",
-            "n": 11,
-            "retained": 11,
+            "n": 12,
+            "retained": 12,
             "rate": 1.0,
-            "exposure_mean": 0.7,
+            "exposure_mean": 0.6999999999999998,
             "distinct_vintages": 1,
             "age_days_min": 191,
             "age_days_max": 238
@@ -2066,10 +2105,10 @@
           {
             "country": "GR",
             "hire_period": "2023Q3",
-            "n": 21,
-            "retained": 20,
-            "rate": 0.9523809523809523,
-            "exposure_mean": 1.6999999999999997,
+            "n": 20,
+            "retained": 19,
+            "rate": 0.95,
+            "exposure_mean": 1.7,
             "distinct_vintages": 2,
             "age_days_min": 77,
             "age_days_max": 240
@@ -2077,10 +2116,10 @@
           {
             "country": "GR",
             "hire_period": "2023Q4",
-            "n": 9,
-            "retained": 8,
-            "rate": 0.8888888888888888,
-            "exposure_mean": 1.7333333333333334,
+            "n": 8,
+            "retained": 7,
+            "rate": 0.875,
+            "exposure_mean": 1.7375,
             "distinct_vintages": 2,
             "age_days_min": 91,
             "age_days_max": 166
@@ -2110,10 +2149,10 @@
           {
             "country": "GR",
             "hire_period": "2024Q3",
-            "n": 18,
+            "n": 17,
             "retained": 16,
-            "rate": 0.8888888888888888,
-            "exposure_mean": 3.2,
+            "rate": 0.9411764705882353,
+            "exposure_mean": 3.2588235294117647,
             "distinct_vintages": 2,
             "age_days_min": 76,
             "age_days_max": 164
@@ -2121,10 +2160,10 @@
           {
             "country": "GR",
             "hire_period": "2024Q4",
-            "n": 23,
-            "retained": 21,
-            "rate": 0.9130434782608695,
-            "exposure_mean": 1.8869565217391306,
+            "n": 24,
+            "retained": 22,
+            "rate": 0.9166666666666666,
+            "exposure_mean": 1.9000000000000001,
             "distinct_vintages": 2,
             "age_days_min": 79,
             "age_days_max": 168
@@ -2143,10 +2182,10 @@
           {
             "country": "GR",
             "hire_period": "2025Q2",
-            "n": 15,
-            "retained": 13,
-            "rate": 0.8666666666666667,
-            "exposure_mean": 1.4,
+            "n": 14,
+            "retained": 12,
+            "rate": 0.8571428571428571,
+            "exposure_mean": 1.4142857142857144,
             "distinct_vintages": 2,
             "age_days_min": 79,
             "age_days_max": 165
@@ -2198,9 +2237,9 @@
           {
             "country": "IE",
             "hire_period": "2022Q4",
-            "n": 12,
+            "n": 11,
             "retained": 11,
-            "rate": 0.9166666666666666,
+            "rate": 1.0,
             "exposure_mean": 1.2,
             "distinct_vintages": 1,
             "age_days_min": 112,
@@ -2209,10 +2248,10 @@
           {
             "country": "IE",
             "hire_period": "2023Q1",
-            "n": 13,
-            "retained": 12,
-            "rate": 0.9230769230769231,
-            "exposure_mean": 1.1538461538461537,
+            "n": 12,
+            "retained": 11,
+            "rate": 0.9166666666666666,
+            "exposure_mean": 1.15,
             "distinct_vintages": 2,
             "age_days_min": 80,
             "age_days_max": 239
@@ -2220,9 +2259,9 @@
           {
             "country": "IE",
             "hire_period": "2023Q2",
-            "n": 15,
-            "retained": 13,
-            "rate": 0.8666666666666667,
+            "n": 14,
+            "retained": 12,
+            "rate": 0.8571428571428571,
             "exposure_mean": 0.9,
             "distinct_vintages": 1,
             "age_days_min": 91,
@@ -2231,12 +2270,12 @@
           {
             "country": "IE",
             "hire_period": "2023Q3",
-            "n": 9,
-            "retained": 7,
-            "rate": 0.7777777777777778,
-            "exposure_mean": 0.8888888888888888,
-            "distinct_vintages": 2,
-            "age_days_min": 84,
+            "n": 8,
+            "retained": 6,
+            "rate": 0.75,
+            "exposure_mean": 0.9,
+            "distinct_vintages": 1,
+            "age_days_min": 199,
             "age_days_max": 240
           },
           {
@@ -2254,8 +2293,8 @@
             "country": "IE",
             "hire_period": "2024Q1",
             "n": 15,
-            "retained": 13,
-            "rate": 0.8666666666666667,
+            "retained": 12,
+            "rate": 0.8,
             "exposure_mean": 0.7,
             "distinct_vintages": 2,
             "age_days_min": 80,
@@ -2386,8 +2425,8 @@
             "country": "IT",
             "hire_period": "2023Q1",
             "n": 16,
-            "retained": 14,
-            "rate": 0.875,
+            "retained": 13,
+            "rate": 0.8125,
             "exposure_mean": 2.1750000000000003,
             "distinct_vintages": 2,
             "age_days_min": 82,
@@ -2451,10 +2490,10 @@
           {
             "country": "IT",
             "hire_period": "2024Q3",
-            "n": 15,
-            "retained": 14,
-            "rate": 0.9333333333333333,
-            "exposure_mean": 2.32,
+            "n": 14,
+            "retained": 13,
+            "rate": 0.9285714285714286,
+            "exposure_mean": 2.314285714285714,
             "distinct_vintages": 2,
             "age_days_min": 87,
             "age_days_max": 166
@@ -2484,10 +2523,10 @@
           {
             "country": "IT",
             "hire_period": "2025Q2",
-            "n": 18,
-            "retained": 17,
-            "rate": 0.9444444444444444,
-            "exposure_mean": 1.8055555555555556,
+            "n": 17,
+            "retained": 16,
+            "rate": 0.9411764705882353,
+            "exposure_mean": 1.8058823529411765,
             "distinct_vintages": 2,
             "age_days_min": 79,
             "age_days_max": 165
@@ -2507,8 +2546,8 @@
             "country": "PL",
             "hire_period": "2021Q4",
             "n": 26,
-            "retained": 25,
-            "rate": 0.9615384615384616,
+            "retained": 24,
+            "rate": 0.9230769230769231,
             "exposure_mean": 1.4,
             "distinct_vintages": 1,
             "age_days_min": 93,
@@ -2616,10 +2655,10 @@
           {
             "country": "PL",
             "hire_period": "2024Q2",
-            "n": 16,
-            "retained": 14,
-            "rate": 0.875,
-            "exposure_mean": 0.89375,
+            "n": 15,
+            "retained": 13,
+            "rate": 0.8666666666666667,
+            "exposure_mean": 0.9,
             "distinct_vintages": 2,
             "age_days_min": 77,
             "age_days_max": 158
@@ -2627,9 +2666,9 @@
           {
             "country": "PL",
             "hire_period": "2024Q3",
-            "n": 18,
-            "retained": 16,
-            "rate": 0.8888888888888888,
+            "n": 17,
+            "retained": 15,
+            "rate": 0.8823529411764706,
             "exposure_mean": 1.1,
             "distinct_vintages": 2,
             "age_days_min": 80,
@@ -2650,8 +2689,8 @@
             "country": "PL",
             "hire_period": "2025Q1",
             "n": 12,
-            "retained": 11,
-            "rate": 0.9166666666666666,
+            "retained": 10,
+            "rate": 0.8333333333333334,
             "exposure_mean": 0.975,
             "distinct_vintages": 2,
             "age_days_min": 82,
@@ -2803,12 +2842,12 @@
           {
             "country": "RO",
             "hire_period": "2024Q3",
-            "n": 27,
+            "n": 28,
             "retained": 23,
-            "rate": 0.8518518518518519,
+            "rate": 0.8214285714285714,
             "exposure_mean": 0.7,
             "distinct_vintages": 2,
-            "age_days_min": 80,
+            "age_days_min": 79,
             "age_days_max": 164
           },
           {
@@ -2836,66 +2875,66 @@
           {
             "country": "RO",
             "hire_period": "2025Q2",
-            "n": 12,
-            "retained": 11,
-            "rate": 0.9166666666666666,
-            "exposure_mean": 0.525,
+            "n": 13,
+            "retained": 12,
+            "rate": 0.9230769230769231,
+            "exposure_mean": 0.5230769230769231,
             "distinct_vintages": 2,
             "age_days_min": 79,
             "age_days_max": 165
           }
         ],
-        "descriptive_pearson": -0.050057315613506605,
-        "within_country_centered_pearson": -0.10967101658479213,
-        "min10_cohort_pearson": 0.0021982623239930246,
+        "descriptive_pearson": -0.009421738955701905,
+        "within_country_centered_pearson": -0.028302425391070547,
+        "min10_cohort_pearson": 0.05371322359552065,
         "leave_one_country_out": {
-          "BG": -0.12441902740746447,
-          "GR": -0.024615727039570455,
-          "IE": -0.023498638619358102,
-          "IT": 0.012909034046393552,
-          "PL": -0.05298970288032663,
-          "RO": -0.07896498476169177
+          "BG": -0.07331401985938515,
+          "GR": -0.024203428600004934,
+          "IE": 0.012454687610872262,
+          "IT": 0.08005860551794512,
+          "PL": -0.010461108665029563,
+          "RO": -0.026601707949877398
         }
       }
     },
     "senior_hire_12m": {
       "unemployment": {
         "matched": {
-          "n": 146,
-          "retained": 112,
-          "rate": 0.7671232876712328
+          "n": 150,
+          "retained": 115,
+          "rate": 0.7666666666666667
         },
         "unmatched": {
-          "n": 114,
-          "retained": 92,
-          "rate": 0.8070175438596491
+          "n": 116,
+          "retained": 94,
+          "rate": 0.8103448275862069
         },
         "breakdown": {
           "country_code": [
             {
               "country_code": "BG",
               "matched": {
-                "n": 23,
-                "retained": 15,
-                "rate": 0.6521739130434783
+                "n": 25,
+                "retained": 17,
+                "rate": 0.68
               },
               "unmatched": {
-                "n": 27,
-                "retained": 21,
-                "rate": 0.7777777777777778
+                "n": 28,
+                "retained": 22,
+                "rate": 0.7857142857142857
               }
             },
             {
               "country_code": "GR",
               "matched": {
-                "n": 29,
-                "retained": 21,
-                "rate": 0.7241379310344828
+                "n": 30,
+                "retained": 22,
+                "rate": 0.7333333333333333
               },
               "unmatched": {
-                "n": 24,
-                "retained": 21,
-                "rate": 0.875
+                "n": 25,
+                "retained": 22,
+                "rate": 0.88
               }
             },
             {
@@ -2906,8 +2945,8 @@
                 "rate": 0.6818181818181818
               },
               "unmatched": {
-                "n": 14,
-                "retained": 14,
+                "n": 13,
+                "retained": 13,
                 "rate": 1.0
               }
             },
@@ -2915,8 +2954,8 @@
               "country_code": "IT",
               "matched": {
                 "n": 24,
-                "retained": 21,
-                "rate": 0.875
+                "retained": 20,
+                "rate": 0.8333333333333334
               },
               "unmatched": {
                 "n": 18,
@@ -2927,9 +2966,9 @@
             {
               "country_code": "PL",
               "matched": {
-                "n": 27,
-                "retained": 22,
-                "rate": 0.8148148148148148
+                "n": 28,
+                "retained": 23,
+                "rate": 0.8214285714285714
               },
               "unmatched": {
                 "n": 18,
@@ -2945,9 +2984,9 @@
                 "rate": 0.8571428571428571
               },
               "unmatched": {
-                "n": 13,
-                "retained": 9,
-                "rate": 0.6923076923076923
+                "n": 14,
+                "retained": 10,
+                "rate": 0.7142857142857143
               }
             }
           ],
@@ -2955,22 +2994,22 @@
             {
               "hire_year": "2021",
               "matched": {
-                "n": 30,
-                "retained": 19,
-                "rate": 0.6333333333333333
+                "n": 31,
+                "retained": 20,
+                "rate": 0.6451612903225806
               },
               "unmatched": {
-                "n": 32,
-                "retained": 26,
-                "rate": 0.8125
+                "n": 34,
+                "retained": 28,
+                "rate": 0.8235294117647058
               }
             },
             {
               "hire_year": "2022",
               "matched": {
-                "n": 20,
-                "retained": 17,
-                "rate": 0.85
+                "n": 21,
+                "retained": 18,
+                "rate": 0.8571428571428571
               },
               "unmatched": {
                 "n": 50,
@@ -2981,9 +3020,9 @@
             {
               "hire_year": "2023",
               "matched": {
-                "n": 45,
+                "n": 46,
                 "retained": 36,
-                "rate": 0.8
+                "rate": 0.782608695652174
               },
               "unmatched": {
                 "n": 21,
@@ -2994,9 +3033,9 @@
             {
               "hire_year": "2024",
               "matched": {
-                "n": 51,
-                "retained": 40,
-                "rate": 0.7843137254901961
+                "n": 52,
+                "retained": 41,
+                "rate": 0.7884615384615384
               },
               "unmatched": {
                 "n": 11,
@@ -3014,9 +3053,9 @@
                 "rate": 0.8
               },
               "unmatched": {
-                "n": 24,
-                "retained": 20,
-                "rate": 0.8333333333333334
+                "n": 25,
+                "retained": 21,
+                "rate": 0.84
               }
             },
             {
@@ -3035,9 +3074,9 @@
             {
               "business_unit": "Sales",
               "matched": {
-                "n": 35,
-                "retained": 25,
-                "rate": 0.7142857142857143
+                "n": 37,
+                "retained": 26,
+                "rate": 0.7027027027027027
               },
               "unmatched": {
                 "n": 19,
@@ -3048,20 +3087,20 @@
             {
               "business_unit": "Supply Chain",
               "matched": {
-                "n": 49,
-                "retained": 37,
-                "rate": 0.7551020408163265
+                "n": 51,
+                "retained": 39,
+                "rate": 0.7647058823529411
               },
               "unmatched": {
-                "n": 37,
-                "retained": 30,
-                "rate": 0.8108108108108109
+                "n": 38,
+                "retained": 31,
+                "rate": 0.8157894736842105
               }
             }
           ]
         },
-        "distinct_country_reference_periods": 68,
-        "distinct_country_period_vintages": 68,
+        "distinct_country_reference_periods": 69,
+        "distinct_country_period_vintages": 69,
         "cohort_count": 56,
         "cohorts_below_10": 56,
         "cohorts": [
@@ -3090,9 +3129,9 @@
           {
             "country": "BG",
             "hire_period": "2022Q2",
-            "n": 2,
-            "retained": 0,
-            "rate": 0.0,
+            "n": 3,
+            "retained": 1,
+            "rate": 0.3333333333333333,
             "exposure_mean": 4.4,
             "distinct_vintages": 1,
             "age_days_min": 43,
@@ -3134,13 +3173,13 @@
           {
             "country": "BG",
             "hire_period": "2024Q2",
-            "n": 1,
-            "retained": 1,
+            "n": 2,
+            "retained": 2,
             "rate": 1.0,
-            "exposure_mean": 4.5,
-            "distinct_vintages": 1,
+            "exposure_mean": 4.45,
+            "distinct_vintages": 2,
             "age_days_min": 37,
-            "age_days_max": 37
+            "age_days_max": 56
           },
           {
             "country": "BG",
@@ -3200,12 +3239,12 @@
           {
             "country": "GR",
             "hire_period": "2023Q1",
-            "n": 1,
-            "retained": 1,
+            "n": 2,
+            "retained": 2,
             "rate": 1.0,
             "exposure_mean": 11.4,
             "distinct_vintages": 1,
-            "age_days_min": 64,
+            "age_days_min": 57,
             "age_days_max": 64
           },
           {
@@ -3310,12 +3349,12 @@
           {
             "country": "IE",
             "hire_period": "2023Q1",
-            "n": 4,
-            "retained": 3,
-            "rate": 0.75,
+            "n": 3,
+            "retained": 2,
+            "rate": 0.6666666666666666,
             "exposure_mean": 4.4,
             "distinct_vintages": 1,
-            "age_days_min": 57,
+            "age_days_min": 62,
             "age_days_max": 86
           },
           {
@@ -3376,13 +3415,13 @@
           {
             "country": "IE",
             "hire_period": "2024Q4",
-            "n": 1,
-            "retained": 0,
-            "rate": 0.0,
+            "n": 2,
+            "retained": 1,
+            "rate": 0.5,
             "exposure_mean": 4.2,
             "distinct_vintages": 1,
             "age_days_min": 40,
-            "age_days_max": 40
+            "age_days_max": 58
           },
           {
             "country": "IT",
@@ -3442,13 +3481,13 @@
           {
             "country": "IT",
             "hire_period": "2023Q3",
-            "n": 1,
+            "n": 2,
             "retained": 1,
-            "rate": 1.0,
+            "rate": 0.5,
             "exposure_mean": 7.6,
             "distinct_vintages": 1,
             "age_days_min": 34,
-            "age_days_max": 34
+            "age_days_max": 77
           },
           {
             "country": "IT",
@@ -3475,10 +3514,10 @@
           {
             "country": "IT",
             "hire_period": "2024Q3",
-            "n": 4,
-            "retained": 4,
+            "n": 3,
+            "retained": 3,
             "rate": 1.0,
-            "exposure_mean": 6.75,
+            "exposure_mean": 6.833333333333333,
             "distinct_vintages": 2,
             "age_days_min": 33,
             "age_days_max": 42
@@ -3508,9 +3547,9 @@
           {
             "country": "PL",
             "hire_period": "2021Q4",
-            "n": 3,
-            "retained": 2,
-            "rate": 0.6666666666666666,
+            "n": 4,
+            "retained": 3,
+            "rate": 0.75,
             "exposure_mean": 3.4,
             "distinct_vintages": 1,
             "age_days_min": 80,
@@ -3682,23 +3721,23 @@
             "age_days_max": 52
           }
         ],
-        "descriptive_pearson": 0.020553788365269336,
-        "within_country_centered_pearson": -0.14879233281218823,
+        "descriptive_pearson": -0.023105596633779733,
+        "within_country_centered_pearson": -0.16974387559732326,
         "min10_cohort_pearson": null,
         "leave_one_country_out": {
-          "BG": -0.02382013413366793,
-          "GR": 0.1713226240005608,
-          "IE": -0.05431998466870388,
-          "IT": -0.005185310220856447,
-          "PL": 0.03555652180420381,
-          "RO": 0.05011892453449776
+          "BG": -0.06337418791876932,
+          "GR": 0.10485293036364471,
+          "IE": -0.08875878497448869,
+          "IT": -0.0392764130482324,
+          "PL": -0.013721435258904915,
+          "RO": 0.00525316411090952
         }
       },
       "inflation": {
         "matched": {
-          "n": 260,
-          "retained": 204,
-          "rate": 0.7846153846153846
+          "n": 266,
+          "retained": 209,
+          "rate": 0.7857142857142857
         },
         "unmatched": {
           "n": 0,
@@ -3710,9 +3749,9 @@
             {
               "country_code": "BG",
               "matched": {
-                "n": 50,
-                "retained": 36,
-                "rate": 0.72
+                "n": 53,
+                "retained": 39,
+                "rate": 0.7358490566037735
               },
               "unmatched": {
                 "n": 0,
@@ -3723,9 +3762,9 @@
             {
               "country_code": "GR",
               "matched": {
-                "n": 53,
-                "retained": 42,
-                "rate": 0.7924528301886793
+                "n": 55,
+                "retained": 44,
+                "rate": 0.8
               },
               "unmatched": {
                 "n": 0,
@@ -3736,9 +3775,9 @@
             {
               "country_code": "IE",
               "matched": {
-                "n": 36,
-                "retained": 29,
-                "rate": 0.8055555555555556
+                "n": 35,
+                "retained": 28,
+                "rate": 0.8
               },
               "unmatched": {
                 "n": 0,
@@ -3750,8 +3789,8 @@
               "country_code": "IT",
               "matched": {
                 "n": 42,
-                "retained": 35,
-                "rate": 0.8333333333333334
+                "retained": 34,
+                "rate": 0.8095238095238095
               },
               "unmatched": {
                 "n": 0,
@@ -3762,9 +3801,9 @@
             {
               "country_code": "PL",
               "matched": {
-                "n": 45,
-                "retained": 35,
-                "rate": 0.7777777777777778
+                "n": 46,
+                "retained": 36,
+                "rate": 0.782608695652174
               },
               "unmatched": {
                 "n": 0,
@@ -3775,9 +3814,9 @@
             {
               "country_code": "RO",
               "matched": {
-                "n": 34,
-                "retained": 27,
-                "rate": 0.7941176470588235
+                "n": 35,
+                "retained": 28,
+                "rate": 0.8
               },
               "unmatched": {
                 "n": 0,
@@ -3790,9 +3829,9 @@
             {
               "hire_year": "2021",
               "matched": {
-                "n": 62,
-                "retained": 45,
-                "rate": 0.7258064516129032
+                "n": 65,
+                "retained": 48,
+                "rate": 0.7384615384615385
               },
               "unmatched": {
                 "n": 0,
@@ -3803,9 +3842,9 @@
             {
               "hire_year": "2022",
               "matched": {
-                "n": 70,
-                "retained": 55,
-                "rate": 0.7857142857142857
+                "n": 71,
+                "retained": 56,
+                "rate": 0.7887323943661971
               },
               "unmatched": {
                 "n": 0,
@@ -3816,9 +3855,9 @@
             {
               "hire_year": "2023",
               "matched": {
-                "n": 66,
+                "n": 67,
                 "retained": 54,
-                "rate": 0.8181818181818182
+                "rate": 0.8059701492537313
               },
               "unmatched": {
                 "n": 0,
@@ -3829,9 +3868,9 @@
             {
               "hire_year": "2024",
               "matched": {
-                "n": 62,
-                "retained": 50,
-                "rate": 0.8064516129032258
+                "n": 63,
+                "retained": 51,
+                "rate": 0.8095238095238095
               },
               "unmatched": {
                 "n": 0,
@@ -3844,9 +3883,9 @@
             {
               "business_unit": "Digital",
               "matched": {
-                "n": 59,
-                "retained": 48,
-                "rate": 0.8135593220338984
+                "n": 60,
+                "retained": 49,
+                "rate": 0.8166666666666667
               },
               "unmatched": {
                 "n": 0,
@@ -3870,9 +3909,9 @@
             {
               "business_unit": "Sales",
               "matched": {
-                "n": 54,
-                "retained": 42,
-                "rate": 0.7777777777777778
+                "n": 56,
+                "retained": 43,
+                "rate": 0.7678571428571429
               },
               "unmatched": {
                 "n": 0,
@@ -3883,9 +3922,9 @@
             {
               "business_unit": "Supply Chain",
               "matched": {
-                "n": 86,
-                "retained": 67,
-                "rate": 0.7790697674418605
+                "n": 89,
+                "retained": 70,
+                "rate": 0.7865168539325843
               },
               "unmatched": {
                 "n": 0,
@@ -3896,28 +3935,28 @@
           ]
         },
         "distinct_country_reference_periods": 30,
-        "distinct_country_period_vintages": 103,
+        "distinct_country_period_vintages": 107,
         "cohort_count": 24,
-        "cohorts_below_10": 7,
+        "cohorts_below_10": 6,
         "cohorts": [
           {
             "country": "BG",
             "hire_period": "2021",
-            "n": 14,
-            "retained": 10,
-            "rate": 0.7142857142857143,
-            "exposure_mean": 1.8769801117401321,
-            "distinct_vintages": 4,
+            "n": 15,
+            "retained": 11,
+            "rate": 0.7333333333333333,
+            "exposure_mean": 1.9587634008219728,
+            "distinct_vintages": 5,
             "age_days_min": 182,
-            "age_days_max": 374
+            "age_days_max": 463
           },
           {
             "country": "BG",
             "hire_period": "2022",
-            "n": 14,
-            "retained": 9,
-            "rate": 0.6428571428571429,
-            "exposure_mean": 2.6011857596647574,
+            "n": 15,
+            "retained": 10,
+            "rate": 0.6666666666666666,
+            "exposure_mean": 2.5392694402576144,
             "distinct_vintages": 4,
             "age_days_min": 190,
             "age_days_max": 482
@@ -3936,21 +3975,21 @@
           {
             "country": "BG",
             "hire_period": "2024",
-            "n": 11,
-            "retained": 9,
-            "rate": 0.8181818181818182,
-            "exposure_mean": 12.116667548863349,
-            "distinct_vintages": 6,
+            "n": 12,
+            "retained": 10,
+            "rate": 0.8333333333333334,
+            "exposure_mean": 12.38405016366112,
+            "distinct_vintages": 7,
             "age_days_min": 187,
             "age_days_max": 523
           },
           {
             "country": "GR",
             "hire_period": "2021",
-            "n": 18,
-            "retained": 11,
-            "rate": 0.6111111111111112,
-            "exposure_mean": -0.747641903190817,
+            "n": 19,
+            "retained": 12,
+            "rate": 0.631578947368421,
+            "exposure_mean": -0.7739740070762204,
             "distinct_vintages": 7,
             "age_days_min": 146,
             "age_days_max": 503
@@ -3969,10 +4008,10 @@
           {
             "country": "GR",
             "hire_period": "2023",
-            "n": 12,
-            "retained": 11,
-            "rate": 0.9166666666666666,
-            "exposure_mean": 5.4345424115024805,
+            "n": 13,
+            "retained": 12,
+            "rate": 0.9230769230769231,
+            "exposure_mean": 5.110641072940639,
             "distinct_vintages": 3,
             "age_days_min": 271,
             "age_days_max": 623
@@ -3991,10 +4030,10 @@
           {
             "country": "IE",
             "hire_period": "2021",
-            "n": 9,
-            "retained": 8,
-            "rate": 0.8888888888888888,
-            "exposure_mean": 0.23147275523057154,
+            "n": 8,
+            "retained": 7,
+            "rate": 0.875,
+            "exposure_mean": 0.14302628950260038,
             "distinct_vintages": 4,
             "age_days_min": 203,
             "age_days_max": 420
@@ -4013,10 +4052,10 @@
           {
             "country": "IE",
             "hire_period": "2023",
-            "n": 9,
-            "retained": 5,
-            "rate": 0.5555555555555556,
-            "exposure_mean": 2.963613234367129,
+            "n": 8,
+            "retained": 4,
+            "rate": 0.5,
+            "exposure_mean": 3.0392970183608803,
             "distinct_vintages": 3,
             "age_days_min": 336,
             "age_days_max": 593
@@ -4024,11 +4063,11 @@
           {
             "country": "IE",
             "hire_period": "2024",
-            "n": 7,
-            "retained": 5,
-            "rate": 0.7142857142857143,
-            "exposure_mean": 7.3765323997454715,
-            "distinct_vintages": 4,
+            "n": 8,
+            "retained": 6,
+            "rate": 0.75,
+            "exposure_mean": 7.241893959051194,
+            "distinct_vintages": 5,
             "age_days_min": 228,
             "age_days_max": 510
           },
@@ -4057,21 +4096,21 @@
           {
             "country": "IT",
             "hire_period": "2023",
-            "n": 11,
+            "n": 12,
             "retained": 10,
-            "rate": 0.9090909090909091,
-            "exposure_mean": 4.174694768167553,
+            "rate": 0.8333333333333334,
+            "exposure_mean": 3.9829521422889997,
             "distinct_vintages": 3,
             "age_days_min": 278,
-            "age_days_max": 550
+            "age_days_max": 593
           },
           {
             "country": "IT",
             "hire_period": "2024",
-            "n": 12,
-            "retained": 10,
-            "rate": 0.8333333333333334,
-            "exposure_mean": 7.126666790926276,
+            "n": 11,
+            "retained": 9,
+            "rate": 0.8181818181818182,
+            "exposure_mean": 7.263437006286936,
             "distinct_vintages": 5,
             "age_days_min": 215,
             "age_days_max": 545
@@ -4079,10 +4118,10 @@
           {
             "country": "PL",
             "hire_period": "2021",
-            "n": 9,
-            "retained": 7,
-            "rate": 0.7777777777777778,
-            "exposure_mean": 3.1195828557852554,
+            "n": 10,
+            "retained": 8,
+            "rate": 0.8,
+            "exposure_mean": 3.1450715428253195,
             "distinct_vintages": 5,
             "age_days_min": 195,
             "age_days_max": 511
@@ -4123,11 +4162,11 @@
           {
             "country": "RO",
             "hire_period": "2021",
-            "n": 4,
-            "retained": 3,
-            "rate": 0.75,
-            "exposure_mean": 2.93026841538421,
-            "distinct_vintages": 3,
+            "n": 5,
+            "retained": 4,
+            "rate": 0.8,
+            "exposure_mean": 3.1097855975062236,
+            "distinct_vintages": 4,
             "age_days_min": 238,
             "age_days_max": 425
           },
@@ -4165,55 +4204,55 @@
             "age_days_max": 530
           }
         ],
-        "descriptive_pearson": 0.09613982300386938,
-        "within_country_centered_pearson": 0.21801411181451025,
-        "min10_cohort_pearson": 0.09770873313628842,
+        "descriptive_pearson": 0.0943323373778323,
+        "within_country_centered_pearson": 0.17520094176112747,
+        "min10_cohort_pearson": 0.08688717114714929,
         "leave_one_country_out": {
-          "BG": 0.07263091378453695,
-          "GR": 0.137593769251633,
-          "IE": 0.23217605116580217,
-          "IT": 0.10586458897462435,
-          "PL": 0.06139711732636402,
-          "RO": 0.011067332985786764
+          "BG": 0.06824660009076203,
+          "GR": 0.15179991154827063,
+          "IE": 0.21120403467849114,
+          "IT": 0.0950708877701153,
+          "PL": 0.06390474905617383,
+          "RO": 0.018370279110300477
         }
       },
       "vacancies_bf_supplementary": {
         "matched": {
-          "n": 207,
-          "retained": 162,
-          "rate": 0.782608695652174
+          "n": 211,
+          "retained": 165,
+          "rate": 0.7819905213270142
         },
         "unmatched": {
-          "n": 53,
-          "retained": 42,
-          "rate": 0.7924528301886793
+          "n": 55,
+          "retained": 44,
+          "rate": 0.8
         },
         "breakdown": {
           "country_code": [
             {
               "country_code": "BG",
               "matched": {
-                "n": 41,
-                "retained": 28,
-                "rate": 0.6829268292682927
+                "n": 43,
+                "retained": 30,
+                "rate": 0.6976744186046512
               },
               "unmatched": {
-                "n": 9,
-                "retained": 8,
-                "rate": 0.8888888888888888
+                "n": 10,
+                "retained": 9,
+                "rate": 0.9
               }
             },
             {
               "country_code": "GR",
               "matched": {
-                "n": 40,
-                "retained": 33,
-                "rate": 0.825
+                "n": 41,
+                "retained": 34,
+                "rate": 0.8292682926829268
               },
               "unmatched": {
-                "n": 13,
-                "retained": 9,
-                "rate": 0.6923076923076923
+                "n": 14,
+                "retained": 10,
+                "rate": 0.7142857142857143
               }
             },
             {
@@ -4224,17 +4263,17 @@
                 "rate": 0.7692307692307693
               },
               "unmatched": {
-                "n": 10,
-                "retained": 9,
-                "rate": 0.9
+                "n": 9,
+                "retained": 8,
+                "rate": 0.8888888888888888
               }
             },
             {
               "country_code": "IT",
               "matched": {
                 "n": 33,
-                "retained": 28,
-                "rate": 0.8484848484848485
+                "retained": 27,
+                "rate": 0.8181818181818182
               },
               "unmatched": {
                 "n": 9,
@@ -4245,9 +4284,9 @@
             {
               "country_code": "PL",
               "matched": {
-                "n": 40,
-                "retained": 31,
-                "rate": 0.775
+                "n": 41,
+                "retained": 32,
+                "rate": 0.7804878048780488
               },
               "unmatched": {
                 "n": 5,
@@ -4263,9 +4302,9 @@
                 "rate": 0.8148148148148148
               },
               "unmatched": {
-                "n": 7,
-                "retained": 5,
-                "rate": 0.7142857142857143
+                "n": 8,
+                "retained": 6,
+                "rate": 0.75
               }
             }
           ],
@@ -4273,22 +4312,22 @@
             {
               "hire_year": "2021",
               "matched": {
-                "n": 27,
-                "retained": 19,
-                "rate": 0.7037037037037037
+                "n": 28,
+                "retained": 20,
+                "rate": 0.7142857142857143
               },
               "unmatched": {
-                "n": 35,
-                "retained": 26,
-                "rate": 0.7428571428571429
+                "n": 37,
+                "retained": 28,
+                "rate": 0.7567567567567568
               }
             },
             {
               "hire_year": "2022",
               "matched": {
-                "n": 59,
-                "retained": 45,
-                "rate": 0.7627118644067796
+                "n": 60,
+                "retained": 46,
+                "rate": 0.7666666666666667
               },
               "unmatched": {
                 "n": 11,
@@ -4299,9 +4338,9 @@
             {
               "hire_year": "2023",
               "matched": {
-                "n": 59,
+                "n": 60,
                 "retained": 48,
-                "rate": 0.8135593220338984
+                "rate": 0.8
               },
               "unmatched": {
                 "n": 7,
@@ -4312,9 +4351,9 @@
             {
               "hire_year": "2024",
               "matched": {
-                "n": 62,
-                "retained": 50,
-                "rate": 0.8064516129032258
+                "n": 63,
+                "retained": 51,
+                "rate": 0.8095238095238095
               },
               "unmatched": {
                 "n": 0,
@@ -4332,9 +4371,9 @@
                 "rate": 0.8113207547169812
               },
               "unmatched": {
-                "n": 6,
-                "retained": 5,
-                "rate": 0.8333333333333334
+                "n": 7,
+                "retained": 6,
+                "rate": 0.8571428571428571
               }
             },
             {
@@ -4353,9 +4392,9 @@
             {
               "business_unit": "Sales",
               "matched": {
-                "n": 44,
-                "retained": 33,
-                "rate": 0.75
+                "n": 46,
+                "retained": 34,
+                "rate": 0.7391304347826086
               },
               "unmatched": {
                 "n": 10,
@@ -4366,20 +4405,20 @@
             {
               "business_unit": "Supply Chain",
               "matched": {
-                "n": 62,
-                "retained": 49,
-                "rate": 0.7903225806451613
+                "n": 64,
+                "retained": 51,
+                "rate": 0.796875
               },
               "unmatched": {
-                "n": 24,
-                "retained": 18,
-                "rate": 0.75
+                "n": 25,
+                "retained": 19,
+                "rate": 0.76
               }
             }
           ]
         },
-        "distinct_country_reference_periods": 55,
-        "distinct_country_period_vintages": 55,
+        "distinct_country_reference_periods": 56,
+        "distinct_country_period_vintages": 56,
         "cohort_count": 75,
         "cohorts_below_10": 75,
         "cohorts": [
@@ -4419,9 +4458,9 @@
           {
             "country": "BG",
             "hire_period": "2022Q2",
-            "n": 2,
-            "retained": 0,
-            "rate": 0.0,
+            "n": 3,
+            "retained": 1,
+            "rate": 0.3333333333333333,
             "exposure_mean": 0.6,
             "distinct_vintages": 1,
             "age_days_min": 102,
@@ -4507,12 +4546,12 @@
           {
             "country": "BG",
             "hire_period": "2024Q2",
-            "n": 1,
-            "retained": 1,
+            "n": 2,
+            "retained": 2,
             "rate": 1.0,
             "exposure_mean": 0.6,
             "distinct_vintages": 1,
-            "age_days_min": 158,
+            "age_days_min": 147,
             "age_days_max": 158
           },
           {
@@ -4584,12 +4623,12 @@
           {
             "country": "GR",
             "hire_period": "2023Q1",
-            "n": 1,
-            "retained": 1,
+            "n": 2,
+            "retained": 2,
             "rate": 1.0,
             "exposure_mean": 0.7,
             "distinct_vintages": 1,
-            "age_days_min": 217,
+            "age_days_min": 210,
             "age_days_max": 217
           },
           {
@@ -4727,12 +4766,12 @@
           {
             "country": "IE",
             "hire_period": "2023Q1",
-            "n": 4,
-            "retained": 3,
-            "rate": 0.75,
+            "n": 3,
+            "retained": 2,
+            "rate": 0.6666666666666666,
             "exposure_mean": 1.2,
             "distinct_vintages": 1,
-            "age_days_min": 210,
+            "age_days_min": 215,
             "age_days_max": 239
           },
           {
@@ -4804,12 +4843,12 @@
           {
             "country": "IE",
             "hire_period": "2024Q4",
-            "n": 1,
-            "retained": 0,
-            "rate": 0.0,
-            "exposure_mean": 1.2,
-            "distinct_vintages": 1,
-            "age_days_min": 163,
+            "n": 2,
+            "retained": 1,
+            "rate": 0.5,
+            "exposure_mean": 1.05,
+            "distinct_vintages": 2,
+            "age_days_min": 89,
             "age_days_max": 163
           },
           {
@@ -4892,13 +4931,13 @@
           {
             "country": "IT",
             "hire_period": "2023Q3",
-            "n": 1,
+            "n": 2,
             "retained": 1,
-            "rate": 1.0,
+            "rate": 0.5,
             "exposure_mean": 2.1,
             "distinct_vintages": 1,
             "age_days_min": 185,
-            "age_days_max": 185
+            "age_days_max": 228
           },
           {
             "country": "IT",
@@ -4936,8 +4975,8 @@
           {
             "country": "IT",
             "hire_period": "2024Q3",
-            "n": 4,
-            "retained": 4,
+            "n": 3,
+            "retained": 3,
             "rate": 1.0,
             "exposure_mean": 2.4,
             "distinct_vintages": 1,
@@ -4969,10 +5008,10 @@
           {
             "country": "PL",
             "hire_period": "2021Q4",
-            "n": 5,
-            "retained": 3,
-            "rate": 0.6,
-            "exposure_mean": 1.4,
+            "n": 6,
+            "retained": 4,
+            "rate": 0.6666666666666666,
+            "exposure_mean": 1.3999999999999997,
             "distinct_vintages": 1,
             "age_days_min": 111,
             "age_days_max": 172
@@ -5209,16 +5248,16 @@
             "age_days_max": 137
           }
         ],
-        "descriptive_pearson": 0.1281124190685388,
-        "within_country_centered_pearson": -0.010027683211440729,
+        "descriptive_pearson": 0.09180414590225881,
+        "within_country_centered_pearson": 0.003793224801597548,
         "min10_cohort_pearson": null,
         "leave_one_country_out": {
-          "BG": 0.06196390849682194,
-          "GR": 0.09864783859402679,
-          "IE": 0.15141496623625816,
-          "IT": 0.09570152346854736,
-          "PL": 0.15651932149190112,
-          "RO": 0.167795583677957
+          "BG": 0.02801592112968331,
+          "GR": 0.04690417102150189,
+          "IE": 0.1011510848431867,
+          "IT": 0.10337186298912229,
+          "PL": 0.11898539545533991,
+          "RO": 0.1282447918014068
         }
       }
     }

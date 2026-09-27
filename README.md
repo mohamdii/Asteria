@@ -1,8 +1,8 @@
 # Workforce assessment - software emphasis
 
-The curated data now uses [verified synthetic source recovery](docs/source-recovery.md): all nine missing countries and other deliberately corrupted values are restored from the original generator, with unchanged raw inputs and a cell-level audit. Rebuilt metrics supersede earlier numeric findings.
+Submission results use conservative cleaning of the supplied CSVs: exact duplicates are removed, EL/ROM are normalized, missing countries remain unknown, and invalid employment dates are quarantined. Sr Mgmt is a flagged provisional Senior Leader mapping with sensitivity analysis. No hidden generator values enter the main metrics. See [cleaning decisions](docs/metric-and-quality-rules.md).
 
-The cleanup replay uses the bundled Python 3.12 runtime (available outside PATH) with the pinned PDF dependency. This supersedes the earlier host-unavailable note below. The current dashboard includes a notice that its metrics use recovered synthetic values.
+Generator recovery is an [optional experiment](docs/source-recovery.md), isolated under `experiments/synthetic_recovery`. Run `python scripts/clean_assessment.py --recover-synthetic` to regenerate its curated data without changing submission outputs. Earlier recovered metrics are retained there as historical comparison artifacts. The main pipeline always uses conservative cleaning.
 
 The data-preparation pipeline replays saved workforce and external evidence, calculates the three required metrics, joins historical context, and reports coverage. The complete assessment product (including the dashboard) is still in progress.
 
@@ -37,6 +37,8 @@ A successful run writes `analysis/pipeline_manifest.json` with input/output SHA-
 Repeat verification establishes identical outputs in the same environment. Clean-environment and cross-platform certification remain separate checks. For stable CSV bytes, use the recorded platform/runtime; line endings can differ across platforms.
 
 ## Results and rules
+
+- [Requirements, scope and decisions](docs/requirements-and-decisions.md)
 
 - [Metric-specific external coverage](analysis/metric_external_coverage.md)
 - [Country/year coverage and acquisition priorities](analysis/external_coverage_report.md)

@@ -1,0 +1,3467 @@
+{
+  "source": "analysis\\expanded_historical_features.csv",
+  "source_sha256": "c86e5fd47871c91174baaf1368dd63e85805faa32cc1391ec2b5d637b78192cf",
+  "scope": "All curated employees; workforce KPI eligibility and milestone maturity are separate. Priorities cover hire dates in 2021-2025 only.",
+  "denominators": "All = records in group. Eligible = matched + stale + no verified historical match. Missing country/employment exclusions remain visible.",
+  "priority_caveat": "Hire months identify evidence needs, not publication dates. Counts overlap across indicators and are not guaranteed gains from one release.",
+  "coverage": [
+    {
+      "indicator": "inflation",
+      "country": "BG",
+      "hire_year": "2020",
+      "records": 68,
+      "matched": 60,
+      "no_verified_historical_match": 8,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 88.24,
+      "matched_pct_eligible": 88.24
+    },
+    {
+      "indicator": "inflation",
+      "country": "BG",
+      "hire_year": "2021",
+      "records": 69,
+      "matched": 69,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "BG",
+      "hire_year": "2022",
+      "records": 62,
+      "matched": 62,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 62,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "BG",
+      "hire_year": "2023",
+      "records": 66,
+      "matched": 66,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "BG",
+      "hire_year": "2024",
+      "records": 93,
+      "matched": 93,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 93,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "BG",
+      "hire_year": "2025",
+      "records": 63,
+      "matched": 63,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 63,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "GR",
+      "hire_year": "2020",
+      "records": 72,
+      "matched": 59,
+      "no_verified_historical_match": 13,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 72,
+      "matched_pct_all": 81.94,
+      "matched_pct_eligible": 81.94
+    },
+    {
+      "indicator": "inflation",
+      "country": "GR",
+      "hire_year": "2021",
+      "records": 82,
+      "matched": 82,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "GR",
+      "hire_year": "2022",
+      "records": 64,
+      "matched": 64,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "GR",
+      "hire_year": "2023",
+      "records": 65,
+      "matched": 65,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "GR",
+      "hire_year": "2024",
+      "records": 68,
+      "matched": 68,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "GR",
+      "hire_year": "2025",
+      "records": 49,
+      "matched": 49,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 49,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IE",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 55,
+      "no_verified_historical_match": 11,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 83.33,
+      "matched_pct_eligible": 83.33
+    },
+    {
+      "indicator": "inflation",
+      "country": "IE",
+      "hire_year": "2021",
+      "records": 54,
+      "matched": 54,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 54,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IE",
+      "hire_year": "2022",
+      "records": 68,
+      "matched": 68,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IE",
+      "hire_year": "2023",
+      "records": 61,
+      "matched": 61,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IE",
+      "hire_year": "2024",
+      "records": 65,
+      "matched": 65,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IE",
+      "hire_year": "2025",
+      "records": 59,
+      "matched": 59,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 59,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IT",
+      "hire_year": "2020",
+      "records": 78,
+      "matched": 72,
+      "no_verified_historical_match": 6,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 78,
+      "matched_pct_all": 92.31,
+      "matched_pct_eligible": 92.31
+    },
+    {
+      "indicator": "inflation",
+      "country": "IT",
+      "hire_year": "2021",
+      "records": 87,
+      "matched": 87,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 87,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IT",
+      "hire_year": "2022",
+      "records": 69,
+      "matched": 69,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IT",
+      "hire_year": "2023",
+      "records": 82,
+      "matched": 82,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IT",
+      "hire_year": "2024",
+      "records": 58,
+      "matched": 58,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 58,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "IT",
+      "hire_year": "2025",
+      "records": 64,
+      "matched": 64,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "PL",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 53,
+      "no_verified_historical_match": 13,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 80.3,
+      "matched_pct_eligible": 80.3
+    },
+    {
+      "indicator": "inflation",
+      "country": "PL",
+      "hire_year": "2021",
+      "records": 74,
+      "matched": 74,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 74,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "PL",
+      "hire_year": "2022",
+      "records": 73,
+      "matched": 73,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 73,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "PL",
+      "hire_year": "2023",
+      "records": 55,
+      "matched": 55,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 55,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "PL",
+      "hire_year": "2024",
+      "records": 60,
+      "matched": 60,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 60,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "PL",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 51,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "RO",
+      "hire_year": "2020",
+      "records": 65,
+      "matched": 49,
+      "no_verified_historical_match": 16,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 75.38,
+      "matched_pct_eligible": 75.38
+    },
+    {
+      "indicator": "inflation",
+      "country": "RO",
+      "hire_year": "2021",
+      "records": 53,
+      "matched": 53,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 53,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "RO",
+      "hire_year": "2022",
+      "records": 61,
+      "matched": 61,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "RO",
+      "hire_year": "2023",
+      "records": 67,
+      "matched": 67,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 67,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "RO",
+      "hire_year": "2024",
+      "records": 92,
+      "matched": 92,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 92,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "inflation",
+      "country": "RO",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 51,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "BG",
+      "hire_year": "2020",
+      "records": 68,
+      "matched": 0,
+      "no_verified_historical_match": 68,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "BG",
+      "hire_year": "2021",
+      "records": 69,
+      "matched": 25,
+      "no_verified_historical_match": 36,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 36.23,
+      "matched_pct_eligible": 36.23
+    },
+    {
+      "indicator": "unemployment",
+      "country": "BG",
+      "hire_year": "2022",
+      "records": 62,
+      "matched": 15,
+      "no_verified_historical_match": 0,
+      "stale": 47,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 62,
+      "matched_pct_all": 24.19,
+      "matched_pct_eligible": 24.19
+    },
+    {
+      "indicator": "unemployment",
+      "country": "BG",
+      "hire_year": "2023",
+      "records": 66,
+      "matched": 45,
+      "no_verified_historical_match": 0,
+      "stale": 21,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 68.18,
+      "matched_pct_eligible": 68.18
+    },
+    {
+      "indicator": "unemployment",
+      "country": "BG",
+      "hire_year": "2024",
+      "records": 93,
+      "matched": 75,
+      "no_verified_historical_match": 0,
+      "stale": 18,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 93,
+      "matched_pct_all": 80.65,
+      "matched_pct_eligible": 80.65
+    },
+    {
+      "indicator": "unemployment",
+      "country": "BG",
+      "hire_year": "2025",
+      "records": 63,
+      "matched": 63,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 63,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "GR",
+      "hire_year": "2020",
+      "records": 72,
+      "matched": 0,
+      "no_verified_historical_match": 72,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 72,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "GR",
+      "hire_year": "2021",
+      "records": 82,
+      "matched": 33,
+      "no_verified_historical_match": 41,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 40.24,
+      "matched_pct_eligible": 40.24
+    },
+    {
+      "indicator": "unemployment",
+      "country": "GR",
+      "hire_year": "2022",
+      "records": 64,
+      "matched": 21,
+      "no_verified_historical_match": 0,
+      "stale": 43,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 32.81,
+      "matched_pct_eligible": 32.81
+    },
+    {
+      "indicator": "unemployment",
+      "country": "GR",
+      "hire_year": "2023",
+      "records": 65,
+      "matched": 55,
+      "no_verified_historical_match": 0,
+      "stale": 10,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 84.62,
+      "matched_pct_eligible": 84.62
+    },
+    {
+      "indicator": "unemployment",
+      "country": "GR",
+      "hire_year": "2024",
+      "records": 68,
+      "matched": 60,
+      "no_verified_historical_match": 0,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 88.24,
+      "matched_pct_eligible": 88.24
+    },
+    {
+      "indicator": "unemployment",
+      "country": "GR",
+      "hire_year": "2025",
+      "records": 49,
+      "matched": 49,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 49,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IE",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 0,
+      "no_verified_historical_match": 66,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IE",
+      "hire_year": "2021",
+      "records": 54,
+      "matched": 22,
+      "no_verified_historical_match": 26,
+      "stale": 6,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 54,
+      "matched_pct_all": 40.74,
+      "matched_pct_eligible": 40.74
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IE",
+      "hire_year": "2022",
+      "records": 68,
+      "matched": 18,
+      "no_verified_historical_match": 0,
+      "stale": 50,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 26.47,
+      "matched_pct_eligible": 26.47
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IE",
+      "hire_year": "2023",
+      "records": 61,
+      "matched": 46,
+      "no_verified_historical_match": 0,
+      "stale": 15,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 75.41,
+      "matched_pct_eligible": 75.41
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IE",
+      "hire_year": "2024",
+      "records": 65,
+      "matched": 57,
+      "no_verified_historical_match": 0,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 87.69,
+      "matched_pct_eligible": 87.69
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IE",
+      "hire_year": "2025",
+      "records": 59,
+      "matched": 59,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 59,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IT",
+      "hire_year": "2020",
+      "records": 78,
+      "matched": 0,
+      "no_verified_historical_match": 78,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 78,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IT",
+      "hire_year": "2021",
+      "records": 87,
+      "matched": 34,
+      "no_verified_historical_match": 48,
+      "stale": 5,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 87,
+      "matched_pct_all": 39.08,
+      "matched_pct_eligible": 39.08
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IT",
+      "hire_year": "2022",
+      "records": 69,
+      "matched": 7,
+      "no_verified_historical_match": 0,
+      "stale": 62,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 10.14,
+      "matched_pct_eligible": 10.14
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IT",
+      "hire_year": "2023",
+      "records": 82,
+      "matched": 60,
+      "no_verified_historical_match": 0,
+      "stale": 22,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 73.17,
+      "matched_pct_eligible": 73.17
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IT",
+      "hire_year": "2024",
+      "records": 58,
+      "matched": 50,
+      "no_verified_historical_match": 0,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 58,
+      "matched_pct_all": 86.21,
+      "matched_pct_eligible": 86.21
+    },
+    {
+      "indicator": "unemployment",
+      "country": "IT",
+      "hire_year": "2025",
+      "records": 64,
+      "matched": 64,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "PL",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 0,
+      "no_verified_historical_match": 66,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "PL",
+      "hire_year": "2021",
+      "records": 74,
+      "matched": 27,
+      "no_verified_historical_match": 39,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 74,
+      "matched_pct_all": 36.49,
+      "matched_pct_eligible": 36.49
+    },
+    {
+      "indicator": "unemployment",
+      "country": "PL",
+      "hire_year": "2022",
+      "records": 73,
+      "matched": 26,
+      "no_verified_historical_match": 0,
+      "stale": 47,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 73,
+      "matched_pct_all": 35.62,
+      "matched_pct_eligible": 35.62
+    },
+    {
+      "indicator": "unemployment",
+      "country": "PL",
+      "hire_year": "2023",
+      "records": 55,
+      "matched": 41,
+      "no_verified_historical_match": 0,
+      "stale": 14,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 55,
+      "matched_pct_all": 74.55,
+      "matched_pct_eligible": 74.55
+    },
+    {
+      "indicator": "unemployment",
+      "country": "PL",
+      "hire_year": "2024",
+      "records": 60,
+      "matched": 52,
+      "no_verified_historical_match": 0,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 60,
+      "matched_pct_all": 86.67,
+      "matched_pct_eligible": 86.67
+    },
+    {
+      "indicator": "unemployment",
+      "country": "PL",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 51,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "RO",
+      "hire_year": "2020",
+      "records": 65,
+      "matched": 0,
+      "no_verified_historical_match": 65,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "unemployment",
+      "country": "RO",
+      "hire_year": "2021",
+      "records": 53,
+      "matched": 16,
+      "no_verified_historical_match": 33,
+      "stale": 4,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 53,
+      "matched_pct_all": 30.19,
+      "matched_pct_eligible": 30.19
+    },
+    {
+      "indicator": "unemployment",
+      "country": "RO",
+      "hire_year": "2022",
+      "records": 61,
+      "matched": 20,
+      "no_verified_historical_match": 0,
+      "stale": 41,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 32.79,
+      "matched_pct_eligible": 32.79
+    },
+    {
+      "indicator": "unemployment",
+      "country": "RO",
+      "hire_year": "2023",
+      "records": 67,
+      "matched": 52,
+      "no_verified_historical_match": 0,
+      "stale": 15,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 67,
+      "matched_pct_all": 77.61,
+      "matched_pct_eligible": 77.61
+    },
+    {
+      "indicator": "unemployment",
+      "country": "RO",
+      "hire_year": "2024",
+      "records": 92,
+      "matched": 71,
+      "no_verified_historical_match": 0,
+      "stale": 21,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 92,
+      "matched_pct_all": 77.17,
+      "matched_pct_eligible": 77.17
+    },
+    {
+      "indicator": "unemployment",
+      "country": "RO",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 51,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "BG",
+      "hire_year": "2020",
+      "records": 68,
+      "matched": 0,
+      "no_verified_historical_match": 68,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "BG",
+      "hire_year": "2021",
+      "records": 69,
+      "matched": 0,
+      "no_verified_historical_match": 69,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "BG",
+      "hire_year": "2022",
+      "records": 62,
+      "matched": 0,
+      "no_verified_historical_match": 62,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 62,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "BG",
+      "hire_year": "2023",
+      "records": 66,
+      "matched": 0,
+      "no_verified_historical_match": 66,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "BG",
+      "hire_year": "2024",
+      "records": 93,
+      "matched": 0,
+      "no_verified_historical_match": 93,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 93,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "BG",
+      "hire_year": "2025",
+      "records": 63,
+      "matched": 0,
+      "no_verified_historical_match": 63,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 63,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "GR",
+      "hire_year": "2020",
+      "records": 72,
+      "matched": 0,
+      "no_verified_historical_match": 72,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 72,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "GR",
+      "hire_year": "2021",
+      "records": 82,
+      "matched": 0,
+      "no_verified_historical_match": 82,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "GR",
+      "hire_year": "2022",
+      "records": 64,
+      "matched": 0,
+      "no_verified_historical_match": 64,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "GR",
+      "hire_year": "2023",
+      "records": 65,
+      "matched": 0,
+      "no_verified_historical_match": 65,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "GR",
+      "hire_year": "2024",
+      "records": 68,
+      "matched": 0,
+      "no_verified_historical_match": 68,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "GR",
+      "hire_year": "2025",
+      "records": 49,
+      "matched": 0,
+      "no_verified_historical_match": 49,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 49,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IE",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 0,
+      "no_verified_historical_match": 66,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IE",
+      "hire_year": "2021",
+      "records": 54,
+      "matched": 0,
+      "no_verified_historical_match": 54,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 54,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IE",
+      "hire_year": "2022",
+      "records": 68,
+      "matched": 0,
+      "no_verified_historical_match": 68,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IE",
+      "hire_year": "2023",
+      "records": 61,
+      "matched": 0,
+      "no_verified_historical_match": 61,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IE",
+      "hire_year": "2024",
+      "records": 65,
+      "matched": 0,
+      "no_verified_historical_match": 65,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IE",
+      "hire_year": "2025",
+      "records": 59,
+      "matched": 0,
+      "no_verified_historical_match": 59,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 59,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IT",
+      "hire_year": "2020",
+      "records": 78,
+      "matched": 0,
+      "no_verified_historical_match": 78,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 78,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IT",
+      "hire_year": "2021",
+      "records": 87,
+      "matched": 0,
+      "no_verified_historical_match": 87,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 87,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IT",
+      "hire_year": "2022",
+      "records": 69,
+      "matched": 0,
+      "no_verified_historical_match": 69,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IT",
+      "hire_year": "2023",
+      "records": 82,
+      "matched": 0,
+      "no_verified_historical_match": 82,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IT",
+      "hire_year": "2024",
+      "records": 58,
+      "matched": 0,
+      "no_verified_historical_match": 58,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 58,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "IT",
+      "hire_year": "2025",
+      "records": 64,
+      "matched": 0,
+      "no_verified_historical_match": 64,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "PL",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 0,
+      "no_verified_historical_match": 66,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "PL",
+      "hire_year": "2021",
+      "records": 74,
+      "matched": 0,
+      "no_verified_historical_match": 74,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 74,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "PL",
+      "hire_year": "2022",
+      "records": 73,
+      "matched": 0,
+      "no_verified_historical_match": 73,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 73,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "PL",
+      "hire_year": "2023",
+      "records": 55,
+      "matched": 0,
+      "no_verified_historical_match": 55,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 55,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "PL",
+      "hire_year": "2024",
+      "records": 60,
+      "matched": 0,
+      "no_verified_historical_match": 60,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 60,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "PL",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 0,
+      "no_verified_historical_match": 51,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "RO",
+      "hire_year": "2020",
+      "records": 65,
+      "matched": 0,
+      "no_verified_historical_match": 65,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "RO",
+      "hire_year": "2021",
+      "records": 53,
+      "matched": 0,
+      "no_verified_historical_match": 53,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 53,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "RO",
+      "hire_year": "2022",
+      "records": 61,
+      "matched": 0,
+      "no_verified_historical_match": 61,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "RO",
+      "hire_year": "2023",
+      "records": 67,
+      "matched": 0,
+      "no_verified_historical_match": 67,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 67,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "RO",
+      "hire_year": "2024",
+      "records": 92,
+      "matched": 0,
+      "no_verified_historical_match": 92,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 92,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies",
+      "country": "RO",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 0,
+      "no_verified_historical_match": 51,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "BG",
+      "hire_year": "2020",
+      "records": 68,
+      "matched": 0,
+      "no_verified_historical_match": 68,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "BG",
+      "hire_year": "2021",
+      "records": 69,
+      "matched": 29,
+      "no_verified_historical_match": 40,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 42.03,
+      "matched_pct_eligible": 42.03
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "BG",
+      "hire_year": "2022",
+      "records": 62,
+      "matched": 56,
+      "no_verified_historical_match": 0,
+      "stale": 6,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 62,
+      "matched_pct_all": 90.32,
+      "matched_pct_eligible": 90.32
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "BG",
+      "hire_year": "2023",
+      "records": 66,
+      "matched": 59,
+      "no_verified_historical_match": 0,
+      "stale": 7,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 89.39,
+      "matched_pct_eligible": 89.39
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "BG",
+      "hire_year": "2024",
+      "records": 93,
+      "matched": 93,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 93,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "BG",
+      "hire_year": "2025",
+      "records": 63,
+      "matched": 63,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 63,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "GR",
+      "hire_year": "2020",
+      "records": 72,
+      "matched": 0,
+      "no_verified_historical_match": 72,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 72,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "GR",
+      "hire_year": "2021",
+      "records": 82,
+      "matched": 19,
+      "no_verified_historical_match": 55,
+      "stale": 8,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 23.17,
+      "matched_pct_eligible": 23.17
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "GR",
+      "hire_year": "2022",
+      "records": 64,
+      "matched": 52,
+      "no_verified_historical_match": 0,
+      "stale": 12,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 81.25,
+      "matched_pct_eligible": 81.25
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "GR",
+      "hire_year": "2023",
+      "records": 65,
+      "matched": 58,
+      "no_verified_historical_match": 0,
+      "stale": 7,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 89.23,
+      "matched_pct_eligible": 89.23
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "GR",
+      "hire_year": "2024",
+      "records": 68,
+      "matched": 68,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "GR",
+      "hire_year": "2025",
+      "records": 49,
+      "matched": 49,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 49,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IE",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 0,
+      "no_verified_historical_match": 66,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IE",
+      "hire_year": "2021",
+      "records": 54,
+      "matched": 11,
+      "no_verified_historical_match": 36,
+      "stale": 7,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 54,
+      "matched_pct_all": 20.37,
+      "matched_pct_eligible": 20.37
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IE",
+      "hire_year": "2022",
+      "records": 68,
+      "matched": 45,
+      "no_verified_historical_match": 0,
+      "stale": 23,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 68,
+      "matched_pct_all": 66.18,
+      "matched_pct_eligible": 66.18
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IE",
+      "hire_year": "2023",
+      "records": 61,
+      "matched": 52,
+      "no_verified_historical_match": 0,
+      "stale": 9,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 85.25,
+      "matched_pct_eligible": 85.25
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IE",
+      "hire_year": "2024",
+      "records": 65,
+      "matched": 65,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IE",
+      "hire_year": "2025",
+      "records": 59,
+      "matched": 59,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 59,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IT",
+      "hire_year": "2020",
+      "records": 78,
+      "matched": 0,
+      "no_verified_historical_match": 78,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 78,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IT",
+      "hire_year": "2021",
+      "records": 87,
+      "matched": 25,
+      "no_verified_historical_match": 62,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 87,
+      "matched_pct_all": 28.74,
+      "matched_pct_eligible": 28.74
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IT",
+      "hire_year": "2022",
+      "records": 69,
+      "matched": 63,
+      "no_verified_historical_match": 0,
+      "stale": 6,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 69,
+      "matched_pct_all": 91.3,
+      "matched_pct_eligible": 91.3
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IT",
+      "hire_year": "2023",
+      "records": 82,
+      "matched": 70,
+      "no_verified_historical_match": 0,
+      "stale": 12,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 82,
+      "matched_pct_all": 85.37,
+      "matched_pct_eligible": 85.37
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IT",
+      "hire_year": "2024",
+      "records": 58,
+      "matched": 58,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 58,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "IT",
+      "hire_year": "2025",
+      "records": 64,
+      "matched": 64,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 64,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "PL",
+      "hire_year": "2020",
+      "records": 66,
+      "matched": 0,
+      "no_verified_historical_match": 66,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 66,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "PL",
+      "hire_year": "2021",
+      "records": 74,
+      "matched": 28,
+      "no_verified_historical_match": 46,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 74,
+      "matched_pct_all": 37.84,
+      "matched_pct_eligible": 37.84
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "PL",
+      "hire_year": "2022",
+      "records": 73,
+      "matched": 67,
+      "no_verified_historical_match": 0,
+      "stale": 6,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 73,
+      "matched_pct_all": 91.78,
+      "matched_pct_eligible": 91.78
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "PL",
+      "hire_year": "2023",
+      "records": 55,
+      "matched": 49,
+      "no_verified_historical_match": 0,
+      "stale": 6,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 55,
+      "matched_pct_all": 89.09,
+      "matched_pct_eligible": 89.09
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "PL",
+      "hire_year": "2024",
+      "records": 60,
+      "matched": 60,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 60,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "PL",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 51,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "RO",
+      "hire_year": "2020",
+      "records": 65,
+      "matched": 0,
+      "no_verified_historical_match": 65,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 65,
+      "matched_pct_all": 0.0,
+      "matched_pct_eligible": 0.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "RO",
+      "hire_year": "2021",
+      "records": 53,
+      "matched": 11,
+      "no_verified_historical_match": 42,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 53,
+      "matched_pct_all": 20.75,
+      "matched_pct_eligible": 20.75
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "RO",
+      "hire_year": "2022",
+      "records": 61,
+      "matched": 57,
+      "no_verified_historical_match": 0,
+      "stale": 4,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 61,
+      "matched_pct_all": 93.44,
+      "matched_pct_eligible": 93.44
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "RO",
+      "hire_year": "2023",
+      "records": 67,
+      "matched": 58,
+      "no_verified_historical_match": 0,
+      "stale": 9,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 67,
+      "matched_pct_all": 86.57,
+      "matched_pct_eligible": 86.57
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "RO",
+      "hire_year": "2024",
+      "records": 92,
+      "matched": 92,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 92,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "country": "RO",
+      "hire_year": "2025",
+      "records": 51,
+      "matched": 51,
+      "no_verified_historical_match": 0,
+      "stale": 0,
+      "missing_country": 0,
+      "invalid_or_excluded_employment": 0,
+      "external_match_eligible": 51,
+      "matched_pct_all": 100.0,
+      "matched_pct_eligible": 100.0
+    }
+  ],
+  "acquisition_priorities": [
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-05",
+      "affected_records": 45,
+      "countries": {
+        "BG": 6,
+        "GR": 8,
+        "IE": 7,
+        "IT": 7,
+        "PL": 9,
+        "RO": 8
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-08",
+      "affected_records": 45,
+      "countries": {
+        "BG": 2,
+        "GR": 16,
+        "IE": 6,
+        "IT": 7,
+        "PL": 5,
+        "RO": 9
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-08",
+      "affected_records": 44,
+      "countries": {
+        "BG": 8,
+        "GR": 4,
+        "IE": 6,
+        "IT": 6,
+        "PL": 7,
+        "RO": 13
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-07",
+      "affected_records": 43,
+      "countries": {
+        "BG": 7,
+        "GR": 6,
+        "IE": 5,
+        "IT": 10,
+        "PL": 10,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-10",
+      "affected_records": 43,
+      "countries": {
+        "BG": 4,
+        "GR": 11,
+        "IE": 6,
+        "IT": 8,
+        "PL": 12,
+        "RO": 2
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-11",
+      "affected_records": 43,
+      "countries": {
+        "BG": 10,
+        "GR": 8,
+        "IE": 6,
+        "IT": 8,
+        "PL": 6,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-07",
+      "affected_records": 43,
+      "countries": {
+        "BG": 7,
+        "GR": 6,
+        "IE": 5,
+        "IT": 10,
+        "PL": 10,
+        "RO": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-05",
+      "affected_records": 41,
+      "countries": {
+        "BG": 5,
+        "GR": 8,
+        "IE": 5,
+        "IT": 5,
+        "PL": 14,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-10",
+      "affected_records": 41,
+      "countries": {
+        "BG": 7,
+        "GR": 5,
+        "IE": 6,
+        "IT": 13,
+        "PL": 5,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-07",
+      "affected_records": 40,
+      "countries": {
+        "BG": 7,
+        "GR": 4,
+        "IE": 5,
+        "IT": 9,
+        "PL": 10,
+        "RO": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-09",
+      "affected_records": 40,
+      "countries": {
+        "BG": 9,
+        "GR": 9,
+        "IE": 7,
+        "IT": 9,
+        "PL": 3,
+        "RO": 3
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-04",
+      "affected_records": 40,
+      "countries": {
+        "BG": 7,
+        "GR": 4,
+        "IE": 6,
+        "IT": 11,
+        "PL": 7,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-07",
+      "affected_records": 40,
+      "countries": {
+        "BG": 10,
+        "GR": 8,
+        "IE": 7,
+        "IT": 1,
+        "PL": 4,
+        "RO": 10
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-06",
+      "affected_records": 39,
+      "countries": {
+        "BG": 4,
+        "GR": 5,
+        "IE": 10,
+        "IT": 2,
+        "PL": 7,
+        "RO": 11
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-02",
+      "affected_records": 39,
+      "countries": {
+        "BG": 3,
+        "GR": 6,
+        "IE": 9,
+        "IT": 10,
+        "PL": 3,
+        "RO": 8
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2023-11",
+      "affected_records": 38,
+      "countries": {
+        "BG": 8,
+        "GR": 3,
+        "IE": 6,
+        "IT": 8,
+        "PL": 7,
+        "RO": 6
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-11",
+      "affected_records": 38,
+      "countries": {
+        "BG": 8,
+        "GR": 3,
+        "IE": 6,
+        "IT": 8,
+        "PL": 7,
+        "RO": 6
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-09",
+      "affected_records": 38,
+      "countries": {
+        "BG": 9,
+        "GR": 6,
+        "IE": 4,
+        "IT": 8,
+        "PL": 7,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-04",
+      "affected_records": 38,
+      "countries": {
+        "BG": 10,
+        "GR": 2,
+        "IE": 11,
+        "IT": 6,
+        "PL": 5,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-05",
+      "affected_records": 37,
+      "countries": {
+        "BG": 7,
+        "GR": 10,
+        "IT": 5,
+        "PL": 7,
+        "RO": 8
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-10",
+      "affected_records": 37,
+      "countries": {
+        "BG": 4,
+        "GR": 4,
+        "IE": 3,
+        "IT": 5,
+        "PL": 11,
+        "RO": 10
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-05",
+      "affected_records": 37,
+      "countries": {
+        "BG": 7,
+        "GR": 10,
+        "IT": 5,
+        "PL": 7,
+        "RO": 8
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-10",
+      "affected_records": 37,
+      "countries": {
+        "BG": 4,
+        "GR": 4,
+        "IE": 3,
+        "IT": 5,
+        "PL": 11,
+        "RO": 10
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-03",
+      "affected_records": 37,
+      "countries": {
+        "BG": 6,
+        "GR": 5,
+        "IE": 8,
+        "IT": 6,
+        "PL": 4,
+        "RO": 8
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-10",
+      "affected_records": 37,
+      "countries": {
+        "BG": 6,
+        "GR": 8,
+        "IE": 3,
+        "IT": 5,
+        "PL": 6,
+        "RO": 9
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-05",
+      "affected_records": 37,
+      "countries": {
+        "BG": 7,
+        "GR": 10,
+        "IT": 5,
+        "PL": 7,
+        "RO": 8
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-02",
+      "affected_records": 36,
+      "countries": {
+        "BG": 5,
+        "GR": 9,
+        "IE": 5,
+        "IT": 8,
+        "PL": 5,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-04",
+      "affected_records": 36,
+      "countries": {
+        "BG": 6,
+        "GR": 7,
+        "IE": 3,
+        "IT": 9,
+        "PL": 7,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2024-02",
+      "affected_records": 36,
+      "countries": {
+        "BG": 9,
+        "GR": 4,
+        "IE": 2,
+        "IT": 4,
+        "PL": 3,
+        "RO": 14
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-02",
+      "affected_records": 36,
+      "countries": {
+        "BG": 5,
+        "GR": 9,
+        "IE": 5,
+        "IT": 8,
+        "PL": 5,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-04",
+      "affected_records": 36,
+      "countries": {
+        "BG": 6,
+        "GR": 7,
+        "IE": 3,
+        "IT": 9,
+        "PL": 7,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-02",
+      "affected_records": 36,
+      "countries": {
+        "BG": 9,
+        "GR": 4,
+        "IE": 2,
+        "IT": 4,
+        "PL": 3,
+        "RO": 14
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-04",
+      "affected_records": 36,
+      "countries": {
+        "BG": 6,
+        "GR": 7,
+        "IE": 6,
+        "IT": 7,
+        "PL": 4,
+        "RO": 6
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-06",
+      "affected_records": 36,
+      "countries": {
+        "BG": 8,
+        "GR": 5,
+        "IE": 4,
+        "IT": 6,
+        "PL": 6,
+        "RO": 7
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-12",
+      "affected_records": 36,
+      "countries": {
+        "BG": 9,
+        "GR": 11,
+        "IE": 6,
+        "IT": 1,
+        "PL": 7,
+        "RO": 2
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-07",
+      "affected_records": 36,
+      "countries": {
+        "BG": 9,
+        "GR": 7,
+        "IE": 5,
+        "IT": 7,
+        "PL": 3,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-02",
+      "affected_records": 36,
+      "countries": {
+        "BG": 5,
+        "GR": 9,
+        "IE": 5,
+        "IT": 8,
+        "PL": 5,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-04",
+      "affected_records": 36,
+      "countries": {
+        "BG": 6,
+        "GR": 7,
+        "IE": 3,
+        "IT": 9,
+        "PL": 7,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-01",
+      "affected_records": 35,
+      "countries": {
+        "BG": 5,
+        "GR": 7,
+        "IE": 6,
+        "IT": 10,
+        "PL": 2,
+        "RO": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-07",
+      "affected_records": 35,
+      "countries": {
+        "BG": 5,
+        "GR": 5,
+        "IE": 7,
+        "IT": 10,
+        "PL": 4,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-01",
+      "affected_records": 35,
+      "countries": {
+        "BG": 5,
+        "GR": 7,
+        "IE": 6,
+        "IT": 10,
+        "PL": 2,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-07",
+      "affected_records": 35,
+      "countries": {
+        "BG": 5,
+        "GR": 5,
+        "IE": 7,
+        "IT": 10,
+        "PL": 4,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-05",
+      "affected_records": 35,
+      "countries": {
+        "BG": 8,
+        "GR": 2,
+        "IE": 7,
+        "IT": 8,
+        "PL": 6,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-05",
+      "affected_records": 35,
+      "countries": {
+        "BG": 7,
+        "GR": 7,
+        "IE": 7,
+        "IT": 7,
+        "PL": 4,
+        "RO": 3
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-08",
+      "affected_records": 35,
+      "countries": {
+        "BG": 3,
+        "GR": 6,
+        "IE": 8,
+        "IT": 4,
+        "PL": 7,
+        "RO": 7
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-12",
+      "affected_records": 34,
+      "countries": {
+        "BG": 6,
+        "GR": 7,
+        "IE": 5,
+        "IT": 5,
+        "PL": 8,
+        "RO": 3
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-09",
+      "affected_records": 34,
+      "countries": {
+        "BG": 9,
+        "GR": 4,
+        "IE": 9,
+        "IT": 5,
+        "PL": 3,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-12",
+      "affected_records": 34,
+      "countries": {
+        "BG": 4,
+        "GR": 5,
+        "IE": 6,
+        "IT": 8,
+        "PL": 7,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-12",
+      "affected_records": 34,
+      "countries": {
+        "BG": 6,
+        "GR": 7,
+        "IE": 5,
+        "IT": 5,
+        "PL": 8,
+        "RO": 3
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-09",
+      "affected_records": 34,
+      "countries": {
+        "BG": 9,
+        "GR": 4,
+        "IE": 9,
+        "IT": 5,
+        "PL": 3,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-12",
+      "affected_records": 34,
+      "countries": {
+        "BG": 4,
+        "GR": 5,
+        "IE": 6,
+        "IT": 8,
+        "PL": 7,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-08",
+      "affected_records": 33,
+      "countries": {
+        "BG": 4,
+        "GR": 4,
+        "IE": 4,
+        "IT": 8,
+        "PL": 6,
+        "RO": 7
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-08",
+      "affected_records": 33,
+      "countries": {
+        "BG": 4,
+        "GR": 4,
+        "IE": 4,
+        "IT": 8,
+        "PL": 6,
+        "RO": 7
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-08",
+      "affected_records": 32,
+      "countries": {
+        "BG": 5,
+        "GR": 7,
+        "IE": 6,
+        "IT": 5,
+        "PL": 7,
+        "RO": 2
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2023-12",
+      "affected_records": 32,
+      "countries": {
+        "BG": 6,
+        "GR": 3,
+        "IE": 9,
+        "IT": 6,
+        "PL": 4,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2024-01",
+      "affected_records": 32,
+      "countries": {
+        "BG": 9,
+        "GR": 4,
+        "IE": 5,
+        "IT": 2,
+        "PL": 5,
+        "RO": 7
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-08",
+      "affected_records": 32,
+      "countries": {
+        "BG": 5,
+        "GR": 7,
+        "IE": 6,
+        "IT": 5,
+        "PL": 7,
+        "RO": 2
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-12",
+      "affected_records": 32,
+      "countries": {
+        "BG": 6,
+        "GR": 3,
+        "IE": 9,
+        "IT": 6,
+        "PL": 4,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-01",
+      "affected_records": 32,
+      "countries": {
+        "BG": 9,
+        "GR": 4,
+        "IE": 5,
+        "IT": 2,
+        "PL": 5,
+        "RO": 7
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-04",
+      "affected_records": 31,
+      "countries": {
+        "BG": 6,
+        "GR": 9,
+        "IE": 4,
+        "IT": 1,
+        "PL": 5,
+        "RO": 6
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-03",
+      "affected_records": 31,
+      "countries": {
+        "BG": 6,
+        "GR": 1,
+        "IE": 8,
+        "IT": 9,
+        "PL": 3,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-01",
+      "affected_records": 29,
+      "countries": {
+        "BG": 8,
+        "GR": 5,
+        "IE": 4,
+        "IT": 4,
+        "PL": 3,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-09",
+      "affected_records": 29,
+      "countries": {
+        "BG": 6,
+        "GR": 7,
+        "IE": 2,
+        "IT": 6,
+        "PL": 5,
+        "RO": 3
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2024-11",
+      "affected_records": 29,
+      "countries": {
+        "BG": 5,
+        "GR": 4,
+        "IE": 7,
+        "IT": 4,
+        "PL": 1,
+        "RO": 8
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-11",
+      "affected_records": 28,
+      "countries": {
+        "BG": 5,
+        "GR": 6,
+        "IE": 3,
+        "IT": 5,
+        "PL": 6,
+        "RO": 3
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-11",
+      "affected_records": 28,
+      "countries": {
+        "BG": 5,
+        "GR": 6,
+        "IE": 3,
+        "IT": 5,
+        "PL": 6,
+        "RO": 3
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-06",
+      "affected_records": 27,
+      "countries": {
+        "BG": 4,
+        "GR": 6,
+        "IE": 2,
+        "IT": 5,
+        "PL": 5,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-09",
+      "affected_records": 27,
+      "countries": {
+        "BG": 8,
+        "GR": 2,
+        "IE": 4,
+        "IT": 7,
+        "PL": 4,
+        "RO": 2
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-03",
+      "affected_records": 26,
+      "countries": {
+        "BG": 4,
+        "GR": 3,
+        "IE": 4,
+        "IT": 9,
+        "PL": 2,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-02",
+      "affected_records": 26,
+      "countries": {
+        "BG": 6,
+        "GR": 3,
+        "IE": 4,
+        "IT": 8,
+        "PL": 2,
+        "RO": 3
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-03",
+      "affected_records": 26,
+      "countries": {
+        "BG": 4,
+        "GR": 3,
+        "IE": 4,
+        "IT": 9,
+        "PL": 2,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-02",
+      "affected_records": 26,
+      "countries": {
+        "BG": 6,
+        "GR": 3,
+        "IE": 4,
+        "IT": 8,
+        "PL": 2,
+        "RO": 3
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-06",
+      "affected_records": 26,
+      "countries": {
+        "BG": 9,
+        "GR": 5,
+        "IE": 2,
+        "IT": 3,
+        "PL": 3,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-02",
+      "affected_records": 26,
+      "countries": {
+        "BG": 4,
+        "GR": 4,
+        "IE": 4,
+        "IT": 7,
+        "PL": 3,
+        "RO": 4
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-03",
+      "affected_records": 26,
+      "countries": {
+        "BG": 4,
+        "GR": 3,
+        "IE": 4,
+        "IT": 9,
+        "PL": 2,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-01",
+      "affected_records": 25,
+      "countries": {
+        "BG": 3,
+        "GR": 2,
+        "IE": 5,
+        "IT": 7,
+        "PL": 5,
+        "RO": 3
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-03",
+      "affected_records": 25,
+      "countries": {
+        "BG": 4,
+        "GR": 1,
+        "IE": 5,
+        "IT": 5,
+        "PL": 5,
+        "RO": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-01",
+      "affected_records": 25,
+      "countries": {
+        "BG": 3,
+        "GR": 2,
+        "IE": 5,
+        "IT": 7,
+        "PL": 5,
+        "RO": 3
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2022-03",
+      "affected_records": 25,
+      "countries": {
+        "BG": 4,
+        "GR": 1,
+        "IE": 5,
+        "IT": 5,
+        "PL": 5,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-01",
+      "affected_records": 25,
+      "countries": {
+        "BG": 6,
+        "GR": 3,
+        "IE": 2,
+        "IT": 4,
+        "PL": 4,
+        "RO": 6
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-01",
+      "affected_records": 25,
+      "countries": {
+        "BG": 3,
+        "GR": 2,
+        "IE": 5,
+        "IT": 7,
+        "PL": 5,
+        "RO": 3
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-11",
+      "affected_records": 24,
+      "countries": {
+        "BG": 2,
+        "GR": 5,
+        "IE": 4,
+        "IT": 2,
+        "PL": 6,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-06",
+      "affected_records": 23,
+      "countries": {
+        "BG": 4,
+        "GR": 6,
+        "IE": 4,
+        "IT": 1,
+        "PL": 3,
+        "RO": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2021-06",
+      "affected_records": 23,
+      "countries": {
+        "BG": 4,
+        "GR": 6,
+        "IE": 4,
+        "IT": 1,
+        "PL": 3,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2025-03",
+      "affected_records": 23,
+      "countries": {
+        "BG": 3,
+        "GR": 2,
+        "IE": 6,
+        "IT": 2,
+        "PL": 5,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-06",
+      "affected_records": 23,
+      "countries": {
+        "BG": 4,
+        "GR": 6,
+        "IE": 4,
+        "IT": 1,
+        "PL": 3,
+        "RO": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2023-03",
+      "affected_records": 23,
+      "countries": {
+        "BG": 5,
+        "GR": 1,
+        "IE": 6,
+        "IT": 5,
+        "PL": 2,
+        "RO": 4
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-07",
+      "affected_records": 22,
+      "countries": {
+        "BG": 1,
+        "GR": 4,
+        "IE": 2,
+        "IT": 5,
+        "PL": 4,
+        "RO": 6
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-09",
+      "affected_records": 22,
+      "countries": {
+        "GR": 8,
+        "IE": 6,
+        "IT": 5,
+        "PL": 1,
+        "RO": 2
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2023-10",
+      "affected_records": 20,
+      "countries": {
+        "BG": 4,
+        "GR": 3,
+        "IT": 6,
+        "PL": 2,
+        "RO": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies",
+      "hire_month": "2023-10",
+      "affected_records": 20,
+      "countries": {
+        "BG": 4,
+        "GR": 3,
+        "IT": 6,
+        "PL": 2,
+        "RO": 5
+      },
+      "action": "Find verified B-N evidence; do not substitute B-F"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2022-09",
+      "affected_records": 18,
+      "countries": {
+        "BG": 4,
+        "GR": 1,
+        "IE": 7,
+        "IT": 3,
+        "PL": 2,
+        "RO": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2022-03",
+      "affected_records": 15,
+      "countries": {
+        "BG": 2,
+        "GR": 1,
+        "IE": 5,
+        "IT": 2,
+        "PL": 3,
+        "RO": 2
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2023-09",
+      "affected_records": 14,
+      "countries": {
+        "BG": 2,
+        "GR": 3,
+        "IE": 1,
+        "IT": 4,
+        "PL": 1,
+        "RO": 3
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2022-01",
+      "affected_records": 13,
+      "countries": {
+        "GR": 7,
+        "IE": 6
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-12",
+      "affected_records": 12,
+      "countries": {
+        "GR": 7,
+        "IE": 5
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2022-02",
+      "affected_records": 9,
+      "countries": {
+        "GR": 3,
+        "IE": 4,
+        "IT": 1,
+        "PL": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2023-08",
+      "affected_records": 8,
+      "countries": {
+        "GR": 3,
+        "IT": 1,
+        "PL": 2,
+        "RO": 2
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2023-01",
+      "affected_records": 6,
+      "countries": {
+        "BG": 3,
+        "GR": 1,
+        "IT": 1,
+        "PL": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2021-11",
+      "affected_records": 5,
+      "countries": {
+        "BG": 2,
+        "GR": 1,
+        "IE": 1,
+        "RO": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2023-02",
+      "affected_records": 5,
+      "countries": {
+        "IE": 2,
+        "IT": 2,
+        "PL": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2022-06",
+      "affected_records": 4,
+      "countries": {
+        "GR": 1,
+        "IE": 1,
+        "IT": 1,
+        "RO": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2024-03",
+      "affected_records": 3,
+      "countries": {
+        "IE": 1,
+        "IT": 2
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2021-11",
+      "affected_records": 3,
+      "countries": {
+        "GR": 1,
+        "IE": 2
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "vacancies_bf_supplementary",
+      "hire_month": "2022-08",
+      "affected_records": 2,
+      "countries": {
+        "IE": 1,
+        "RO": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    },
+    {
+      "indicator": "unemployment",
+      "hire_month": "2023-06",
+      "affected_records": 1,
+      "countries": {
+        "IT": 1
+      },
+      "action": "Find earlier published, sufficiently recent evidence"
+    }
+  ]
+}

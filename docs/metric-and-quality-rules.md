@@ -1,6 +1,6 @@
 # Metric and quality decisions
 
-**Current revision:** [verified synthetic source recovery](source-recovery.md) runs before the rules below. Earlier numeric findings here describe the pre-recovery snapshot; current results are in `analysis/*_summary.json`. These conservative rules remain the fallback for records without verified corrections.
+**Submission policy:** the rules below operate directly on supplied CSVs. Hidden generator values are excluded from submission metrics. [Synthetic recovery](source-recovery.md) is an isolated optional experiment. Current results are in `analysis/*_summary.json`; original values and source lines remain in curated records.
 
 Status: curation and all three snapshot objective calculations implemented under the conventions below. Software emphasis. Historical turnover trends and external integration remain future work.
 

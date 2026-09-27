@@ -1,4 +1,4 @@
-﻿const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const html=fs.readFileSync('analysis/dashboard.html','utf8');const data=html.match(/<script id="data" type="application\/json">([\s\S]*?)<\/script>/)[1];
 const elements={};for(const id of ['data','cards','metric','country','unit','selection','trend','cohortTable','countries','coverage','legend','quality','sources','coverageMetric','year','signal','relationshipSummary','relationship','relationshipTable']) elements[id]={value:'all',innerHTML:'',textContent:'',add(){},addEventListener(){}};
 elements.signal.value='unemployment';elements.data.textContent=data;elements.metric.value='new_hire_6m';elements.coverageMetric.value='new_hire_6m';
@@ -6,7 +6,9 @@ const ctx={document:{getElementById:id=>elements[id]},Option:function(){}};vm.cr
 const readSummary=m=>JSON.parse(fs.readFileSync(`analysis/${m}_summary.json`,'utf8'));
 const six=readSummary('new_hire_6m').overall,senior=readSummary('senior_hire_12m').overall,turnover=readSummary('regretted_turnover');
 assert(elements.selection.textContent.includes(`${six.retained} / ${six.eligible_hires}`));assert(elements.cards.innerHTML.includes((100*turnover.confirmed_rate).toFixed(2)+'%'));
-assert(html.includes('verified recovery from the original synthetic generator'));
+assert(html.includes('Conservative cleaning of the supplied data'));
+assert.equal(JSON.parse(data).data_quality.cleaning_policy,'conservative_supplied_data');
+assert.equal(JSON.parse(data).data_quality.source_recovery.corrected_cells,0);
 elements.metric.value='senior_hire_12m';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes(`${senior.retained} / ${senior.eligible_hires}`));assert(elements.cohortTable.innerHTML.includes('Unavailable'));
 elements.country.value='unknown';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes('Unavailable'));assert(!elements.trend.innerHTML.includes('NaN'));
 elements.coverageMetric.value='regretted_turnover';vm.runInContext('coverage()',ctx);assert(!elements.coverage.innerHTML.includes('NaN'));assert.equal((elements.coverage.innerHTML.match(/class="row"/g)||[]).length,3);assert(elements.coverage.innerHTML.includes('industry and construction'));assert(!html.includes('<option value="vacancies">'));
