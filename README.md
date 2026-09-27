@@ -40,6 +40,7 @@ Repeat verification establishes identical outputs in the same environment. Clean
 
 - [Requirements, scope and decisions](docs/requirements-and-decisions.md)
 - [Source register, contracts and attribution](docs/source-register.md)
+- [Production architecture mapping](docs/production-architecture.md)
 
 - [Metric-specific external coverage](analysis/metric_external_coverage.md)
 - [Country/year coverage and acquisition priorities](analysis/external_coverage_report.md)
