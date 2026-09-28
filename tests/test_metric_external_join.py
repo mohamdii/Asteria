@@ -1,8 +1,7 @@
-﻿import sys
+import sys
 import unittest
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from join_metric_external import enrich
+from asteria.external.metric_join import enrich
 
 class MetricJoinTests(unittest.TestCase):
     def test_missing_context_preserves_outcome_and_pending_is_not_attempted(self):

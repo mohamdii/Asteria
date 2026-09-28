@@ -1,6 +1,6 @@
 # Metric and quality decisions
 
-**Submission policy:** the rules below operate directly on supplied CSVs. Hidden generator values are excluded from submission metrics. [Synthetic recovery](source-recovery.md) is an isolated optional experiment. Current results are in `analysis/*_summary.json`; original values and source lines remain in curated records.
+**Submission policy:** the rules below operate directly on supplied CSVs. Generator recovery has been removed entirely. Current results are in `analysis/*_summary.json`; original values and source lines remain in curated records.
 
 Status: curation and all three snapshot objective calculations implemented under the conventions below. Software emphasis. Historical turnover trends and external integration remain future work.
 
@@ -37,7 +37,7 @@ Use the objective CSV for thresholds: >=0.86, >=0.90, <=0.075. Retain counts alo
 
 ## Acceptance criteria
 
-The separate schema audit (`python scripts/validate_assessment.py`) checks every dictionary-required field, strict ISO dates, finite decimal targets in [0,1], effective_from <= effective_to (same-day windows allowed), selected categorical domains and departure contradictions. It recognizes EL, ROM and Sr Mgmt as documented aliases; curation still flags their mappings. Free-text fields have no invented controlled vocabulary. The audit reports violations. Curation now enforces the user-approved contradiction exclusions below; other schema violations remain audit-only.
+The separate schema audit (`python -m asteria.quality.validation`) checks every dictionary-required field, strict ISO dates, finite decimal targets in [0,1], effective_from <= effective_to (same-day windows allowed), selected categorical domains and departure contradictions. It recognizes EL, ROM and Sr Mgmt as documented aliases; curation still flags their mappings. Free-text fields have no invented controlled vocabulary. The audit reports violations. Curation now enforces the user-approved contradiction exclusions below; other schema violations remain audit-only.
 
 ## Approved contradiction policy
 

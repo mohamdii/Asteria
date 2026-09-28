@@ -1,6 +1,6 @@
 # Workforce dashboard
 
-Open `analysis/dashboard.html` directly in a modern browser. It is self-contained and works offline. Rebuild with the pipeline or `python scripts/build_dashboard.py` after the SQL stage.
+Open `analysis/dashboard.html` directly in a modern browser. It is self-contained and works offline. Rebuild with the pipeline or `python -m asteria.reporting.dashboard` after the SQL stage.
 
 Graph choices:
 

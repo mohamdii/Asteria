@@ -9,13 +9,6 @@
   "valid_employment_dates": 2390,
   "country_analysis_eligible": 2381,
   "contradictory_records": 0,
-  "source_recovery": {
-    "mode": "disabled",
-    "corrected_cells": 0,
-    "corrected_employees": 0,
-    "fields": {},
-    "evidence": null
-  },
   "issues": {
     "country_alias_mapped": 8,
     "exact_duplicate_removed": 7,

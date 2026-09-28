@@ -8,7 +8,7 @@ const six=readSummary('new_hire_6m').overall,senior=readSummary('senior_hire_12m
 assert(elements.selection.textContent.includes(`${six.retained} / ${six.eligible_hires}`));assert(elements.cards.innerHTML.includes((100*turnover.confirmed_rate).toFixed(2)+'%'));
 assert(html.includes('Conservative cleaning of the supplied data'));
 assert.equal(JSON.parse(data).data_quality.cleaning_policy,'conservative_supplied_data');
-assert.equal(JSON.parse(data).data_quality.source_recovery.corrected_cells,0);
+assert(!('source_recovery' in JSON.parse(data).data_quality));
 elements.metric.value='senior_hire_12m';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes(`${senior.retained} / ${senior.eligible_hires}`));assert(elements.cohortTable.innerHTML.includes('Unavailable'));
 elements.country.value='unknown';vm.runInContext('draw()',ctx);assert(elements.selection.textContent.includes('Unavailable'));assert(!elements.trend.innerHTML.includes('NaN'));
 elements.coverageMetric.value='regretted_turnover';vm.runInContext('coverage()',ctx);assert(!elements.coverage.innerHTML.includes('NaN'));assert.equal((elements.coverage.innerHTML.match(/class="row"/g)||[]).length,3);assert(elements.coverage.innerHTML.includes('industry and construction'));assert(!html.includes('<option value="vacancies">'));

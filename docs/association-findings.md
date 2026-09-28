@@ -1,8 +1,8 @@
 # Initial descriptive association findings
 
-**Data policy:** the submission uses conservative cleaning of supplied records. Generator recovery is an isolated experiment. Use [the regenerated association findings](../analysis/association_analysis.md) and current dashboard for authoritative current counts and estimates.
+**Data policy:** the submission uses conservative cleaning of supplied records. Generator recovery has been removed. Use [the regenerated association findings](../analysis/association_analysis.md) and current dashboard for authoritative current counts and estimates.
 
-Source: `analysis/association_analysis.json`, produced by `scripts/analyze_associations.py`. This is exploratory analysis of synthetic matched cohorts, not statistical evidence of a causal effect. Correlations are equally weighted across cohorts. Native annual CPI observations remain annual; cohort exposure means summarize employee-specific as-of context rather than inventing new measurements.
+Source: `analysis/association_analysis.json`, produced by `asteria/reporting/associations.py`. This is exploratory analysis of synthetic matched cohorts, not statistical evidence of a causal effect. Correlations are equally weighted across cohorts. Native annual CPI observations remain annual; cohort exposure means summarize employee-specific as-of context rather than inventing new measurements.
 
 1. Six-month retention shows a weak negative unemployment association: pooled r=-0.123 across 72 country-quarter cohorts (1,092 matched hires). Requiring ten hires reduces it to -0.071; within-country centering gives -0.170. Matched retention is 87.27% versus 86.96% among 721 unmatched hires. Similar overall rates do not establish equivalent country/year composition.
 2. CPI has a weak positive six-month association: r=0.162 across 30 country-hire-year cohorts (1,808 hires). Within-country centering gives 0.176; leaving out one country gives about 0.070 to 0.289. These sensitivities are not confidence limits. Time trends and other causes remain uncontrolled; this is no basis for claiming inflation improves retention.

@@ -1,7 +1,0 @@
-hire_year,records,eligible_hires,retained,left_before_milestone,pending_observation,excluded_invalid_dates,excluded_contradiction,outside_objective_hire_period,retention_rate,target,target_status
-2020,415,0,0,0,0,0,0,415,,0.86,unavailable
-2021,419,419,367,52,0,0,0,0,0.8758949880668258,0.86,met
-2022,397,397,345,52,0,0,0,0,0.8690176322418136,0.86,met
-2023,396,396,342,54,0,0,0,0,0.8636363636363636,0.86,met
-2024,436,436,383,53,0,0,0,0,0.8784403669724771,0.86,met
-2025,337,174,159,15,163,0,0,0,0.9137931034482759,0.86,met

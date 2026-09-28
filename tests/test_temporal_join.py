@@ -2,8 +2,7 @@ import sys
 import unittest
 from datetime import date
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
-from temporal_join import select_observation
+from asteria.external.temporal import select_observation
 
 
 class TemporalJoinTests(unittest.TestCase):

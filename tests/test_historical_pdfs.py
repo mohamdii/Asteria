@@ -2,9 +2,8 @@ import sys
 import unittest
 from datetime import date
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from replay_historical_pdfs import main, parse_pages
-from temporal_join import select_observation
+from asteria.external.pdf_replay import main, parse_pages
+from asteria.external.temporal import select_observation
 
 
 class HistoricalPdfTests(unittest.TestCase):

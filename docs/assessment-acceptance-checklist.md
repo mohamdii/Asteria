@@ -1,6 +1,6 @@
 # Assessment acceptance audit
 
-Current cleaning decision: submission uses conservative supplied-data cleaning. Generator recovery is isolated under `experiments/synthetic_recovery`, and no recovered values enter the submission dashboard. Missing countries remain unknown; 10 invalid-date records are quarantined; seniority alias assumptions retain sensitivity analysis. See `docs/source-recovery.md` for the historical experiment. Older recovery results and host-unavailable notes below do not describe the current policy.
+Current cleaning decision: submission uses conservative supplied-data cleaning. The source assessment HTML, generator recovery code and experiment artifacts have been removed. Static requirements and links remain in JSON only. Missing countries remain unknown; 10 invalid-date records are quarantined; seniority alias assumptions retain sensitivity analysis. Older recovery entries are historical only.
 
 Cleaning-policy verification: full offline repeat replay passed with 68 Python tests and 35 byte-identical outputs using Python 3.12.14 and pypdf 6.19.0. Dashboard DOM checks passed. This resolves the cleaning decision and repeat-replay gap; it does not resolve outstanding browser QA, final clean-environment verification, architecture/source documentation or presentation work.
 

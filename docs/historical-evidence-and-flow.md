@@ -24,7 +24,7 @@ Example: Poland January 2024 unemployment was 2.9% in the 1 March 2024 release. 
 
 ## Executed demonstration
 
-Run `python scripts/build_historical_join_demo.py` offline against saved evidence. It validates raw hashes, extracts the first unemployment rates table, requires six country rows and writes verified observations plus an employee feature audit. This remains a source-specific parser for this single release layout.
+The initial single-release join demo is retired. Its table parser now lives in `asteria/external/html.py`; use `python scripts/run_pipeline.py` for the current offline workflow. The discussion here records the earlier evidence experiment, not a supported demo command.
 
 Across 2,400 employee records: 104 matched, 1,686 have no verified historical match in this batch, 591 have only stale evidence, nine lack country and ten have invalid/excluded employment. Counts include all curated employees, not only final objective denominators. The resulting audit is `analysis/historical_unemployment_join_demo.csv`.
 

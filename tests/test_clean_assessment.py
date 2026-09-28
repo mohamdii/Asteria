@@ -3,13 +3,11 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-spec = importlib.util.spec_from_file_location('clean', Path(__file__).resolve().parents[1] / 'scripts/clean_assessment.py')
-clean = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(clean)
+from asteria.quality import cleaning as clean
 
 
 class CleaningTests(unittest.TestCase):
-    def test_default_needs_no_recovery_evidence_and_experiment_is_isolated(self):
+    def test_cleaning_uses_only_supplied_raw_files(self):
         import contextlib
         import csv
         import io
@@ -24,10 +22,8 @@ class CleaningTests(unittest.TestCase):
             with patch.object(clean, 'ROOT', root), contextlib.redirect_stdout(io.StringIO()):
                 clean.main()
                 output = root / 'data/curated'
-                before = {p.name: p.read_bytes() for p in output.iterdir()}
                 summary = json.loads((output / 'quality_summary.json').read_text())
                 self.assertEqual(summary['cleaning_policy'], 'conservative_supplied_data')
-                self.assertEqual(summary['source_recovery']['corrected_cells'], 0)
                 self.assertEqual(summary['issues']['missing_or_unknown_country'], 9)
                 self.assertEqual(summary['employment_date_quarantine'], 10)
                 with (output / 'employee_lifecycle_curated.csv').open(newline='', encoding='utf-8') as stream:
@@ -35,33 +31,6 @@ class CleaningTests(unittest.TestCase):
                 self.assertEqual(records['ACP000120']['country_code'], '')
                 self.assertEqual(records['ACP000073']['country_code'], 'GR')
                 self.assertEqual(records['ACP000159']['hire_date'], '')
-                (root / 'config').mkdir()
-                shutil.copyfile(original_root / 'config/synthetic_source_corrections.json', root / 'config/synthetic_source_corrections.json')
-                clean.main(recover_synthetic=True)
-                self.assertEqual(before, {p.name: p.read_bytes() for p in output.iterdir()})
-                experiment = json.loads((root / 'experiments/synthetic_recovery/curated/quality_summary.json').read_text())
-                self.assertEqual(experiment['source_recovery']['corrected_cells'], 61)
-
-    def test_evidenced_repair_preserves_input_and_rejects_stale_value(self):
-        raw = {'employee_id': 'a', 'country_code': ''}
-        repairs = [{'field': 'country_code', 'original': '', 'corrected': 'GR'}]
-        self.assertEqual(clean.apply_corrections(raw, repairs)['country_code'], 'GR')
-        self.assertEqual(raw['country_code'], '')
-        with self.assertRaises(ValueError):
-            clean.apply_corrections(dict(raw, country_code='IT'), repairs)
-
-    def test_recovered_snapshot_has_no_country_or_employment_gaps(self):
-        import csv
-        import json
-        root = Path(__file__).resolve().parents[1]
-        evidence = json.loads((root / 'config/synthetic_source_corrections.json').read_text())
-        with (root / 'data/raw/employee_lifecycle_events.csv').open(newline='', encoding='utf-8') as stream:
-            rows = list(csv.DictReader(stream))
-        for raw in rows:
-            fixes = [c for c in evidence['corrections'] if c['employee_id'] == raw['employee_id']]
-            row = clean.curate(clean.apply_corrections(raw, fixes), date(2025, 12, 31))
-            self.assertEqual(row['country_analysis_eligible'], 'true', raw['employee_id'])
-            self.assertEqual(row['quality_flags'], '', raw['employee_id'])
 
     def row(self, **changes):
         record = dict(country_code='GR', career_level='Manager', hire_date='2025-06-30', termination_date='', termination_type='', regretted_exit='')

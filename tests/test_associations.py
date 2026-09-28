@@ -1,7 +1,6 @@
-﻿import sys,unittest
+import sys,unittest
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from analyze_associations import correlation,analyze
+from asteria.reporting.associations import correlation,analyze
 class AssociationTests(unittest.TestCase):
  def test_correlation_boundaries(self):
   self.assertAlmostEqual(correlation([(1,2),(2,4),(3,6)]),1)

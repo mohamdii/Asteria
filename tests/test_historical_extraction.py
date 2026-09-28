@@ -2,8 +2,7 @@ import json
 import sys
 import unittest
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from build_expanded_historical_features import ROOT, unemployment, cpi, vacancies
+from asteria.external.features import ROOT, unemployment, cpi, vacancies
 
 
 class HistoricalExtractionTests(unittest.TestCase):

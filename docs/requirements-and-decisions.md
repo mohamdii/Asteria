@@ -42,7 +42,7 @@ The submission uses conservative cleaning of supplied values:
 
 Current reconciliation: 2,407 raw rows become 2,400 unique records after seven duplicate copies are removed. Ten records have invalid employment dates, including five missing hire dates and five termination-before-hire cases. Nine country values remain unknown. There are 2,381 country-analysis-eligible records. These counts describe quality populations, not the final mature-hire denominators.
 
-Rejected approach: restoring hidden pre-corruption values from the assessment generator as submission data. Although reproducible, it bypasses the intended missing-data problem and is not a method available for real HR records. The recovery is preserved as an [isolated optional experiment](source-recovery.md); it cannot overwrite submission curation. Its values do not enter the main KPIs or dashboard.
+Rejected approach: restoring hidden pre-corruption values from the assessment generator. It bypasses the intended missing-data problem and is not a method available for real HR records. The source HTML, recovery code and experiment artifacts have been removed at the user's request. Only static requirements and source links remain in JSON; all workforce calculations use the supplied CSVs.
 
 ## External context and timing
 
@@ -76,7 +76,7 @@ These questions should be confirmed with a business owner before production use;
 
 ## Acceptance evidence and remaining work
 
-For the implemented scope, each employee must have an auditable outcome or exclusion; counts must reconcile to the retained input grain; SQL reports must reconcile with Python metrics; temporal joins must satisfy evidence and cutoff rules; source files must retain their hashes; and repeated offline builds must produce identical outputs. The main pipeline must identify its conservative cleaning policy, and optional recovery must leave submission files unchanged.
+For the implemented scope, each employee must have an auditable outcome or exclusion; counts must reconcile to the retained input grain; SQL reports must reconcile with Python metrics; temporal joins must satisfy evidence and cutoff rules; source files must retain their hashes; and repeated offline builds must produce identical outputs. The pipeline must use conservative cleaning without source HTML or generator corrections.
 
 Current verification records 68 passing Python tests, dashboard DOM checks and 35 byte-identical output files across repeated builds. See [pipeline manifest](../analysis/pipeline_manifest.json). This is same-environment verification, not browser visual QA, cross-platform certification or a fresh installation test of the final package.
 

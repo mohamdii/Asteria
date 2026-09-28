@@ -1,6 +1,6 @@
 # SQL reporting layer
 
-`python scripts/build_sql_reporting.py` builds `analysis/reporting.sqlite` using Python's standard-library SQLite module. It is also the final data stage of `python scripts/run_pipeline.py`. No database server or additional package is needed.
+`python -m asteria.reporting.sql` builds `analysis/reporting.sqlite` using Python's standard-library SQLite module. It is also the final data stage of `python scripts/run_pipeline.py`. No database server or additional package is needed.
 
 The schema and SQL views are in `sql/reporting.sql`. Tables store metric audit classifications, objective targets, external matches and source-file hashes. Composite primary keys prevent duplicate employee/metric/indicator rows. Missing external values are SQL NULL, not zero.
 

@@ -2,13 +2,13 @@
 
 Submission results use conservative cleaning of the supplied CSVs: exact duplicates are removed, EL/ROM are normalized, missing countries remain unknown, and invalid employment dates are quarantined. Sr Mgmt is a flagged provisional Senior Leader mapping with sensitivity analysis. No hidden generator values enter the main metrics. See [cleaning decisions](docs/metric-and-quality-rules.md).
 
-Generator recovery is an [optional experiment](docs/source-recovery.md), isolated under `experiments/synthetic_recovery`. Run `python scripts/clean_assessment.py --recover-synthetic` to regenerate its curated data without changing submission outputs. Earlier recovered metrics are retained there as historical comparison artifacts. The main pipeline always uses conservative cleaning.
+The original assessment HTML, generator recovery code and recovery artifacts have been removed. Requirements are preserved as static reference text in `config/assessment_reference.json`; external source URLs are in `config/source_links.json`. Neither executes source HTML. The pipeline processes supplied CSVs and saved external evidence only.
 
 The data-preparation pipeline replays saved workforce and external evidence, calculates the three required metrics, joins historical context, and reports coverage. The complete assessment product (including the dashboard) is still in progress.
 
 ## Setup
 
-Requires Python 3.11+ (tested with Python 3.14). Retain `data/raw`, both historical evidence directories and their manifests, `config`, `scripts`, and `tests`.
+Requires Python 3.11+ (latest verification: Python 3.12.14). Retain `asteria`, `scripts`, `tests`, `sql`, `dashboard`, `config`, `data/raw`, and both historical evidence directories with their manifests.
 
 Install the pinned PDF dependency once (network access required):
 
@@ -38,6 +38,8 @@ Repeat verification establishes identical outputs in the same environment. Clean
 
 ## Results and rules
 
+- [Code structure and commands](docs/code-structure.md)
+
 - [Requirements, scope and decisions](docs/requirements-and-decisions.md)
 - [Source register, contracts and attribution](docs/source-register.md)
 - [Production architecture mapping](docs/production-architecture.md)
@@ -54,11 +56,11 @@ B-N vacancy rates remain preferred but lack verified historical matches; B-F is 
 
 ## Online acquisition is separate
 
-Acquisition changes the saved evidence set and can change results. It is not part of offline replay. Existing acquisition scripts use a shared HTTP client with limited retries, timeouts and certificate-verifying curl fallback on Windows. For the configured PDF list, `python scripts/replay_historical_pdfs.py --download` downloads missing files and validates cached hashes. See the historical coverage document for other acquisition scripts and known gaps.
+Acquisition changes the saved evidence set and can change results. It is not part of offline replay. Existing acquisition scripts use a shared HTTP client with limited retries, timeouts and certificate-verifying curl fallback on Windows. For the configured PDF list, `python -m asteria.acquisition.pdfs` downloads missing files and validates cached hashes. See the historical coverage document for other acquisition scripts and known gaps.
 
 ## Clean-workspace verification procedure
 
-Create a fresh directory containing only `scripts`, `tests`, `sql`, `config`, `dashboard`, `data/raw`, `data/external/historical_expanded`, `data/external/historical_pdfs`, `requirements-historical.txt`. Exclude caches and both derived `canonical_observations.json` files. Do not copy `analysis`, `data/curated`, or installed dependencies.
+Create a fresh directory containing only `scripts`, `asteria`, `tests`, `sql`, `config`, `dashboard`, `data/raw`, `data/external/historical_expanded`, `data/external/historical_pdfs`, `requirements-historical.txt`. Exclude caches and both derived `canonical_observations.json` files. Do not copy `analysis`, `data/curated`, or installed dependencies.
 
 Create a virtual environment with `python -m venv .venv`, then use `.venv\Scripts\python.exe` on Windows to install the requirements into `.tools/pdf` and run the pipeline with `--verify-reproducibility`. Compare the `outputs` mapping in the resulting manifest with the original manifest. Package installation can also use a separately downloaded wheel with `--no-index --find-links`, keeping replay independent of network access.
 
@@ -72,6 +74,6 @@ Open `analysis/dashboard.html` in a browser for the offline interactive dashboar
 
 See the [assessment acceptance audit](docs/assessment-acceptance-checklist.md) for the requirement-by-requirement status and remaining submission work. The working dashboard is an initial implementation, not yet the complete analytical experience required by the brief.
 
-Exploratory cohort associations are built by `scripts/analyze_associations.py` within replay. See [initial findings and limitations](docs/association-findings.md) and `analysis/association_analysis.json` for cohort points, matched/unmatched breakdowns and sensitivity results. No significance or causal claims are made.
+Exploratory cohort associations are built by `asteria/reporting/associations.py` within replay. See [initial findings and limitations](docs/association-findings.md) and `analysis/association_analysis.json` for cohort points, matched/unmatched breakdowns and sensitivity results. No significance or causal claims are made.
 
 Continuation on 2026-09-27: the dashboard includes hire-year filtering and descriptive external-signal relationship views with sample counts and sensitivity checks. See [current acceptance updates](docs/assessment-acceptance-checklist.md). The expanded Node checks pass, but Python is unavailable on this host and no browser is connected. The current preview is not certified by the older pipeline manifest; full replay and browser QA remain required.

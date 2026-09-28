@@ -38,7 +38,7 @@ Full historical coverage is not yet achieved: unemployment and vacancy publicati
 
 ## Reproduction and remaining work
 
-`python scripts/build_expanded_historical_features.py` runs offline and writes canonical observations, employee features and coverage. `python -m unittest discover -s tests` runs the tests including four source-extraction tests. Acquisition is separate and network-enabled via `scripts/expand_historical_coverage.py`; it reuses hash-verified cached responses. It remains a research acquisition tool rather than a finished production connector.
+`python -m asteria.external.features` runs offline and writes canonical observations, employee features and coverage. `python -m unittest discover -s tests` runs the tests including four source-extraction tests. Acquisition is separate and network-enabled via `asteria/acquisition/historical.py`; it reuses hash-verified cached responses. It remains a research acquisition tool rather than a finished production connector.
 
 Next resolve the B–F choice, recover pre-2024 unemployment/vacancy releases and test their parsers, and extend reviewed CPI release dates. Then left-join these features to the metric audits and report matched-subset sample sizes separately from full-population KPIs. No causal or predictive analysis has been performed.
 
@@ -52,7 +52,7 @@ Across all 2,400 curated records, unemployment matches increased from 695 to 787
 
 Remaining gaps include unemployment releases during 2021-2022 and much of 2023, early-2021 vacancy availability, intervening releases and preferred B-N historical evidence. Full point-in-time coverage is not claimed. Older reference periods in a later release never acquire earlier availability dates.
 
-Reproduce with the pinned PDF dependency in `requirements-historical.txt`, then run `python scripts/build_expanded_historical_features.py`. All 57 tests pass, including five new PDF extraction/boundary tests. The earlier standard-library-only description applies to core workforce calculations, not PDF replay.
+Reproduce with the pinned PDF dependency in `requirements-historical.txt`, then run `python -m asteria.external.features`. All 57 tests pass, including five new PDF extraction/boundary tests. The earlier standard-library-only description applies to core workforce calculations, not PDF replay.
 
 ## Earlier unemployment follow-up
 

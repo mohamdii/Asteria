@@ -3,8 +3,7 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from calculate_retention import classify, summarize
+from asteria.metrics.retention import classify, summarize
 
 
 class RetentionTests(unittest.TestCase):
