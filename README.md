@@ -4,7 +4,7 @@ Submission results use conservative cleaning of the supplied CSVs: exact duplica
 
 The original assessment HTML, generator recovery code and recovery artifacts have been removed. Requirements are preserved as static reference text in `config/assessment_reference.json`; external source URLs are in `config/source_links.json`. Neither executes source HTML. The pipeline processes supplied CSVs and saved external evidence only.
 
-The data-preparation pipeline replays saved workforce and external evidence, calculates the three required metrics, joins historical context, and reports coverage. The complete assessment product (including the dashboard) is still in progress.
+The data-preparation pipeline replays saved workforce and external evidence, calculates the three required metrics, joins historical context, and reports coverage. The analytical product and dashboard are implemented. Submission status and remaining logistics are recorded in docs/submission-review-2026-09-28.md.
 
 ## Setup
 
@@ -75,16 +75,20 @@ Create a fresh directory containing only `scripts`, `asteria`, `tests`, `sql`, `
 
 Create a virtual environment with `python -m venv .venv`, then use `.venv\Scripts\python.exe` on Windows to install the requirements into `.tools/pdf` and run the pipeline with `--verify-reproducibility`. Compare the `outputs` mapping in the resulting manifest with the original manifest. Package installation can also use a separately downloaded wheel with `--no-index --find-links`, keeping replay independent of network access.
 
-Verified on the current Windows host: the fresh-copy virtual-environment run passed twice, with all 60 tests and all 30 output hashes matching the original workspace. Evidence: `analysis/clean_environment_verification.json`. Cross-platform and alternate-runtime verification remain untested.
+Historical fresh-copy evidence in `analysis/clean_environment_verification.json` predates the final dashboard and publication workflow. The latest isolated release build passed repeated-output verification for 34 files using the existing dependency installation. A fresh dependency installation of the final version remains recommended. Cross-platform verification is not claimed.
 
 Assessment links and full visible reference text are preserved in `config/assessment_reference.json`. Collected project source URLs are in `config/source_links.json`. The assessment itself has internal navigation links only, not external URLs. Legacy extraction is retired; `analysis/assessment_profile.json` is a historical artifact, not a current pipeline output. Previous verification reports describe the earlier pipeline; rerun verification for the updated input contract.
 
 The [SQL reporting layer](docs/sql-reporting.md) produces `analysis/reporting.sqlite` and `analysis/sql_reporting.json`. Include the `sql` directory when copying the project. Existing clean-environment verification reports predate this stage; the current pipeline repeat check includes it.
 
-Open the dashboard path printed by the pipeline for the offline interactive dashboard. The pipeline rebuilds it from reconciled SQL reports. Retention filters affect cohort charts only; KPI cards and external-coverage populations stay company-wide. Include `dashboard/template.html` when copying the project. Optional UI logic check: `node dashboard/check.cjs` (Node is not required for replay). Browser visual verification remains outstanding in the current tool environment.
+Open the dashboard path printed by the pipeline for the offline interactive dashboard. The pipeline rebuilds it from reconciled SQL reports. Retention filters affect cohort charts only; KPI cards and external-coverage populations stay company-wide. Include `dashboard/template.html` when copying the project. Optional UI logic check: `node dashboard/check.cjs` (Node is not required for replay). Desktop screenshots and user-reported mobile, keyboard, hover and error-state checks are recorded in `docs/dashboard-browser-qa.md`. Agent-operated browser verification was blocked by URL policy.
 
-See the [assessment acceptance audit](docs/assessment-acceptance-checklist.md) for the requirement-by-requirement status and remaining submission work. The working dashboard is an initial implementation, not yet the complete analytical experience required by the brief.
+See the [assessment acceptance audit](docs/assessment-acceptance-checklist.md) for the requirement-by-requirement status and remaining submission work. The dashboard includes the required filters, selected economic context, relationship views, coverage and methodology.
 
 Exploratory cohort associations are built by `asteria/reporting/associations.py` within replay. See [initial findings and limitations](docs/association-findings.md) and `analysis/association_analysis.json` for cohort points, matched/unmatched breakdowns and sensitivity results. No significance or causal claims are made.
 
-Continuation on 2026-09-27: the dashboard includes hire-year filtering and descriptive external-signal relationship views with sample counts and sensitivity checks. See [current acceptance updates](docs/assessment-acceptance-checklist.md). The expanded Node checks pass, but Python is unavailable on this host and no browser is connected. The current preview is not certified by the older pipeline manifest; full replay and browser QA remain required.
+## Presentation and handoff
+
+Use [the submission PDF](presentation/workforce-retention-submission.pdf), [Markdown deck](presentation/workforce-retention.md), and [timed speaker notes](presentation/speaker-notes.md). The 13-slide presentation totals 15 minutes and includes AI accountability. The earlier PDF is retained as a source copy.
+
+The latest successful release is selected by `releases/current.json`; use its dashboard, reports and manifest together. The candidate reports approximately 15 hours of effort. Final handoff still needs confirmed reviewer access/deadline. See [current review](docs/submission-review-2026-09-28.md).

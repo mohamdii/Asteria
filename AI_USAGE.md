@@ -1,4 +1,19 @@
-# AI usage during data preparation
+# AI usage and accountability
+
+## Current summary
+
+The user set scope, challenged the cleaning approach, required removal of source-HTML/generator recovery, approved refactoring and safe publication, and reported manual dashboard checks. Codex implemented code and tests, inspected source evidence, wrote documentation and prepared presentation materials. Human approval is distinct from agent-run verification.
+
+Rejected approach: hidden-generator recovery was removed. Submission metrics use conservative supplied-data cleaning. User-reported keyboard, hover, mobile and error-state checks are recorded separately from automated tests. The latest isolated pipeline release passed repeat verification for 34 outputs and dashboard checks. Fault tests cover interrupted builds and publication failure.
+
+Presentation work used the presentation/PDF tools and built-in image generation. Decorative workplace and data-center images are fictional illustrations. A revised PDF and Markdown deck now include AI accountability with 15-minute notes. Chart export initially failed on numeric precision; displayed-precision values and subsequent visual inspection resolved it. Browser URL policy prevented agent-operated browser review and was not bypassed. Exact model versions were not independently verified.
+
+Actual approximate human effort: 15 hours, reported by the candidate on 2026-09-28. Remaining risks include incomplete historical coverage, provisional senior mapping, no fresh dependency installation of the final release, and unconfirmed reviewer access.
+
+## Historical work log
+
+The dated entries below describe earlier stages. Statements that work is pending or recovery functionality exists are historical and are superseded by the current summary and submission review.
+
 
 2026-09-28 safe publication: implemented isolated builds and release folders with one atomic current-pointer switch. Added fault tests for interrupted builds, output corruption and failed pointer replacement. Full repeat replay passed with 34 identical outputs, Python tests and dashboard DOM checks before publication. The user-facing workflow now uses the release dashboard path; top-level generated files remain historical snapshots. Direct module runs bypass this safeguard. No cloud deployment or browser access occurred.
 

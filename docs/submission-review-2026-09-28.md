@@ -22,7 +22,7 @@ Reviewed 2026-09-28 against the preserved static requirements in `config/assessm
 
 ### Presentation format and AI accountability
 
-The designed PowerPoint has 12 slides and 15 minutes of notes. The brief specifically requests a lightweight PDF, HTML or Markdown deck. `speaker-notes.md` is a presenter guide, not a slide deck. Export the designed deck to one requested format or add an actual Markdown deck. The current talk does not explicitly explain the AI operating loop, human decisions, rejected suggestions and verification. Add that content while retaining the 15-minute total. The brief's 3/5/4/3 minute section split is guidance; the missing AI explanation is the material content gap.
+Resolved: `presentation/workforce-retention-submission.pdf` and `presentation/workforce-retention.md` provide the requested portable deck formats. The 13-slide guide totals 900 seconds and explicitly covers human direction, Codex implementation, rejected generator recovery, verification and limitations. The earlier PDF remains unchanged as a source copy.
 
 ### Safe partial failure and error states
 
@@ -34,7 +34,7 @@ Update on 2026-09-28: the user confirmed the requested keyboard-navigation, hove
 
 ### Current documentation and human effort
 
-README still claims Python is unavailable and describes the dashboard/analysis as unfinished. Requirements and acceptance documents quote obsolete test/output counts and list already-completed documents as missing. Consolidate their current state. Update `AI_USAGE.md` with subsequent user screenshot review, wording changes, image generation/presentation revisions and the final rerun. Record actual approximate human effort without inventing a value. Prior AI-use entries explain rejected generator recovery, but historical descriptions need clearer separation from available functionality.
+The main README, requirements document, acceptance checklist and AI usage summary now reflect completed analysis, publication and user-reported QA. Historical AI log entries remain clearly labeled. The candidate reported approximately 15 hours of effort on 2026-09-28.
 
 ### Submission and access
 
