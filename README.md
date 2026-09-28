@@ -30,9 +30,20 @@ To rebuild twice and verify byte-identical output files:
 python scripts/run_pipeline.py --verify-reproducibility
 ```
 
-The command checks prerequisites and saved evidence hashes; validates and cleans workforce data; calculates six-month retention, senior twelve-month retention, and trailing regretted turnover; replays historical releases; builds coverage reports and metric-specific joins; builds and reconciles SQLite reporting views; and runs the test suite. Derived outputs are overwritten. No external service is contacted by the replay stages. Raw workforce files are verified against their saved manifest. The assessment HTML and Node.js are not needed.
+The command checks prerequisites and saved evidence hashes; validates and cleans workforce data; calculates six-month retention, senior twelve-month retention, and trailing regretted turnover; replays historical releases; builds coverage reports and metric-specific joins; builds and reconciles SQLite reporting views; and runs the test suite. Each run builds in a new isolated release folder. Existing published outputs are never overwritten. No external service is contacted by the replay stages. Raw workforce files are verified against their saved manifest. The assessment HTML and Node.js are not needed.
 
-A successful run writes `analysis/pipeline_manifest.json` with input/output SHA-256 hashes, runtime versions and repeat-verification status. A failed run exits nonzero and leaves no success marker; individual derived files may already have been written, so do not treat them as a completed run without that manifest. The workflow is not transactional. The manifest covers pipeline outputs, not legacy demonstration/probe artifacts in `analysis`.
+A successful run validates the release manifest and every output hash, then atomically replaces `releases/current.json`. This pointer identifies the complete current release. Failed or interrupted builds leave the previous pointer and release unchanged. Unpublished staging folders remain for diagnosis. Concurrent successful runs publish in completion order. This protects against process interruption, not storage-device failure.
+
+The command prints the current dashboard path. To find it later in PowerShell:
+
+```powershell
+$releaseId = (Get-Content releases/current.json -Raw | ConvertFrom-Json).release
+Join-Path (Get-Location) "releases/$releaseId/analysis/dashboard.html"
+```
+
+Read the pointer once and use that release folder for all reports and its `analysis/pipeline_manifest.json`. Existing top-level `analysis/` and `data/curated/` files are legacy snapshots and no longer refreshed by the pipeline. Direct module execution is a development operation and bypasses publication. Keep the current and any in-use older release folders. `releases/` is ignored by Git; include a complete successful release when packaging generated results for handoff.
+
+Node, when installed, runs the dashboard DOM checks before publication. Without Node the pipeline prints an explicit skipped-check notice. Python tests and output validation always run.
 
 Repeat verification establishes identical outputs in the same environment. Clean-environment and cross-platform certification remain separate checks. For stable CSV bytes, use the recorded platform/runtime; line endings can differ across platforms.
 
@@ -70,7 +81,7 @@ Assessment links and full visible reference text are preserved in `config/assess
 
 The [SQL reporting layer](docs/sql-reporting.md) produces `analysis/reporting.sqlite` and `analysis/sql_reporting.json`. Include the `sql` directory when copying the project. Existing clean-environment verification reports predate this stage; the current pipeline repeat check includes it.
 
-Open `analysis/dashboard.html` in a browser for the offline interactive dashboard. The pipeline rebuilds it from reconciled SQL reports. Retention filters affect cohort charts only; KPI cards and external-coverage populations stay company-wide. Include `dashboard/template.html` when copying the project. Optional UI logic check: `node dashboard/check.cjs` (Node is not required for replay). Browser visual verification remains outstanding in the current tool environment.
+Open the dashboard path printed by the pipeline for the offline interactive dashboard. The pipeline rebuilds it from reconciled SQL reports. Retention filters affect cohort charts only; KPI cards and external-coverage populations stay company-wide. Include `dashboard/template.html` when copying the project. Optional UI logic check: `node dashboard/check.cjs` (Node is not required for replay). Browser visual verification remains outstanding in the current tool environment.
 
 See the [assessment acceptance audit](docs/assessment-acceptance-checklist.md) for the requirement-by-requirement status and remaining submission work. The working dashboard is an initial implementation, not yet the complete analytical experience required by the brief.
 

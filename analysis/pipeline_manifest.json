@@ -38,7 +38,7 @@
     "config/historical_pdf_candidates.json": "da628071c6383405df984df0f4c1960d5a6f33ade24b5d54ac94bc7d89f40fd2",
     "config/source_links.json": "14b9ce83ecafedff1060e45aaf92b68450184bd8a41d40598ea1f3991b257f0c",
     "config/wdi_release_dates.json": "ddcca90c7e6586ddcc52e5d1c52a11c50e4d3f79cc7f585a7fba722169a519dd",
-    "dashboard/template.html": "ac87c001be4c39e24577fd35096d51b00784f3b25e78d6ee38aa76754f9cc584",
+    "dashboard/template.html": "a868d5c6f7d25fa5f4d127d9bd35e22762c17eab845780b5e96d3d13a988899c",
     "data/external/historical_expanded/cpi_202002.json": "ff13646602ae2db300b557bed0083bdfcb0b4002c63988764e58f4ffdbd314c1",
     "data/external/historical_expanded/cpi_202002.json.meta.json": "0180c66cf1f25379b5af11632f6a80167d4ac941ff4ab405ac48182a7dfe2e50",
     "data/external/historical_expanded/cpi_202003.json": "6b17f2bf168c57ab37df5219fcfb0db01a2f64b82b7623884fcf88828cc621b6",
@@ -256,7 +256,7 @@
   "outputs": {
     "analysis/association_analysis.json": "838875208f01016170b7b6cb388f54a9fe4834d41be2e0c4a2759764204d7e24",
     "analysis/association_analysis.md": "fee079f5260384d1ee2329668d8baa1b8101f63abc736654c4ce90f1962d8ae1",
-    "analysis/dashboard.html": "f023af9e5ecd0be63f74f44e85d21914e39126c6cb7a26ebc6c3cd24f48f3836",
+    "analysis/dashboard.html": "2c6193ccc4756116418405106025a8112997f499443ca73c58e595f6845020ec",
     "analysis/expanded_historical_coverage.json": "5ad6b2ac33596dd8e217911a830f28d48a522c85481d7855e94b8194c95d3dd2",
     "analysis/expanded_historical_features.csv": "4af0b9920ba4373a9f8817940dcacacbd1b43408f0f645af43600f89d6841983",
     "analysis/external_coverage_report.json": "3b230453a58cc7f57a4656e285a89192b774d6b2636cc5c355bb3b654ed0d2ce",

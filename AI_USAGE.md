@@ -1,5 +1,9 @@
 # AI usage during data preparation
 
+2026-09-28 safe publication: implemented isolated builds and release folders with one atomic current-pointer switch. Added fault tests for interrupted builds, output corruption and failed pointer replacement. Full repeat replay passed with 34 identical outputs, Python tests and dashboard DOM checks before publication. The user-facing workflow now uses the release dashboard path; top-level generated files remain historical snapshots. Direct module runs bypass this safeguard. No cloud deployment or browser access occurred.
+
+2026-09-28 human browser review update: the user confirmed completion of keyboard-navigation, hover-behavior and error-state checks after previously confirming mobile layout and supplying desktop/empty-population screenshots. Recorded these as user-reported passes, not agent-operated browser tests or formal accessibility certification. Specific malformed-data scenarios were not supplied. No code changes or new test execution accompanied this documentation update.
+
 2026-09-28 browser QA attempt: connected computer-use inventory contained no apps or browsers; Chrome and integrated-browser creation returned unavailable. Ran the dashboard DOM harness successfully and documented outstanding visual/keyboard/mobile checks in `docs/dashboard-browser-qa.md`. No screenshots or real-browser verification claimed.
 
 Package-refactor validation: full offline repeat replay and dashboard DOM checks passed. All 34 output hashes matched the captured pre-refactor baseline and the second build. Updated manifest records the package source files. An initial import failure exposed UTF-8 BOM handling during file migration; corrected encoding before successful replay. No acquisition commands were executed.

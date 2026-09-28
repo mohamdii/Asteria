@@ -1,4 +1,6 @@
-# Assessment acceptance audit
+﻿# Assessment acceptance audit
+
+Current status: see [the 2026-09-28 submission review](submission-review-2026-09-28.md). The older counts and statuses below are historical and superseded by that review.
 
 Current cleaning decision: submission uses conservative supplied-data cleaning. The source assessment HTML, generator recovery code and experiment artifacts have been removed. Static requirements and links remain in JSON only. Missing countries remain unknown; 10 invalid-date records are quarantined; seniority alias assumptions retain sensitivity analysis. Older recovery entries are historical only.
 
@@ -68,3 +70,4 @@ Immediate next steps: restore a Python 3.11+ runtime and pinned dependency, run 
 - Confirmation that you can explain the final analytical method and its limitations after we walk through the results.
 
 Routine implementation can proceed under existing authorization. No new business decision is required merely to complete this checklist.
+

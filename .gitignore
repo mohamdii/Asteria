@@ -4,3 +4,4 @@
 clean-replay-*/
 __pycache__/
 *.pyc
+releases/

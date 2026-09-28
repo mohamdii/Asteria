@@ -4,6 +4,9 @@ import hashlib
 import json
 import subprocess
 import sys
+import os
+import shutil
+import uuid
 from pathlib import Path
 
 from asteria.paths import ROOT
@@ -39,7 +42,7 @@ def build():
     run([sys.executable,'-m','unittest','discover','-s','tests'])
 
 
-def main():
+def build_local():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--verify-reproducibility',action='store_true',help='Build twice and compare every pipeline output hash')
     args=parser.parse_args()
@@ -80,6 +83,70 @@ def main():
         limitations='Repeat verification uses the same environment; it is not a cross-platform or clean-environment certification. Historical coverage remains partial.')
     marker.write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(f'Complete: {len(first)} output files. Repeat verified: {args.verify_reproducibility}. See analysis/pipeline_manifest.json')
+
+
+def publish(root, prepare):
+    """Commit one completed release with a single atomic pointer replacement.
+
+    Never overwrite an existing release. Interrupted work is unreachable from
+    current.json and retained for diagnosis. Concurrent runs use unique paths.
+    """
+    releases = root / 'releases'
+    releases.mkdir(exist_ok=True)
+    run_id = uuid.uuid4().hex
+    staging = releases / ('.staging-' + run_id)
+    staging.mkdir()
+    prepare(staging)
+    manifest = staging / 'analysis/pipeline_manifest.json'
+    report = json.loads(manifest.read_text(encoding='utf-8'))
+    if report.get('status') != 'success' or not report.get('outputs'):
+        raise RuntimeError('Release has no successful output manifest')
+    for relative, expected in report['outputs'].items():
+        path = (staging / relative).resolve()
+        if not path.is_relative_to(staging.resolve()) or not path.is_file():
+            raise RuntimeError('Invalid release output: ' + relative)
+        if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+            raise RuntimeError('Release output hash mismatch: ' + relative)
+    destination = releases / run_id
+    staging.rename(destination)
+    pointer = releases / ('.current-' + run_id + '.json')
+    with pointer.open('w', encoding='utf-8') as handle:
+        json.dump({'release': run_id, 'manifest_sha256': hashlib.sha256(
+            (destination / 'analysis/pipeline_manifest.json').read_bytes()).hexdigest()}, handle, indent=2)
+        handle.write('\n')
+        handle.flush()
+        os.fsync(handle.fileno())
+    os.replace(pointer, releases / 'current.json')
+    return destination
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--verify-reproducibility', action='store_true')
+    args = parser.parse_args()
+
+    def prepare(staging):
+        for name in ('asteria', 'scripts', 'tests', 'sql', 'dashboard', 'config',
+                     'data/raw', 'data/external/historical_expanded',
+                     'data/external/historical_pdfs', '.tools/pdf'):
+            shutil.copytree(ROOT / name, staging / name,
+                            ignore=shutil.ignore_patterns('__pycache__', '*.pyc', 'canonical_observations.json'))
+        shutil.copy2(ROOT / 'requirements-historical.txt', staging / 'requirements-historical.txt')
+        command = [sys.executable, '-c', 'from asteria.pipeline import build_local; build_local()']
+        if args.verify_reproducibility:
+            command.append('--verify-reproducibility')
+        subprocess.run(command, cwd=staging, check=True)
+        # UI checks must pass before publication when Node is installed.
+        node = shutil.which('node')
+        if node:
+            subprocess.run([node, 'dashboard/check.cjs'], cwd=staging, check=True)
+        else:
+            print('Node unavailable: dashboard DOM checks skipped.', flush=True)
+
+    destination = publish(ROOT, prepare)
+    print('Published: ' + str(destination))
+    print('Dashboard: ' + str(destination / 'analysis/dashboard.html'))
+    print('Current release pointer: releases/current.json')
 
 
 if __name__=='__main__': main()
